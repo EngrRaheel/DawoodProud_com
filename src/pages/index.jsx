@@ -19,7 +19,6 @@ const Home = () => {
       <YtSlider />
       <ServiceCards />
       <TrustPilotReview />
-      {/* <BoostYTV /> */}
       <SuperchargeYT />
       <Footer />
 

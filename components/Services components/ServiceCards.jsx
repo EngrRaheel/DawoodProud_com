@@ -4,7 +4,7 @@ import Link from 'next/link'
 import ReviewSlider from "../../components/ReviewSlider/RatingsSlider";
 function ServiceCards() {
     return (
-        <div>
+        <div className='flex flex-col lg:gap-8'>
             <ServiceCard heading={"Certified YouTube Consultant"}
                 heading2={`Unlock Your YouTube Channel${"'"}s Potential with a Certified YouTube Strategist`}
                 para={`Unleash your channel${"'"}s potential with YouTube Content Strategy. Get a comprehensive channel evaluation and a tailored strategy that help you unlock the secrets to YouTube Channel Growth , connect with your audience, and build your brand on this exciting platform. Ready to take your channel to new heights? `}

@@ -7,7 +7,7 @@ import { style } from '@mui/system';
 function ServiceCard({ heading, heading2, para, btntext, bgColor, link }) {
     return (
         <div className={`w-full min-h-[100vh] font-Inter text-white  relative ${bgColor} bg_blur_red`}>
-            <div className="w-full max-w-[1172px] h-full flex flex-col items-center mx-auto space-y-14 md:space-y-16">
+            <div className="w-full max-w-[1172px] h-full flex flex-col items-center mx-auto mt-4 space-y-12 md:space-y-20">
                 <h1 className=' max-w-auto md:max-w-[580px] font-extrabold text-[28px] md:text-[38px] lg:text-[38px] text-center'>{heading}</h1>
                 <div className='flex flex-col md:flex-row justify-between item'>
                     <div className='flex-1 mb-14 md:mb-0'>
