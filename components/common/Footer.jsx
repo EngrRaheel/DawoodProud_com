@@ -25,7 +25,7 @@ function Footer() {
                         and loyal audiences. With our support, our clients do achieve success and become leaders in their niches.
                     </div>
                     <div class="font-normal mt-8 w-full">
-                        © 2023 DawoodProud.All Rights Reserved.
+                        © 2023 Dawood Proud <br /> All Rights Reserved.
                     </div>
                 </div>
                 <div className="col-span-full md:col-span-6 mt-8 md:mt-0 text-md">

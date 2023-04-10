@@ -11,13 +11,13 @@ function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }
     return (
         <div className={`w-full min-h-[100vh] font-Inter text-white relative ${bgColor}`}>
             <div className="w-full min-h-[100vh] p-2 mt-6 md:mt-0">
-                <div className="w-full max-w-[1172px]  flex flex-col items-center justify-center  mx-auto gap-6 md:gap-0">
+                <div className="w-full max-w-[1172px]  flex flex-col items-center justify-center  mx-auto gap-6 md:gap-8">
                     <h1 className=' max-w-auto md:max-w-[580px] font-extrabold text-[28px] md:text-[38px] lg:text-[38px] text-center '>{heading}</h1>
                     <div className='flex flex-col md:flex-row justify-center md:justify-between md:items-center'>
                         <div className='flex-1 mb-6 md:mb-0 '>
                             <Fade delay={100} direction="left"  >
-                                <div className='w-full h-[300px] md:h-[500px] relative  '>
-                                    <Image src={"/Images/Services/5.png"} alt="" fill className='object-contain '></Image>
+                                <div className='w-full h-[300px] md:h-[430px] relative  '>
+                                    <Image src={images} alt="" fill className='object-contain '></Image>
                                 </div>
                             </Fade>
                         </div>

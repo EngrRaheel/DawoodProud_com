@@ -3,10 +3,10 @@ import Hero from "../../components/Herosection/Hero";
 import ServiceCards from "../../components/Services components/ServiceCards"
 import BoostYTV from '../../components/BoostYTV/BoostYTV';
 import SuperchargeYT from "../../components/SupreChargeYT/CallToAction";
-import YtSlider from "../../components/YtSlider/Slider";
+// import YtSlider from "../../components/YtSlider/Slider";
 
 import Footer from "../../components/common/Footer";
-import TrustPilotReview from "../../components/TrustPilot/TrustPilotReview"
+// import TrustPilotReview from "../../components/TrustPilot/TrustPilotReview"
 
 
 
@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <Hero />
       {/* <TeamSection/> */}
-      <YtSlider />
+      {/* <YtSlider /> */}
       <ServiceCards />
       {/* <TrustPilotReview /> */}
       <SuperchargeYT />

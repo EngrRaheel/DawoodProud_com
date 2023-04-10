@@ -112,7 +112,7 @@ const YtSlider = () => {
   ]
 
   return (
-    <div className="w-full min-h-screen bg-cover bg-center bg-[url('/Images/daily_ideas_bg_graphic.webp')] bg-[#151625] ">
+    <div className="w-full min-h-screen bg-cover bg-center bg-[url('/Images/daily_ideas_bg_graphic.webp')] bg-no-repeat">
       <div className=" flex flex-col items-center justify-center gap-4 bg_slider relative ">
         <h2 className='text-white font-Inter text-shadow-light text-[16px] tracking-[.2em] font-bold mt-3 md:mt-6 px-10 text-center'>TRUSTED BY LEADING CREATORS</h2>
         <div className='w-full h-full flex justify-center items-center relative'>
