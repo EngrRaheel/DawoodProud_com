@@ -55,7 +55,7 @@ function TrustPilotReview() {
                              His Keywords Research is the most accurate. My content making team has tried numerous YouTube Experts,
                               But No One matches the competence of Dawood. Thank you so much for helping me in videos rankings and overall YouTube SEO.
                                Also, Thank you for your Channel Optimizations,
-                             I${"`"}m seeing a tangible growth difference after optimizing my channels."`}</p>
+                             I${"'"}m seeing a tangible growth difference after optimizing my channels."`}</p>
                             </div>
 
                             <div className=' bg-[#f7f7f7] flex flex-col justify-center items-start text-[black] p-5 space-y-2 '>
@@ -68,11 +68,11 @@ function TrustPilotReview() {
                                     <AiFillStar size={18} />
                                 </div>
                                 <p className='text-[12.8px] font-bold'><strong>Highly Recommend Dawood Proud!</strong></p>
-                                <p>{`I${"`"}ve been using various youtube growth services for the last few years, 
+                                <p>{`I${"'"}ve been using various youtube growth services for the last few years, 
                             and this is one of the best experiences that I have had. Dawood has done a great job
                              and over-delivered on niche keywords and channel optimization and strategy.
                              I really appreciate that he puts attention to details
-                              that I didn${"`"}t even consider as important. Thank you, Dawood. I will use your services again!`}</p>
+                              that I didn${"'"}t even consider as important. Thank you, Dawood. I will use your services again!`}</p>
                             </div>
                             <div className=' bg-[#f7f7f7] flex flex-col justify-center items-start text-[black] p-5 space-y-2 '>
                                 <p>Vukovic Zelimir</p>
@@ -130,7 +130,7 @@ function TrustPilotReview() {
                                 <p className='text-[12.8px] font-bold'> <strong>Finally found YouTube expert….</strong> </p>
                                 <p>{`"I${"'"}m a total novice regarding video optimization and Dawood walked me through what his service entailed. 
                             He has made my video channel far more professional and I am delighted with how it looks now! Look PRO!
-                             I couldn${"`"}t recommend this team enough and I will be returning for each subsequent video that I release. I${"`"}m very pleased I found an expert."`}</p>
+                             I couldn${"'"}t recommend this team enough and I will be returning for each subsequent video that I release. I${"'"}m very pleased I found an expert."`}</p>
 
                             </div>
                         </div>
