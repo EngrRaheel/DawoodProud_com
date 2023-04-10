@@ -27,7 +27,7 @@ function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }
                                 <h2 class="font-extrabold text-[24px] md:text-[30px] lg:text-[32px] text-center md:text-left">{heading2}</h2>
                                 <p className='text-[#BCBCBC] font-normal px-2 md:px-0 text-[16px] md:text-[17px] lg:text-[18px] text-center md:text-left'>{para}</p>
 
-                                <button className='flex justify-center items-center self-center md:self-start text-base font-bold px-4 py-3 rounded-full  bg-[#139DFF] hover:bg-[#3b82f6]'>
+                                <button className='flex justify-center items-center self-center md:self-start text-base font-bold px-4 py-3 gap-2 rounded-full  bg-[#139DFF] hover:bg-[#3b82f6]'>
                                     <Link rel="stylesheet" href={`${link}`}>{btntext}</Link>
                                     <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path>
