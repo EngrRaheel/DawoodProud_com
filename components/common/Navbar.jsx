@@ -150,9 +150,9 @@ function Navbar({ bg_color, position }) {
               </div>
             </Link>
           ))}
-          <button className='flex flex-col justify-center items-center px-3 py-[3px] ml-2 rounded-3xl font-Inter text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 text-[13px] '>
+          <button className='flex flex-col justify-center items-center px-3 py-[3px] ml-2 rounded-3xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 text-[13px] '>
             <div className="flex justify-center items-center">{`Let${"'"}s Start`}<BsArrowRightShort className="text-[25px]  text-white" /></div>
-            <p className="text-xs">A New Project Together</p>
+            <p className="">A New Project Together</p>
           </button>
         </div>
 
@@ -164,8 +164,8 @@ function Navbar({ bg_color, position }) {
         {/* Hamburgur */}
         <div className="lg:hidden ">
           <Hamburger
-            toggled={isOpen} toggle={setIsOpen} color='#ffffff' size={25 }>
-         
+            toggled={isOpen} toggle={setIsOpen} color='#ffffff' size={25}>
+
           </Hamburger>
 
           <Drawer
@@ -183,8 +183,8 @@ function Navbar({ bg_color, position }) {
                 <RxCross2 onClick={toggleDrawer} size={30} />
               </div>
               {/* button for the order now in mobile view */}
-              <button className='flex gap-4 text-sm justify-center items-center px-5 py-3 w-[90%] mx-auto mt-4 rounded-full text-white bg-[rgb(19,157,255)] glow_text'>
-                <div className="flex justify-center items-center ">{`Let${"'"}s Start`}<BsArrowRightShort className=" text-white" size={20}/></div>
+              <button className='text-base font-bold flex gap-4 justify-center items-center px-5 py-3 w-[90%] mx-auto mt-4 rounded-full text-white bg-[rgb(19,157,255)] glow_text'>
+                <div className="flex justify-center items-center ">{`Let${"'"}s Start`}<BsArrowRightShort className=" text-white" size={20} /></div>
                 <p>A New Project Together</p>
               </button>
 
