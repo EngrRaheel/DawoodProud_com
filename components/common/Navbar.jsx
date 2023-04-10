@@ -174,7 +174,7 @@ function Navbar({ bg_color, position }) {
             direction="left"
             className="drawer"
           >
-            <div className="w-full flex flex-col text-white">
+            <div className="w-full flex flex-col text-white !font-Inter">
               {/* =========>top bar */}
               <div className="w-full flex justify-between items-center px-2  h-[70px] bg-blue/90  ">
                 <div className="relative w-10 h-10 ">

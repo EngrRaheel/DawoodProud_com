@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const SliderItem = ({ url, name, subs, views, para, link }) => {
     return (
-        <div className='flex flex-col mx-auto font-Inter text-white rounded-2xl px-[6px] pb-4 pt-8 bg_testimonials w-[370px] h-[498]'>
+        <div className='flex flex-col mx-auto font-Inter text-white rounded-2xl  px-[3px] md:px-[6px] pb-4 pt-8 bg_testimonials'>
             {/* first group of three items */}
             <div className='flex flex-col items-center space-y-3'>
                 <div className='w-[80px] h-[80px] rounded-full  relative mx-auto overflow-hidden' >

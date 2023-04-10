@@ -5,7 +5,7 @@ import ReviewSlider from "../../components/ReviewSlider/RatingsSlider";
 import TrustPilotReview from '../TrustPilot/TrustPilotReview';
 function ServiceCards() {
     return (
-        <div className="flex flex-col  bg-contain bg-center bg-[url('/Images/blob_bg_2.png')] gap-12 ">
+        <div className="flex flex-col  bg-contain bg-center bg-[url('/Images/blob_bg_2.png')] gap-0 md:gap-12 ">
 
             {/* <div className="bg-cover bg-center bg-[url('/Images/blob_bg_2.png')]"> */}
             <ServiceCard heading={"Certified YouTube Consultant"}

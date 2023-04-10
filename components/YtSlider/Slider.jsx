@@ -114,7 +114,7 @@ const YtSlider = () => {
   return (
     <div className="w-full min-h-screen bg-cover bg-center bg-[url('/Images/daily_ideas_bg_graphic.webp')] bg-[#151625] ">
       <div className=" flex flex-col items-center justify-center gap-4 bg_slider relative ">
-        <p className='text-white font-Inter glow_text text-sm md:text-[16px] tracking-[3.2px] font-semibold mt-6'>TRUSTED BY LEADING CREATORS</p>
+        <h2 className='text-white font-Inter text-shadow-light text-[16px] tracking-[.2em] font-bold mt-3 md:mt-6 px-10 text-center'>TRUSTED BY LEADING CREATORS</h2>
         <div className='w-full h-full flex justify-center items-center relative'>
 
           <Swiper
@@ -127,13 +127,13 @@ const YtSlider = () => {
             // loop={true}
             modules={[Autoplay, Pagination]}
             slidesPerView={1}
-            spaceBetween={40}
+            spaceBetween={30}
 
             breakpoints={{
               480: {
 
                 slidesPerView: 1,
-                spaceBetween: 40,
+                spaceBetween: 20,
 
               },
               768: {
