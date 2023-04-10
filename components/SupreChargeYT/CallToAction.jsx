@@ -4,7 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 function SuperchargeYT() {
     return (
-        <div className="w-full min-h-screen flex justify-center items-center bg_SCY ">
+        <div className="w-full min-h-screen flex justify-center items-center  bg-cover bg-center bg-[url('/Images/calltoaction.webp')] ">
             <div className="w-full  max-w-[1172px] m-auto flex flex-col  gap-14 md:gap-10 lg:gap-12 justify-center items-center ">
                 <Image src="/Images/logo.png" width={80} height={60} alt="logo-image" className='object-contain'></Image>
                 <div className='flex flex-col justify-center items-center w-[80vw] sm:w-[80vw]  text-center md:gap-6'>

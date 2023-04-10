@@ -125,7 +125,7 @@ function Navbar({ bg_color, position }) {
     setIsOpen((prevState) => !prevState);
   };
   return (
-    <div className={`w-full min-h-[4.1rem] px-4 lg:px-10 font-Inter  font-bold ${position} top-0 z-10 ${bg_color} `}>
+    <div className={`w-full min-h-[4.1rem] px-4 lg:px-10 font-Inter font-bold ${position} top-0 z-10 ${bg_color} `}>
       <div className="mx-w-[1172px] mx-auto min-h-full flex items-center text-[#FFFFFF] justify-between lg:justify-around mt-[3px] ">
         {/* Logo here... */}
         <div className="relative w-12 h-14 ">
@@ -150,8 +150,8 @@ function Navbar({ bg_color, position }) {
               </div>
             </Link>
           ))}
-          <button className='flex flex-col justify-center items-center px-4 py-[5px] ml-4  rounded-2xl font-Inter text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 text-[13px] '>
-            <div className="flex justify-center items-center">{`Let${"'"}s Start`}<BsArrowRightShort className="text-[20px] text-white" /></div>
+          <button className='flex flex-col justify-center items-center px-4 py-[3px] ml-2 rounded-3xl font-Inter text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 text-[13px] '>
+            <div className="flex justify-center items-center">{`Let${"'"}s Start`}<BsArrowRightShort className="text-[25px]  text-white" /></div>
             <p className="text-xs">A new Project Together</p>
           </button>
         </div>

@@ -966,9 +966,9 @@ background: radial-gradient(to top, #1A2948, #030713); */
 
 /* call to action  */
 .bg_SCY {
-  background: radial-gradient(ellipse, #203666 5%, #1d345d 20%, #121521 75%);
+  background: radial-gradient(ellipse at center, #203666 5%, #1d345d 20%, #121521 80%);
   background-size: 100% 100%;
-  background-position: bottom -200px center !important;
+  /* background-position: enter !important; */
   background-repeat: no-repeat;
 }
 

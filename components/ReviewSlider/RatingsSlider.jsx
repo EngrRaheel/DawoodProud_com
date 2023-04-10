@@ -146,7 +146,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 const ReviewSlider = () => {
     return (
-        <div className='w-full flex flex-col items-center justify-start bg-blue p-8 sm:p-6'>
+        <div className='w-full flex flex-col items-center justify-start p-8 sm:p-6'>
             <div className='w-full max-w-[1280px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid:cols-3 xl:grid-cols-4 gap-5'>
                 {/* left portion */}
                 <div className="w-full h-full flex font-Halvic rounded-lg p-2 md:p-1 mx-auto bg-white ">

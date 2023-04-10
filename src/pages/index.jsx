@@ -13,15 +13,13 @@ import TrustPilotReview from "../../components/TrustPilot/TrustPilotReview"
 const Home = () => {
   return (
     <>
-
       <Hero />
       {/* <TeamSection/> */}
       <YtSlider />
       <ServiceCards />
-      <TrustPilotReview />
+      {/* <TrustPilotReview /> */}
       <SuperchargeYT />
       <Footer />
-
     </>
   )
 }
