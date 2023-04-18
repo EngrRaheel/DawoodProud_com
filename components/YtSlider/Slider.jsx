@@ -1,11 +1,11 @@
 import React from 'react'
 import SliderItem from './SliderItem';
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/pagination";
 import { Navigation, Autoplay, Pagination } from "swiper";
-// import testimonialsdata from '../../components/YtSlider/Sliderdata.json';
+
 const YtSlider = () => {
 
 
