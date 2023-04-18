@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { AiFillDelete } from "react-icons/ai"
 
-import Nodemialer from '../Nodemialer';
+// import Nodemialer from '../Nodemialer';
 
 
 
