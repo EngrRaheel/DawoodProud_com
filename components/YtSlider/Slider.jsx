@@ -124,7 +124,7 @@ const YtSlider = () => {
               delay: 1500,
               disableOnInteraction: false,
             }}
-            Autoplay={true}
+            autoPlay={true}
             // loop={true}
             modules={[Autoplay, Pagination]}
             slidesPerView={1}
