@@ -14,7 +14,7 @@ function Footer() {
             <div className="page-section-container max-w-[1172px] px-6 md:px-4 md:mx-auto pt-24 md:pt-24 pb-10 grid grid-cols-1 md:grid-cols-12">
                 <div className="col-span-full mb-7 md:mb-8">
                     <div className='relative h-14 w-14 flex items-center justify-center rounded-full shadow-xl'>
-                        <Image src={'/Images/logend.svg'} alt='logimg' fill />
+                        <Image src={'/Images/logo.png'} alt='logbimg' fill className='object-contain'/>
                     </div>
                 </div>
                 {/* <div className="col-span-full mb-7 md:mb-8"></div> */}
@@ -50,30 +50,28 @@ function Footer() {
                                 <Link href={"/youtube-keyword-research"} >YouTube Keyword Research</Link>
                                 <Link href={"/youtube-automation"} >YouTube Automation</Link>
                                 <Link href={"/youtube-monetization"} >YouTube Monetization</Link>
-                                <Link href={"/youtube-promotion-ads"} >YouTube Promotion</Link> 
+                                <Link href={"/youtube-promotion-ads"} >YouTube Promotion</Link>
                                 <Link href={"/youtube-channel-managment"} >YouTube Channel Managment</Link>
                             </div>
                         </div>
-                        {/* <div>
+                        <div>
                             <div class="mb-4 sm:mb-3 font-bold">
                                 Other
-
                             </div>
-                            <div class="flex flex-col items-start space-y-3">
-                                <p>Contact
-                                </p>
-                                <p>Terms
-                                </p>
+                            <div class="flex flex-col items-start space-y-3 text-white text-opacity-60">
+                                <Link href="/">Contact
+                                </Link>
+                                <Link href="/jobs">Careers
+                                </Link>
                                 <p>Privacy
                                 </p>
                                 <p>Support
                                 </p>
-                                <p>How To Get More YouTube Views</p>
-                                <Link href='/TeamMembers'>
-                                    team members
+                                <Link href='/team'>
+                                    Team
                                 </Link>
                             </div>
-                        </div> */}
+                        </div>
 
                     </div>
                 </div>

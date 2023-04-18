@@ -125,15 +125,15 @@ function Navbar({ bg_color, position }) {
     setIsOpen((prevState) => !prevState);
   };
   return (
-    <div className={`w-full min-h-[4.1rem] px-4 lg:px-10 font-Inter font-bold ${position} top-0 z-10 ${bg_color} `}>
-      <div className="mx-w-[1172px] mx-auto min-h-full flex items-center text-[#FFFFFF] justify-between lg:justify-around mt-[3px] ">
+    <div className={`w-full min-h-[4.1rem]  font-Inter font-bold ${position} top-0 z-10 ${bg_color} `}>
+      <div className="mx-w-[1172px] mx-auto min-h-full flex items-center text-[#FFFFFF] justify-between lg:justify-around  ">
         {/* Logo here... */}
         <div className="relative w-12 h-14 ">
           <Link href={'/'} alt='home'> <Image src={"/Images/logo.png"} alt="" fill className="object-contain" /></Link>
         </div>
 
         {/* nav items here......... */}
-        <div className="lg:flex  hidden justify-center items-center text-sm gap-8 relative z-50">
+        <div className="lg:flex  hidden justify-center items-center text-sm gap-6 relative z-50 mt-2">
           {navItems.map((item, index) => (
             <Link href={item.Route} key={index}>
               <div className="relative  main list-none flex justify-center items-start">

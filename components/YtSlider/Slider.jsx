@@ -10,34 +10,35 @@ const YtSlider = () => {
 
 
   const channels = [
-    {
-      "name": "Emil C. Anton",
-      "subs": "4.32M",
-      "views": "549M",
-      "para": (
-        <p>
-          {"\"Dawood provided a tailored "}
-          <span className="text-[#0ECF91]">content</span>
-          {" strategy that helped me grow my brand. Highly recommend his services!\""}
-        </p>
-      ),
-      "url": "/Images/sliderSamplepic.jpg",
-      "link": "Alux.com"
-    },
+
 
     {
-      "name": "Emil C. Anton",
-      "subs": "4.32M",
-      "views": "549M",
+      "name": "Ashkan Karbasfrooshan",
+      "subs": " 25M",
+      "views": "16.201B",
       "para": (
         <p>
-          {"\"Dawood provided a tailored "}
-          <span className="text-[#0ECF91]">content</span>
-          {" strategy that helped me grow my brand. Highly recommend his services!\""}
+          {"\"DP\’s YouTube Services have been a game-changer for Watch Mojo! Thanks to your  "}
+          <span className="text-[#0ECF91]">algorithm expertise,</span>
+          {" because of which our channel has seen explosive growth.\""}
         </p>
       ),
-      "url": "/Images/sliderSamplepic.jpg",
-      "link": "Alux.com"
+      "url": "/Images/Youtubers/WatchMojo.jpg",
+      "link": "Watch Mojo"
+    },
+    {
+      "name": "Marton Barcza",
+      "subs": "657K",
+      "views": "69M",
+      "para": (
+        <p>
+          {"\"Your services have been a Godsend for TechAltar! With your help, my channel now has a "}
+          <span className="text-[#0ECF91]">clear direction </span>
+          and purpose, resulting in <span className="text-[#0ECF91]">increased engagement</span>   {"and growth.\""}
+        </p>
+      ),
+      "url": "/Images/Youtubers/techAltar.jpg",
+      "link": "TechAltar"
     },
     {
       "name": "Emil C. Anton",
@@ -46,68 +47,68 @@ const YtSlider = () => {
       "para": (
         <p>
           {"\"Dawood provided a tailored "}
-          <span className="text-[#0ECF91]">content</span>
-          {" strategy that helped me grow my brand. Highly recommend his services!\""}
+          <span className="text-[#0ECF91]">content strategy</span>
+          {"  that helped me grow my brand. Highly recommend his services!\""}
         </p>
       ),
-      "url": "/Images/sliderSamplepic.jpg",
+      "url": "/Images/Youtubers/alux1.jpg",
       "link": "Alux.com"
     },
     {
-      "name": "Emil C. Anton",
-      "subs": "4.32M",
-      "views": "549M",
+      "name": "Ian Plummer",
+      "subs": "877K",
+      "views": "243M",
       "para": (
         <p>
-          {"\"Dawood provided a tailored "}
-          <span className="text-[#0ECF91]">content</span>
-          {" strategy that helped me grow my brand. Highly recommend his services!\""}
+          {"\"Their strategic "}
+          <span className="text-[#0ECF91]">Video Marketing Plan  </span>
+          {"led to increased sales and brand recognition, by engaging car buyers and sellers across the UK.\""}
         </p>
       ),
-      "url": "/Images/sliderSamplepic.jpg",
-      "link": "Alux.com"
+      "url": "/Images/YouTubers/autotrader.jpg",
+      "link": "AutoTrader"
     },
     {
-      "name": "Emil C. Anton",
-      "subs": "4.32M",
-      "views": "549M",
+      "name": "Emmeline Mayline",
+      "subs": "2.91M",
+      "views": "567M",
       "para": (
         <p>
-          {"\"Dawood provided a tailored "}
-          <span className="text-[#0ECF91]">content</span>
-          {" strategy that helped me grow my brand. Highly recommend his services!\""}
+          {"\"Thanks to my amazing "}
+          <span className="text-[#0ECF91]">YouTube Keywords Researcher, </span>
+          I have discovered the  <span className="text-[#0ECF91]">perfect keywords  </span> to help my <span className="text-[#0ECF91]">food</span> {"content thrive in the USA.\""}
         </p>
       ),
-      "url": "/Images/sliderSamplepic.jpg",
-      "link": "Alux.com"
+      "url": "/Images/Youtubers/Emmymade.jpg",
+      "link": "EmmyMade"
     },
     {
-      "name": "Emil C. Anton",
-      "subs": "4.32M",
-      "views": "549M",
+      "name": "Zach Hsieh",
+      "subs": "5.49M ",
+      "views": "933M",
       "para": (
         <p>
-          {"\"Dawood provided a tailored "}
-          <span className="text-[#0ECF91]">content</span>
-          {" strategy that helped me grow my brand. Highly recommend his services!\""}
+          {"\"Thanks to my incredible  "}
+          <span className="text-[#0ECF91]">Content Ideas Guru </span>
+          {" my art channel is now bursting with fresh and exciting video ideas that my subscribers love!\""}
         </p>
       ),
-      "url": "/Images/sliderSamplepic.jpg",
-      "link": "Alux.com"
+      "url": "/Images/Youtubers/zhcnight.jpg",
+      "link": "ZHC Crafts"
     },
     {
-      "name": "Emil C. Anton",
-      "subs": "4.32M",
-      "views": "549M",
+      "name": "Linus Sebastian",
+      "subs": "15.4M",
+      "views": "6.877B",
       "para": (
         <p>
-          {"\"Dawood provided a tailored "}
-          <span className="text-[#0ECF91]">content</span>
-          {" strategy that helped me grow my brand. Highly recommend his services!\""}
+          {"\"Most of my videos are now dominating Google &  "}
+          <span className="text-[#0ECF91]">YouTube Search Results  </span> only because of thanks to my beloved  <span className="text-[#0ECF91]">YouTube SEO  </span>
+          {" YouTube SEO\""}
         </p>
       ),
-      "url": "/Images/sliderSamplepic.jpg",
-      "link": "Alux.com"
+      "url": "/Images/Youtubers/LinusTechTipsFace.webp",
+      "link": "Linus Tech Tips"
     }
   ]
 

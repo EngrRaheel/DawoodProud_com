@@ -6,10 +6,10 @@ function WhatsAppFloatingButton() {
   return (
     <FloatingWhatsApp
       phoneNumber={"+923270075555"}
-      accountName={"TheItern"}
+      accountName={"Dawood Proud"}
       statusMessage={"Typically replies instantly during work hours."}
-      chatMessage={`Hello there!Hope you're fine and enjoying good Health ✨ 🙌 How may I help you?`}
-      avatar={"/Images/logo.png"}
+      chatMessage={`Hello there! \nHope you're fine and enjoying good Health ✨🙌. \nHow may I help you?`}
+      avatar={"/Images/logob.jpg"}
       allowEsc
       allowClickAway={true}
       notification
