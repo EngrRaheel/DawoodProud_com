@@ -79,7 +79,7 @@ const YtSlider = () => {
           I have discovered the  <span className="text-[#0ECF91]">perfect keywords  </span> to help my <span className="text-[#0ECF91]">food</span> {"content thrive in the USA.\""}
         </p>
       ),
-      "url": "/Images/Youtubers/Emmymade.jpg",
+      "url": "/Images/Youtubers/autotrader.jpg",
       "link": "EmmyMade"
     },
     {
