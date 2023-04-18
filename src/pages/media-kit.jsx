@@ -59,13 +59,13 @@ function MediaKit() {
                     <div className='flex flex-col  items-start justify-start space-y-12 ml-[6%] sm:ml-[10%] md:ml-[10%] xl:ml-[15%]'>
                         <div className='grid xs:grid-cols-2 md:grid-cols-3 items-center md:items-start justify-center md:justify-start gap-2 sm:gap-3 lg:gap-4 xl:gap-12  mx-auto'>
                             <div className='relative w-[260px] xs:w-[200px] sm:w-[230px]  lg:w-[250px] xl:w-[280px] h-[280px]'>
-                                <Image src={"/Images/Logosahref/href1.png"} fill className="object-contain"></Image>
+                                <Image src={"/Images/Logosahref/href1.png"} fill className="object-contain" alt='jobi1mage1'></Image>
                             </div>
                             <div className=' relative w-[260px] xs:w-[200px] sm:w-[230px] lg:w-[250px] xl:w-[280px] h-[280px] '>
-                                <Image src={"/Images/Logosahref/href2.png"} fill className='object-contain' alt='jobi1mage'></Image>
+                                <Image src={"/Images/Logosahref/href2.png"} fill className='object-contain' alt='jobi1mage2'></Image>
                             </div>
                             <div className=' relative w-[260px] xs:w-[200px] sm:w-[230px]  lg:w-[250px] xl:w-[280px] h-[280px]'>
-                                <Image src={"/Images/Logosahref/href3.png"} fill className='object-contain' alt='j1obimage'></Image>
+                                <Image src={"/Images/Logosahref/href3.png"} fill className='object-contain' alt='j1obimage3'></Image>
                             </div>
                         </div>
                         <button className='bg-[#ff8800] text-[#fff] px-[1rem] py-[6px] rounded-[3px] hover:bg-[#ea7e02] '>Download logo Kit</button>
@@ -76,7 +76,7 @@ function MediaKit() {
                         <p className='font-normal text-[16px]'>Ahrefs builds online SEO tools and creates free learning materials that help millions of website owners around the globe to get more traffic from search engines.
                             <br />
                             <br />
-                            For over 10 years now, Ahrefs has been crawling the web, storing and processing petabytes of data and fine-tuning a simple, intuitive user interface. It's now widely regarded as both a must-have for top marketing professionals and a trusted friend to small business owners.
+                            For over 10 years now, Ahrefs has been crawling the web, storing and processing petabytes of data and fine-tuning a simple, intuitive user interface. Its now widely regarded as both a must-have for top marketing professionals and a trusted friend to small business owners.
                             <br />
                             <br />
                             Ahrefs tools and features cover most essential SEO needs like competitor research, keyword research, site auditing, rank tracking and much, much more.

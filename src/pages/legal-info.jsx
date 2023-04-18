@@ -57,7 +57,7 @@ function LegalInfo() {
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Terms & Conditions</h1>
                         <p className='font-normal text-[16px]'>
-                            This details Ahrefs' Terms of Service on Parties' responsibilities, Rights, Privacy, Subscriptions, Information usage, Cancellation of service and so on.
+                            This details Ahrefs Terms of Service on Parties responsibilities, Rights, Privacy, Subscriptions, Information usage, Cancellation of service and so on.
                         </p>
                     </div>
                     <div className='flex flex-col gap-2'>
@@ -80,7 +80,7 @@ function LegalInfo() {
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Sub-Processors List</h1>
                         <p className='font-normal text-[16px]'>
-                            This details Ahrefs' sub-processors, their services provided, and their locations.
+                            This details Ahrefs sub-processors, their services provided, and their locations.
                         </p>
                     </div>
                     <div className='flex flex-col gap-2'>

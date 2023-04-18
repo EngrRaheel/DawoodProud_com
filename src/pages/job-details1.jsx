@@ -45,7 +45,7 @@ function JobDetails() {
                         <h1 className='font-semibold text-[24px] md:text-[32px] '>Job description</h1>
                         <h2 className='font-semibold text-[32px] md:text-[28px]'>About Us</h2>
                         <p className='font-normal text-[14px] md:text-[20px]'>
-                            vidIQ’s mission is to advance the creator's journey with actionable data-driven insights. We pursue this through our values of being creator obsessed,
+                            vidIQs mission is to advance the creators journey with actionable data-driven insights. We pursue this through our values of being creator obsessed,
                             lean and fast, and being scientific.
                             We have already helped millions of creators, and we are looking for stunning co-workers to join us in helping millions more.
                         </p>

@@ -60,13 +60,13 @@ function careers() {
                             <br />
                             We are a lean multinational startup headquartered in Singapore that values making meaningful and easy-to-use products.
                             We shift things fast to give our customers what matters most to them, and to keep us ahead of the game.
-                            Our motto is "First do it, then do it right, then do it better."
+                            Our motto is First do it, then do it right, then do it better.
                             <br />
                             <br />
 
-                            Ahrefs' founder and CEO, Dmitry Gerasimenko, built his first document search engine when he was only 15.
+                            Ahrefs founder and CEO, Dmitry Gerasimenko, built his first document search engine when he was only 15.
                             His interest in search engines never waned and in 2007, he revisited his work on search engines for documents and files.
-                            This led to the birth of our backlinks index in 2010, which in turn became the source of data for Ahrefs' first version of Site Explorer.
+                            This led to the birth of our backlinks index in 2010, which in turn became the source of data for Ahrefs first version of Site Explorer.
                         </p>
                     </div>
                     <div className='flex flex-col gap-2'>
@@ -77,18 +77,18 @@ function careers() {
                             <br />
                             <br />
                             When Ahrefs launched its first tool, Site Explorer, it disrupted the stagnant field of backlink analysis and kick-started
-                            a new round of competition among SEO tool providers. It quickly became one of the world's best backlink analysis tools.
+                            a new round of competition among SEO tool providers. It quickly became one of the worlds best backlink analysis tools.
                             <br />
                             <br />
                             Since then Ahrefs has grown into a complete SEO suite by developing tools like Keywords Explorer for keyword research,
                             Content Explorer for analyzing content, Rank Tracker for monitoring keyword rankings or Site Audit for auditing and optimizing websites.
                             <br />
                             <br />
-                            In 2020, we released Ahrefs Webmaster Tools as a free tier to website owners for improving their website's SEO performance.
+                            In 2020, we released Ahrefs Webmaster Tools as a free tier to website owners for improving their websites SEO performance.
                             <br />
                             <br />
                             Today, we update our index with the freshest backlinks on the web every 15 minutes, and our crawler processes up to 8 billion pages a day.
-                            That's more than a third of what Googlebot does which makes us the 5th most active crawler on the web.
+                            Thats more than a third of what Googlebot does which makes us the 5th most active crawler on the web.
                         </p>
                     </div>
                 </div>
