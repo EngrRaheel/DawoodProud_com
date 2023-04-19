@@ -24,7 +24,7 @@ function Hero() {
                             <h1 className=" font-extrabold text-[32px] sm:text-[36px] md:text-[40px] xl:text-[40px] abdal_color1 px-8 xs:px-0"> Stand Out from Crowd</h1>
                         </div>
 
-                        <p className="max-w-[1172px] font-medium md:font-semibold px-4 sm:px-0 lg:font-medium  text-white sm:text-[16px] md:text-[18px] lg:text-[20px] text-center">Ultimate Destination for all  <span className="abdal_color1"> <strong> YouTube Growth Services</strong></span> to take your channel to new heights. <br /> All the successful YouTubers have one thing in common <span className="abdal_color2 "> <strong> "They have Winnig Content Strategy."</strong> </span> </p>
+                        <p className="max-w-[1172px] font-medium md:font-semibold px-4 sm:px-0 lg:font-medium  text-white sm:text-[16px] md:text-[18px] lg:text-[20px] text-center">Ultimate Destination for all  <span className="abdal_color1"> <strong> YouTube Growth Services</strong></span> to take your channel to new heights. <br /> All the successful YouTubers have one thing in common <span className="abdal_color2 "> <strong> {"\"They have Winnig Content Strategy.\""}</strong> </span> </p>
                     </div>
                     <button className='flex flex-col justify-center items-center px-3 py-3 ml-2 rounded-xl  font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 '>
                         <p className="text-base">Get Free Consultation</p>
