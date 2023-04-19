@@ -37,7 +37,7 @@ function MediaKit() {
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
             <div className='w-full  bg-[#00438b] h-[50%]'>
                 <Navbar bg_color={"white"} />
-                <div className=' max-w-[1024px] mx-auto'>
+                <div className=' max-w-[1172px] mx-auto'>
                     <div className='flex justify-start items-start space-y-2 py-4 ml-[5%] md:ml-[10%] xl:ml-[15%]'>
                         <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold '>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
@@ -49,7 +49,7 @@ function MediaKit() {
             </div>
 
 
-            <div className='w-full flex flex-col justify-center items-start max-w-[1024px] space-y-10 mb-8 mx-auto'>
+            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
                 <div className='ml-[5%] md:ml-[10%] xl:ml-[15%]'>
                     <Tab tabs={tabs} />
                 </div>

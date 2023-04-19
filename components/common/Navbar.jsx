@@ -28,7 +28,7 @@ const navItems = [
     Route: "#Services",
     hasDropdown: true,
     selected: true,
-    // dropdownItems: ["YouTube Keywords Research", "My Coach", "Keyword Tools", "Competitors Tools", "Channel Audit Tools", "All Feature"]
+   
     dropdownItems: [
       {
         name: "YouTube Consultation",
@@ -150,9 +150,9 @@ function Navbar({ bg_color, position }) {
               </div>
             </Link>
           ))}
-          <button className='flex flex-col justify-center items-center px-3 py-[3px] ml-2 rounded-3xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 text-[13px] '>
+          <button className='flex flex-col justify-center items-center px-3 py-[1px] ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
             <div className="flex justify-center items-center">{`Let${"'"}s Start`}<BsArrowRightShort className="text-[25px]  text-white" /></div>
-            <p className="">A New Project Together</p>
+            <p className="text-xs">A New Project Together</p>
           </button>
         </div>
 
@@ -174,37 +174,34 @@ function Navbar({ bg_color, position }) {
             direction="left"
             className="drawer"
           >
-            <div className="w-full flex flex-col text-white !font-Inter">
+            <div className="w-full flex flex-col text-white font-Inter gap-6 justify-center items-start ">
               {/* =========>top bar */}
-              <div className="w-full flex justify-between items-center px-2  h-[70px] bg-blue/90  ">
+              <div className="w-full flex justify-between items-center px-2 h-[70px] bg-gradient-to-b from-[#121521] to-[#121521]/0 ">
                 <div className="relative w-10 h-10 ">
                   <Link href={'/'} alt='home'> <Image src={"/Images/logo.png"} alt="" fill className="object-contain" /></Link>
                 </div>
                 <RxCross2 onClick={toggleDrawer} size={30} />
               </div>
               {/* button for the order now in mobile view */}
-              <button className='text-base font-bold flex gap-4 justify-center items-center px-5 py-3 w-[90%] mx-auto mt-4 rounded-full text-white bg-[rgb(19,157,255)] glow_text'>
-                <div className="flex justify-center items-center ">{`Let${"'"}s Start`}<BsArrowRightShort className=" text-white" size={20} /></div>
+              <button className='text-base font-medium flex gap-3 justify-center items-center px-3 py-3  mx-auto mt-4 rounded-3xl text-white bg-[rgb(19,157,255)]'>
+                <div className="flex justify-center items-center ">{`Let${"'"}s Start`}<BsArrowRightShort className=" text-white" size={30} /></div>
                 <p>A New Project Together</p>
               </button>
 
               {navItems.map((item, index) => (
-                <Link href={item.Route} key={index} className="w-full flex flex-col justify-start items-start  px-4 py-2 text-sm relative">
-                  <div className="w-full flex flex-col justify-center items-center">
+                <Link href={item.Route} key={index} >
+                  <div className="w-full flex flex-col justify-center items-center px-4 py-1 ml-2">
                     <div className="w-full  flex justify-start items-start ">
-                      <div key={index} className="cursor-pointer w-full flex justify-between items-center">
+                      <div key={index} className="cursor-pointer w-full flex justify-between items-center ">
                         <p>{item.Name}</p>
-                        {(index === 0 || index === navItems.length - 2) && <IoMdArrowDropdown size={25} className="" />}
-
+                        {(index === 1) && <IoMdArrowDropdown size={30}  />}
                       </div>
-
-
                     </div>
                     {/* =====> sub items */}
-                    <div className="w-full py-4">
+                    <div className="w-full py-0">
                       {item.hasDropdown &&
 
-                        <div className="w-full flex gap-1 flex-col justify-start items-start pl-8  ">
+                        <div className="w-full flex gap-1 flex-col justify-start items-start pl-8 space-y-1 mt-6 text-base font-normal ">
                           {item.dropdownItems.map((item, index) => {
                             return <Link key={index} href="#">{item.name}</Link>
                           })}
@@ -217,7 +214,6 @@ function Navbar({ bg_color, position }) {
             </div>
           </Drawer>
         </div >
-
       </div>
     </div>
 

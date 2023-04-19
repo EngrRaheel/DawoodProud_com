@@ -79,7 +79,7 @@ const YtSlider = () => {
           I have discovered the  <span className="text-[#0ECF91]">perfect keywords  </span> to help my <span className="text-[#0ECF91]">food</span> {"content thrive in the USA.\""}
         </p>
       ),
-      "url": "/Images/Youtubers/autotrader.jpg",
+      "url": "/Images/Youtubers/Emmymade.jpg",
       "link": "EmmyMade"
     },
     {
@@ -113,8 +113,8 @@ const YtSlider = () => {
   ]
 
   return (
-    <div className="w-full min-h-screen bg-cover bg-center bg-[url('/Images/daily_ideas_bg_graphic.webp')] bg-no-repeat">
-      <div className=" flex flex-col items-center justify-center gap-4 bg_slider relative ">
+    <div className="w-full min-h-screen bg-cover bg-center bg-[url('/Images/daily_ideas_bg_graphic.webp')] bg-no-repeat ">
+      <div className=" flex flex-col items-center justify-center gap-4 bg_slider relative w-full ">
         <h2 className='text-white font-Inter text-shadow-light text-[16px] tracking-[.2em] font-bold mt-3 md:mt-6 px-10 text-center'>TRUSTED BY LEADING CREATORS</h2>
         <div className='w-full h-full flex justify-center items-center relative'>
 
@@ -128,13 +128,19 @@ const YtSlider = () => {
             // loop={true}
             modules={[Autoplay, Pagination]}
             slidesPerView={1}
-            spaceBetween={30}
+            spaceBetween={70}
 
             breakpoints={{
               480: {
 
                 slidesPerView: 1,
-                spaceBetween: 20,
+                spaceBetween: 40,
+
+              },
+              680: {
+
+                slidesPerView: 2,
+                spaceBetween: 30,
 
               },
               768: {

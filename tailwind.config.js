@@ -23,6 +23,7 @@ module.exports = {
     },
     fontFamily: {
       Inter: ["Inter", "sans-serif"],
+      Inter1: ["Inter1", "sans-serif"],
       // InterThin: ["InterThin", "sans-serif"],
       // OpenSans: ["Open Sans", "sans-serif"],
       // Inter_2: ["Inter Tight", "sans-serif"],

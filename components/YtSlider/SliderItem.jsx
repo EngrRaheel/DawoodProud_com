@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const SliderItem = ({ url, name, subs, views, para, link }) => {
     return (
-        <div className='flex flex-col justify-center items-center mx-auto font-Inter text-white rounded-2xl p-3 sm:p-2 md:p-4 min-h-[498px] bg_testimonials'>
+        <div className='flex flex-col justify-center items-center mx-auto font-Inter text-white rounded-2xl p-3 sm:p-2 md:p-3 min-w-[355px] min-h-[498px] bg_testimonials'>
             {/* first group of three items */}
             <div className='flex flex-col items-center space-y-3'>
                 <div className='w-[80px] h-[80px] rounded-full  relative mx-auto overflow-hidden' >
@@ -22,7 +22,7 @@ const SliderItem = ({ url, name, subs, views, para, link }) => {
             {/* 2nd group of the items */}
 
             <div class="flex justify-between items-center gap-8 mt-4 text-[28px] md:text-[30px] lg:text-[32px]">
-                <div class="flex-1 flex flex-col items-center font-medium space-y-5">
+                <div class="flex-1 flex flex-col items-center font-medium space-y-3">
                     <div class="font-bold ">{subs}</div>
                     <div class="text-base flex items-center text-white opacity-75">
                         <svg width="30" viewBox="0 0 30 21" fill="" class="css-0">
@@ -31,7 +31,7 @@ const SliderItem = ({ url, name, subs, views, para, link }) => {
                         <span class="ml-1">subscribers</span>
                     </div>
                 </div>
-                <div class="flex-1 flex flex-col items-center font-medium space-y-5">
+                <div class="flex-1 flex flex-col items-center font-medium space-y-3">
                     <div class="font-bold ">{views}</div>
                     <div class="text-base flex items-center text-white opacity-75">
                         <svg width="27" viewBox="0 0 27 19" fill="" class="css-0">
@@ -46,10 +46,12 @@ const SliderItem = ({ url, name, subs, views, para, link }) => {
             <div className='flex flex-col flex-1 gap-2 h-full overflow-y-auto font-bold text-testimonial-card-quote-sm md:text-testimonial-card-quote-md lg:text-testimonial-card-quote-lg mt-6  '>
                 <div className='font-bold leading-6 text-xl overflow-auto justify-center items-center p-0'> {para}</div>
                 <Link href="/ProofOfwork" >
-                    <button className='flex justify-center items-center mx-auto px-2 md:px-4 py-[9px] gap-1 rounded-full  drop-shadow-lg  bg-[#139dff] hover:bg-[#3b82f6] duration-200 absolute bottom-2 left-[30%]' >
-                        <p className='font-Inter text-base font-medium '>See Proof</p>
-                        <FiArrowUpRight className="text-[20px] text-white" />
-                    </button>
+                    <Link href={"/portfolio"}>
+                        <div className='flex justify-center items-center mx-auto px-2 md:px-4 py-[9px] gap-1 rounded-full  drop-shadow-lg  bg-[#139dff] hover:bg-[#3b82f6] duration-200 absolute bottom-2 left-[30%]' >
+                            <p className='font-Inter text-base font-medium '>See Proof</p>
+                            <FiArrowUpRight className="text-[20px] text-white" />
+                        </div>
+                    </Link>
                 </Link>
             </div>
         </div>
