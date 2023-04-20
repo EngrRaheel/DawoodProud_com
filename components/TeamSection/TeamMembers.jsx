@@ -2,7 +2,7 @@ import React from 'react'
 import TeamsMemberCard from './TeamsMemberCard'
 function TeamMembers() {
     return (
-        <div className='flex flex-col justify-center items-center mx-auto space-y-4'>
+        <div className='flex flex-col justify-center items-center mx-auto space-y-4 px-4'>
 
             <div className='flex flex-col font-Inter justify-center items-center bg-white  mx-auto'>
                 <h1 className='text-[black] text-xl font-bold '>Our Team Members</h1>

@@ -64,7 +64,7 @@ function careers() {
                 </div>
 
                 <hr className='w-[30%]' />
-                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter max-w-[900px] gap-2 mx-auto ml-[8%] md:ml-[10%] lg:ml-[15%]'>
+                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter max-w-[900px] gap-2 mx-auto ml-[0%] md:ml-[10%] lg:ml-[15%]'>
                     <div className='w-full self-start p-5'>
                         <h1 className='font-semibold text-[44px] md:text-[56px]'>Why work at Dawood Proud</h1>
                         <p className='font-normal text-[14px] md:text-[16px] font-Inter'>At Ahrefs, you’ll be part of an exciting, fast-moving environment with a flat hierarchy. Our motto isn’t “first do it, then do it right, then do it better” just for show.
@@ -84,9 +84,9 @@ function careers() {
                         <Image src={"/Images/jobs.svg"} fill className='object-contain' alt='jobimage'></Image>
                     </div>
                 </div>
-                <div className='w-full flex flex-col justify-start  mx-auto max-w-[900px] space-y-2 ml-[8%] md:ml-[10%] lg:ml-[15%]'>
+                <div className='mx-auto flex flex-col justify-start items-start gap-12 mb-6  md:ml-[10%] lg:ml-[15%] max-w-[900px] p-3'>
                     <div className=''>
-                        <h3 className='text-[black] text-[32px] md:text-[44px] font-semibold'>Open positions</h3>
+                        <h3 className='text-[black] text-[28px] sm:text-[32px] md:text-[44px] font-semibold'>Open positions</h3>
                     </div>
                     <div className='text-[black] max-w-[600px]'>
                         <div className='border-2 border-solid border-[black]/20 grid grid-cols-[2fr_1fr] justify-between items-start sm:items-center p-3 md:p-4 shadow-md'>
@@ -104,11 +104,11 @@ function careers() {
                         </div>
                     </div>
                 </div>
-                <div className='mx-auto flex flex-col justify-start items-start gap-12 mb-6 ml-[8%] md:ml-[10%] lg:ml-[15%] max-w-[900px]'>
+                <div className='mx-auto flex flex-col justify-start items-start gap-12 mb-6  md:ml-[10%] lg:ml-[15%] max-w-[900px] p-3'>
                     <div className=''>
-                        <h3 className='text-[black] text-[44px] font-semibold'>Closed positions</h3>
+                        <h3 className='text-[black] text-[28px] sm:text-[32px] md:text-[44px] font-semibold'>Closed positions</h3>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 text-[black] mx-auto gap-6'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 text-[black] mx-auto gap-4 md:gap-6'>
                         <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center p-4 shadow-md'>
                             <div className='flex flex-col '>
                                 <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Stratagist — Onsite</p>

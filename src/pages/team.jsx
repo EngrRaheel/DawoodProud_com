@@ -51,7 +51,7 @@ function TeamPage() {
                 <div className='ml-[8%] md:ml-[10%] lg:ml-[15%] mx-auto'>
                     <Tab tabs={tabs} />
                 </div>
-                <div className='w-full px-8 mx-auto max-w-[800px]'>
+                <div className='w-full px-3 md:px-8 mx-auto max-w-[800px]'>
                     <CEOCard
                         name="Muhammad Dawood"
                         position="CEO and founder"

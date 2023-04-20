@@ -47,13 +47,13 @@ function LegalInfo() {
             </div>
 
 
-            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8'>
-                <div className='ml-[8%] md:ml-[10%] lg:ml-[15%]'>
+            <div className='flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
+                <div className='ml-[8%] md:ml-[10%] lg:ml-[15%] mx-auto'>
                     <Tab tabs={tabs} />
                 </div>
 
 
-                <div className='flex flex-col justify-center items-start text-[#333333] font-Inter gap-4 w-full  mx-auto ml-[0%] md:ml-[4%] lg:ml-[15%] p-8'>
+                <div className='flex flex-col justify-center items-start text-[#333333] font-Inter gap-4 mx-auto  md:ml-[4%] lg:ml-[15%] p-6 md:p-8 max-w-[1172px]'>
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Terms & Conditions</h1>
                         <p className='font-normal text-[16px]'>
