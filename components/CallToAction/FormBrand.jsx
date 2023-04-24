@@ -7,7 +7,7 @@ function FormStep3({ formData, onChange, nextStep, prevStep }) {
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto gap-3'>
             <div className='flex flex-col justify-between items-center gap-8 '>
                 <h1 className='text-[24px] font-bold text-center '>Thanks for showing interest in Dawood Proud <br /> One Step services to grow your business.</h1>
-                <h2 className='text-[20px] font-semibold text-center '>Great! Let's Talk Brand...</h2>
+                <h2 className='text-[20px] font-semibold text-center '>{`Great! Let\'s Talk Brand...`}</h2>
                 <h2 className='text-[20px] font-semibold text-center '>What is the name of your brand?</h2>
 
             </div>
