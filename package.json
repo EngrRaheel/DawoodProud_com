@@ -14,7 +14,6 @@
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.1",
     "@mui/styled-engine-sc": "^5.12.0",
-    "@mui/styles": "^5.12.0",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "hamburger-react": "^2.5.0",
