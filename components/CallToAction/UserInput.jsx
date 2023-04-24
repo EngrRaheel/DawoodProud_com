@@ -43,54 +43,52 @@ function MultiStepForm() {
     };
 
     return (
-        // <form className="flex flex-col justify-center items-center max-w-[900px] mx-auto">
-        <>
-            <ProgressBar progress={calculateProgress(step)} />
+        <div className="max-w-[1200px] flex flex-col justify-center items-center  mx-auto border-1 border-[gray] shadow-md p-12 gap-8">
+            <div className="w-full max-w-[900px]">
+                <ProgressBar progress={calculateProgress(step)} />
+            </div>
+            <form >
+                {step === 1 && (
+                    <FormStep1 formData={formData} onChange={handleFormChange} nextStep={nextStep} />
+                )}
+                {step === 2 && (
+                    <FormStep2 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep} />
+                )}
+                {step === 3 && (
 
-            {step === 1 && (
-                <FormStep1 formData={formData} onChange={handleFormChange} nextStep={nextStep} />
-            )}
-            {step === 2 && (
-                <FormStep2 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep} />
-            )}
-            {step === 3 && (
+                    <FormStep3 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
+                    </FormStep3>
 
-                <FormStep3 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                </FormStep3>
+                )}
 
-            )}
+                {step === 4 && (
 
-            {step === 4 && (
+                    <FormStep4 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
+                    </FormStep4>
 
-                <FormStep4 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                </FormStep4>
+                )}
 
-            )}
+                {step === 5 && (
 
-            {step === 5 && (
+                    <FormStep5 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
+                    </FormStep5>
 
-                <FormStep5 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                </FormStep5>
+                )}
 
-            )}
+                {step === 6 && (
 
-            {step === 6 && (
+                    <FormStep6 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
+                    </FormStep6>
 
-                <FormStep6 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                </FormStep6>
+                )}
 
-            )}
+                {step === 7 && (
 
-            {step === 7 && (
+                    <FormStep7 formData={formData} onChange={handleFormChange} prevStep={prevStep} onClick={handleFormSubmit}>
+                    </FormStep7>
 
-                <FormStep7 formData={formData} onChange={handleFormChange} prevStep={prevStep} >
-                    <button type="button" onClick={handleFormSubmit} className="bg-[#139dff] px-5 py-1 rounded-full text-white text-[20px]">
-                        Submit
-                    </button> 
-                </FormStep7>
-
-            )}
-            {/* {step !== 1 && (
+                )}
+                {/* {step !== 1 && (
                 <button type="button" onClick={prevStep}>
                     Previous
                 </button>
@@ -100,8 +98,9 @@ function MultiStepForm() {
                     Next
                 </button>
             )} */}
-        </>
-        // </form>
+
+            </form>
+        </div>
     );
 }
 

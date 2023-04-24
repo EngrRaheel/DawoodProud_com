@@ -4,8 +4,8 @@ import { FiArrowLeft } from "react-icons/fi"
 import MultipleSelect3 from './MultiselectContact'
 function FormStep5({ formData, onChange, nextStep, prevStep }) {
     return (
-        <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto gap-3'>
-            <div className='flex flex-col justify-between items-center gap-8 '>
+        <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-6'>
+            <div className='flex flex-col justify-between items-center gap-6 '>
                 <h1 className='text-[24px] font-bold text-center '>Thanks for showing interest in Dawood Proud <br /> One Step services to grow your business.</h1>
                 {/* <h2 className='text-[20px] font-semibold text-center '>Nice to meet you😊</h2> */}
                 <h2 className='text-[24px] font-semibold text-center '>How would you like us to contact you?</h2>

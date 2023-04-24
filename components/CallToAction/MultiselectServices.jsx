@@ -7,7 +7,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import { color } from '@mui/system';
 
-const ITEM_HEIGHT = 48;
+const ITEM_HEIGHT = 32;
 const ITEM_PADDING_TOP = 10;
 const MenuProps = {
     PaperProps: {

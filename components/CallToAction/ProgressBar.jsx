@@ -6,12 +6,10 @@ function ProgressBar({ progress }) {
     };
 
     return (
-        <div className="h-2 bg-[gray] rounded-full mx-w-[500px] w-full ">
-            <div
-                className="h-full bg-blue rounded-full mx-w-[500px]"
-                style={progressBarStyles}
-                
-            />
+        <div className="h-5 bg-[gray]/50 rounded-sm w-full ">
+            <div className="h-full bg-[#247ddd] rounded-sm "
+                style={progressBarStyles}>
+            </div>
         </div>
     );
 }
