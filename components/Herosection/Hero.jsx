@@ -5,6 +5,7 @@ import { height } from "@mui/system";
 import { AiFillStar } from "react-icons/ai";
 import { BsFillStarFill } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc"
+import Link from "next/link";
 
 
 function Hero() {
@@ -27,7 +28,7 @@ function Hero() {
                         <p className="max-w-[1172px] font-medium md:font-semibold px-4 sm:px-0 lg:font-medium  text-white sm:text-[16px] md:text-[18px] lg:text-[20px] text-center">Ultimate Destination for all  <span className="abdal_color1"> <strong> YouTube Growth Services</strong></span> to take your channel to new heights. <br /> All the successful YouTubers have one thing in common <span className="abdal_color2 "> <strong> {"\"They have Winnig Content Strategy.\""}</strong> </span> </p>
                     </div>
                     <button className='flex flex-col justify-center items-center px-3 py-3 ml-2 rounded-xl  font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 '>
-                        <p className="text-base">Get Free Consultation</p>
+                        <Link href={"/cutomerpage"} className="text-base">Get Free Consultation</Link>
                     </button>
                     {/* hero image here */}
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-1 justify-between items-center max-w-[768px] w-full px-4 mx-auto">

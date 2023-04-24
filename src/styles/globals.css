@@ -1313,3 +1313,9 @@ button[type="remove"]:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.MuiSelect-multiple {
+  color: #0077cc !important;
+  /* background-color: #030713 !important; */
+  background-size: cover;
+}
