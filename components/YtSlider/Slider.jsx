@@ -37,7 +37,7 @@ const YtSlider = () => {
           and purpose, resulting in <span className="text-[#0ECF91]">increased engagement</span>   {"and growth.\""}
         </p>
       ),
-      "url": "/Images/Youtubers/techAltar.jpg",
+      "url": "/Images/YouTubers/techAltar.jpg",
       "link": "TechAltar"
     },
     {
@@ -51,7 +51,7 @@ const YtSlider = () => {
           {"  that helped me grow my brand. Highly recommend his services!\""}
         </p>
       ),
-      "url": "/Images/Youtubers/alux1.jpg",
+      "url": "/Images/YouTubers/alux1.jpg",
       "link": "Alux.com"
     },
     {
@@ -79,7 +79,7 @@ const YtSlider = () => {
           I have discovered the  <span className="text-[#0ECF91]">perfect keywords  </span> to help my <span className="text-[#0ECF91]">food</span> {"content thrive in the USA.\""}
         </p>
       ),
-      "url": "/Images/Youtubers/Emmymade.jpg",
+      "url": "/Images/YouTubers/Emmymade.jpg",
       "link": "EmmyMade"
     },
     {
@@ -93,7 +93,7 @@ const YtSlider = () => {
           {" my art channel is now bursting with fresh and exciting video ideas that my subscribers love!\""}
         </p>
       ),
-      "url": "/Images/Youtubers/zhcnight.jpg",
+      "url": "/Images/YouTubers/zhcnight.jpg",
       "link": "ZHC Crafts"
     },
     {
@@ -107,7 +107,7 @@ const YtSlider = () => {
           {" YouTube SEO\""}
         </p>
       ),
-      "url": "/Images/Youtubers/LinusTechTipsFace.webp",
+      "url": "/Images/YouTubers/LinusTechTipsFace.webp",
       "link": "Linus Tech Tips"
     }
   ]
