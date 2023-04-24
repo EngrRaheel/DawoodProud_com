@@ -23,7 +23,7 @@ const YtSlider = () => {
           {" because of which our channel has seen explosive growth.\""}
         </p>
       ),
-      "url": "/Images/Youtubers/WatchMojo.jpg",
+      "url": "/Images/YouTubers/WatchMojo.jpg",
       "link": "Watch Mojo"
     },
     {
