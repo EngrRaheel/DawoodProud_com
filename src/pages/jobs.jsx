@@ -70,14 +70,14 @@ function careers() {
                 <div className='flex flex-col justify-center items-center text-[#333333] font-Inter max-w-[900px] gap-2 mx-auto ml-[0%] md:ml-[10%] lg:ml-[12%]'>
                     <div className='flex flex-col justify-center items-start gap-3 w-full self-start p-5'>
                         <h2 className='font-semibold text-[44px] md:text-[56px]'>Why work at Dawood Proud</h2>
-                        <p className='font-normal text-[14px] md:text-[16px] font-Inter'>Join the thrilling, flat hierarchy at Dawood Proud! Our motto: "do it, do it right, do it better". Let's soar to success together!
+                        <p className='font-normal text-[14px] md:text-[16px] font-Inter'>Join the thrilling, flat hierarchy at Dawood Proud! Our motto: &quot;do it, do it right, do it better&quot;. Let&#39;s soar to success together!
                             <br />
                             <br />
-                            We’re always exploring growth opportunities, so there’s lots of potential to take on new tasks and help shape the company. Individually, the ability to make informed, independent decisions while justifying how they add value to the business is highly prized.
+                            We&#39;re always exploring growth opportunities, so there&#39;s lots of potential to take on new tasks and help shape the company. Individually, the ability to make informed, independent decisions while justifying how they add value to the business is highly prized.
                             <br />
                             <br />
 
-                            As for the team itself, well... one of our newest hires described us as “offbeat”, so let’s run with that. We’re kind of an offbeat mix of people from all walks of life, who collectively enjoy technology and challenges.
+                            As for the team itself, well... one of our newest hires described us as &quot;offbeat&quot;, so let&#39;s run with that. We&#39;re kind of an offbeat mix of people from all walks of life, who collectively enjoy technology and challenges.
                             <br />
                             <br />
                             Join us?
