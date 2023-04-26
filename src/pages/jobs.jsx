@@ -101,7 +101,7 @@ function careers() {
                                 <button
                                     type="button"
                                     class="border border-indigo-500 text-[12px] md:text-[14px] bg-[black] text-white rounded-md  px-3 md:px-6 py-2 md:py-3  md:m-2  focus:outline-none focus:shadow-outline">
-                                    <Link href={"/job-detailsOpen"}>Job details</Link>
+                                    <Link href={"/job-details"}>Job details</Link>
                                 </button>
                             </div>
                         </div>
