@@ -35,7 +35,7 @@ function careers() {
             <div className='w-full  bg-[#00438b] h-[50%]'>
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[15%]'>
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%]'>
                         <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold '>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />
@@ -47,13 +47,13 @@ function careers() {
 
 
             <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
-                <div className='ml-[8%] md:ml-[10%] lg:ml-[15%]'>
+                <div className='ml-[8%] md:ml-[10%] lg:ml-[12%]'>
                     <Tab tabs={tabs} />
                 </div>
 
 
-                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter gap-4 w-full max-w-[1172px] mx-auto  p-6 '>
-                    <div className='flex flex-col gap-2 ml-[0%] md:ml-[10%] lg:ml-[15%]'>
+                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter gap-4 w-full max-w-[1172px] mx-auto  p-6  '>
+                    <div className='flex flex-col gap-2 ml-[0%] md:ml-[10%] lg:ml-[12%]'>
                         <h1 className='font-semibold text-[28px]'>About our company</h1>
                         <p className='font-normal text-[16px]'>Ahrefs Pte. Ltd. is a software company that develops online SEO tools and free educational materials for marketing professionals.
                             <br />
@@ -69,7 +69,7 @@ function careers() {
                             This led to the birth of our backlinks index in 2010, which in turn became the source of data for Ahrefs first version of Site Explorer.
                         </p>
                     </div>
-                    <div className='flex flex-col gap-2'>
+                    <div className='flex flex-col gap-2 ml-[0%] md:ml-[10%] lg:ml-[12%]'>
                         <h2 className='font-semibold text-[28px]'> About our products</h2>
                         <p className='font-normal text-[16px]'>
                             Ahrefs is an all-in-one SEO toolset for growing search traffic and optimizing websites. To do that, Ahrefs crawls the web,

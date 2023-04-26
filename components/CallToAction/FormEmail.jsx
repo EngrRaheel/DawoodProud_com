@@ -1,6 +1,6 @@
 import React from 'react'
 import { FiArrowLeft } from "react-icons/fi"
-function FormStep7({ formData, onChange, nextStep, prevStep, handleFormSubmit }) {
+function FormStep7({ formData, onChange, nextStep, prevStep}) {
     return (
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-8'>
             <div className='flex flex-col justify-between items-center gap-8 '>

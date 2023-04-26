@@ -28,7 +28,7 @@ const navItems = [
     Route: "#Services",
     hasDropdown: true,
     selected: true,
-   
+
     dropdownItems: [
       {
         name: "YouTube Consultation",
@@ -152,7 +152,7 @@ function Navbar({ bg_color, position }) {
           ))}
           <button className='flex flex-col justify-center items-center px-3 py-[1px] ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
             <div className="flex justify-center items-center">{`Let${"'"}s Start`}<BsArrowRightShort className="text-[25px]  text-white" /></div>
-            <p className="text-xs">A New Project Together</p>
+            <Link href={"/cutomerpage"} className="text-xs">A New Project Together</Link>
           </button>
         </div>
 
@@ -185,7 +185,7 @@ function Navbar({ bg_color, position }) {
               {/* button for the order now in mobile view */}
               <button className='text-base font-medium flex gap-3 justify-center items-center px-3 py-3  mx-auto mt-4 rounded-3xl text-white bg-[rgb(19,157,255)]'>
                 <div className="flex justify-center items-center ">{`Let${"'"}s Start`}<BsArrowRightShort className=" text-white" size={30} /></div>
-                <p>A New Project Together</p>
+                <Link href={"/cutomerpage"}>A New Project Together</Link>
               </button>
 
               {navItems.map((item, index) => (
@@ -194,7 +194,7 @@ function Navbar({ bg_color, position }) {
                     <div className="w-full  flex justify-start items-start ">
                       <div key={index} className="cursor-pointer w-full flex justify-between items-center ">
                         <p>{item.Name}</p>
-                        {(index === 1) && <IoMdArrowDropdown size={30}  />}
+                        {(index === 1) && <IoMdArrowDropdown size={30} />}
                       </div>
                     </div>
                     {/* =====> sub items */}

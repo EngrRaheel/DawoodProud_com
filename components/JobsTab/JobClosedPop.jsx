@@ -17,7 +17,7 @@ export default function SimplePopper() {
     return (
         <div>
             <button aria-describedby={id} type="button" onClick={handleClick}
-                className="border border-indigo-500 text-[12px] md:text-[14px] bg-[black] text-white rounded-md  px-3 md:px-5 py-2 md:py-2  md:m-2  focus:outline-none focus:shadow-outline">
+                className="border border-indigo-500 text-[12px] md:text-[14px] bg-[black] text-white rounded-md  px-3 md:px-5 py-2 md:py-2  md:m-2  focus:outline-none focus:shadow-outline shadow-lg">
                 Job Closed
             </button>
             <Popper id={id} open={open} anchorEl={anchorEl} placement="top">

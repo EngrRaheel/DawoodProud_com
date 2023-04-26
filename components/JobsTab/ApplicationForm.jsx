@@ -5,8 +5,95 @@ import { AiFillDelete } from "react-icons/ai"
 
 
 
-function ApplicationForm() {
+// function ApplicationForm() {
 
+// const [fullName, setFullName] = useState("");
+// const [email, setEmail] = useState("");
+// const [phone, setPhone] = useState("");
+// const [coverLetter, setCoverLetter] = useState("");
+// const [cv, setCv] = useState(null);
+// const [answers, setAnswers] = useState({
+//     answer1: "",
+//     answer2: "",
+//     answer3: "",
+//     answer4: ""
+// });
+
+
+
+// const [recipientEmail, setRecipientEmail] = useState('');
+
+// useEffect(() => {
+//     const uploadElement = document.getElementById('upload');
+//     if (uploadElement) {
+//         uploadElement.style.display = 'none';
+//     }
+// }, []);
+
+// function handleClick() {
+//     const uploadElement = document.getElementById('upload');
+//     if (!cv) {
+//         uploadElement.click();
+
+//     }
+//     handleFileChange();
+// }
+
+
+// const handleFileChange = (event) => {
+//     const file = event.target.files[0];
+//     const reader = new FileReader();
+//     reader.onload = (event) => {
+//         setCv(event.target.result);
+//         setCvType(file.type);
+//     };
+//     reader.readAsDataURL(file);
+// };
+// const handleDrop = (e) => {
+//     e.preventDefault();
+//     const file = e.dataTransfer.files[0];
+//     if (file) {
+//         setCv(file);
+//         setFileUploaded(true);
+//     }
+// };
+// const handleFileRemove = () => {
+//     setCv(null);
+//     setFileUploaded(false);
+// };
+
+// const handleFullNameChange = (event) => {
+//     setFullName(event.target.value);
+// };
+
+// const handleEmailChange = (event) => {
+//     setEmail(event.target.value);
+//     setRecipientEmail(event.target.value);
+// };
+
+// const handlePhoneChange = (event) => {
+//     setPhone(event.target.value);
+// };
+
+// const handleCoverLetterChange = (event) => {
+//     setCoverLetter(event.target.value);
+// };
+
+// const handleAnswerChange = (event) => {
+//     const { name, value } = event.target;
+//     setAnswers({ ...answers, [name]: value });
+// };
+
+
+
+
+
+// const handleSubmit = (event) => {
+//     event.preventDefault();
+//     const formData = [fullName, email, phone, coverLetter, cv, answers]
+//     console.log(formData)
+// };
+function ApplicationForm() {
     const [fullName, setFullName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
@@ -16,29 +103,37 @@ function ApplicationForm() {
         answer1: "",
         answer2: "",
         answer3: "",
-        answer4: ""
+        answer4: "",
+        answer5: "",
+        answer6: "",
+        answer7: "",
+        answer8: "",
+        answer9: "",
+        answer10: "",
+        answer11: "",
+        answer12: "",
+        answer13: "",
+        answer14: "",
+        answer15: "",
+        answer16: "",
+
     });
-
-
-
-    const [recipientEmail, setRecipientEmail] = useState('');
+    const [recipientEmail, setRecipientEmail] = useState("");
+    const [fileUploaded, setFileUploaded] = useState(false);
 
     useEffect(() => {
-        const uploadElement = document.getElementById('upload');
+        const uploadElement = document.getElementById("upload");
         if (uploadElement) {
-            uploadElement.style.display = 'none';
+            uploadElement.style.display = "none";
         }
     }, []);
 
     function handleClick() {
-        const uploadElement = document.getElementById('upload');
+        const uploadElement = document.getElementById("upload");
         if (!cv) {
             uploadElement.click();
-
         }
-        handleFileChange();
     }
-
 
     const handleFileChange = (event) => {
         const file = event.target.files[0];
@@ -49,6 +144,7 @@ function ApplicationForm() {
         };
         reader.readAsDataURL(file);
     };
+
     const handleDrop = (e) => {
         e.preventDefault();
         const file = e.dataTransfer.files[0];
@@ -57,6 +153,7 @@ function ApplicationForm() {
             setFileUploaded(true);
         }
     };
+
     const handleFileRemove = () => {
         setCv(null);
         setFileUploaded(false);
@@ -84,19 +181,15 @@ function ApplicationForm() {
         setAnswers({ ...answers, [name]: value });
     };
 
-
-
-
-
     const handleSubmit = (event) => {
         event.preventDefault();
-        const formData = [fullName, email, phone, coverLetter, cv, answers]
-        console.log(formData)
+        const formData = [fullName, email, phone, coverLetter, cv, answers];
+        console.log(formData);
     };
     return (
 
         <form onSubmit={handleSubmit}>
-            <div className="w-full flex flex-col justify-start items-start space-y-8 text-blue">
+            <div className="w-full flex flex-col justify-center sm:justify-start items-center sm:items-start space-y-8 text-blue ">
 
                 <div className="text-blue space-y-4">
                     <h1 className="font-Inter text-xl font-bold">CV or resume</h1>
@@ -112,7 +205,6 @@ function ApplicationForm() {
                             </span>
                             {cv ? (
                                 <div>
-
                                     <p>File Uploaded:</p>
                                     <p>{cv.name}</p>
                                     <div className="flex justify-center items-center gap-2">
@@ -196,158 +288,158 @@ function ApplicationForm() {
 
                 <hr className="w-full" />
                 {/* Questionaire is here , here are the quesiton */}
-                <div className="flex flex-col ">
+                <div className="flex flex-col justify-start items-start text-sm font-normal gap-5">
                     <h4 className="text-xl font-bold">Questions</h4>
                     <p className="text-base font-medium">Please fill in additional questions</p>
+
+                    <label className="flex flex-col gap-[6px]">
+                        Where are you located? Also, put a time zone, please.
+                        <input
+                            type="text"
+                            name="answer1"
+                            value={answers.answer1}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What is your requested annual fee (USD) - gross?
+                        <input
+                            type="text"
+                            name="answer2"
+                            value={answers.answer2}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+
+
+
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer3"
+                            value={answers.answer3}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer4"
+                            value={answers.answer4}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer5"
+                            value={answers.answer5}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer6"
+                            value={answers.answer6}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer7"
+                            value={answers.answer7}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer8"
+                            value={answers.answer8}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer9"
+                            value={answers.answer9}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer10"
+                            value={answers.answer10}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer11"
+                            value={answers.answer11}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer12"
+                            value={answers.answer12}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer13"
+                            value={answers.answer13}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer14"
+                            value={answers.answer14}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer15"
+                            value={answers.answer15}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
+                    <label className="flex flex-col gap-[6px]">
+                        What other languages do you speak besides English?
+                        <input
+                            type="text"
+                            name="answer16"
+                            value={answers.answer16}
+                            onChange={handleAnswerChange}
+                        />
+                    </label>
                 </div>
-                <label className="flex flex-col gap-[6px]">
-                    Where are you located? Also, put a time zone, please.
-                    <input
-                        type="text"
-                        name="answer1"
-                        value={answers.answer1}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What is your requested annual fee (USD) - gross?
-                    <input
-                        type="text"
-                        name="answer2"
-                        value={answers.answer2}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-
-
-
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer3"
-                        value={answers.answer3}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-                <label className="flex flex-col gap-[6px]">
-                    What other languages do you speak besides English?
-                    <input
-                        type="text"
-                        name="answer4"
-                        value={answers.answer4}
-                        onChange={handleAnswerChange}
-                    />
-                </label>
-
                 <button type="submit">Submit</button>
             </div>
         </form >

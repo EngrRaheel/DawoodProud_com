@@ -2,7 +2,7 @@ import React from 'react'
 import { FiArrowRight } from "react-icons/fi"
 import { FiArrowLeft } from "react-icons/fi"
 import MultipleSelect1 from './MultiselectServices'
-function FormStep2({ formData, onChange, nextStep, prevStep, handleFormSubmit }) {
+function FormStep2({ formData, onChange, nextStep, prevStep, handleFormSubmit, setFormData }) {
     return (
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-8'>
             <div className='flex flex-col justify-between items-center gap-6 '>
@@ -12,7 +12,7 @@ function FormStep2({ formData, onChange, nextStep, prevStep, handleFormSubmit })
             </div>
             <label htmlFor="name"></label>
             <div>
-                <MultipleSelect1 onChange={formData.services} />
+                <MultipleSelect1 value={formData.services}  setFormData={setFormData} formData={formData} />
             </div>
 
             <div className='flex justify-center items-center gap-4'>

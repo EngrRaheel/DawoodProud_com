@@ -1,24 +1,26 @@
 import React, { useState } from "react";
-import FormStep1 from "./FormName";
-import FormStep2 from "./FormServices";
-import FormStep3 from "./FormBrand";
-import FormStep4 from "./FormValue";
-import FormStep5 from "./FormContactChoice";
-import FormStep6 from "./FormInputPhone";
-import FormStep7 from "./FormEmail";
+import FormName from "./FormName";
+import FormServices from "./FormServices";
+import FormBrand from "./FormBrand";
+import FormValue from "./FormValue";
+import FormContact from "./FormContactChoice";
+import FormPhone from "./FormInputPhone";
+import FormEmail from "./FormEmail";
 
 import ProgressBar from "./ProgressBar";
+
 
 function MultiStepForm() {
     const [step, setStep] = useState(1);
     const [formData, setFormData] = useState({
         name: "",
         email: "",
+        value: [],
         phone: "",
-        services: "",
-        city: "",
-
+        services: [],
+        brandName: "",
     });
+
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
@@ -26,7 +28,10 @@ function MultiStepForm() {
     };
 
     const handleFormChange = (event) => {
-        setFormData({ ...formData, [event.target.name]: event.target.value });
+        const name = event.target.name;
+        const value = event.target.value;
+        setFormData({ ...formData, [name]: value });
+        console.log(formData.brandName)
     };
 
     const nextStep = () => {
@@ -49,44 +54,34 @@ function MultiStepForm() {
             </div>
             <form >
                 {step === 1 && (
-                    <FormStep1 formData={formData} onChange={handleFormChange} nextStep={nextStep} />
+                    <FormName formData={formData} onChange={handleFormChange} nextStep={nextStep} />
                 )}
                 {step === 2 && (
-                    <FormStep2 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep} />
+                    <FormServices formData={formData} setFormData={setFormData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep} />
                 )}
                 {step === 3 && (
-
-                    <FormStep3 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                    </FormStep3>
-
+                    <FormBrand formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
+                    </FormBrand>
                 )}
 
                 {step === 4 && (
-
-                    <FormStep4 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                    </FormStep4>
-
+                    <FormValue formData={formData} onChange={handleFormChange} setFormData={setFormData} prevStep={prevStep} nextStep={nextStep}>
+                    </FormValue>
                 )}
 
                 {step === 5 && (
-
-                    <FormStep5 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                    </FormStep5>
-
+                    <FormContact formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
+                    </FormContact>
                 )}
 
                 {step === 6 && (
-
-                    <FormStep6 formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                    </FormStep6>
-
+                    <FormPhone formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
+                    </FormPhone>
                 )}
 
                 {step === 7 && (
-
-                    <FormStep7 formData={formData} onChange={handleFormChange} prevStep={prevStep} onClick={handleFormSubmit}>
-                    </FormStep7>
-
+                    <FormEmail formData={formData} onChange={handleFormChange} prevStep={prevStep} onClick={handleFormSubmit}>
+                    </FormEmail>
                 )}
                 {/* {step !== 1 && (
                 <button type="button" onClick={prevStep}>

@@ -3,6 +3,7 @@ import { FiArrowLeft, FiArrowRight } from "react-icons/fi"
 
 
 function FormStep3({ formData, onChange, nextStep, prevStep }) {
+
     return (
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto gap-3'>
             <div className='flex flex-col justify-between items-center gap-8 '>
@@ -11,10 +12,10 @@ function FormStep3({ formData, onChange, nextStep, prevStep }) {
                 <h2 className='text-[20px] font-semibold text-center '>What is the name of your brand?</h2>
 
             </div>
-            <label htmlFor="name"></label>
+            <label htmlFor="brandName"></label>
             <input
                 type="text"
-                id="name"
+                id="brandName"
                 placeholder="Your Brand Name"
                 // className="block px-4 py-3  placeholder-gray-500"
                 style={{
@@ -27,11 +28,12 @@ function FormStep3({ formData, onChange, nextStep, prevStep }) {
 
 
                 }}
-                name="name"
-                value={formData.name}
+                name="brandName"
+                value={formData.brandName}
                 onChange={onChange}
 
             />
+
             <div className='flex justify-center items-center gap-4'>
                 <button type="button" onClick={prevStep} className="bg-[#139dff] px-6 py-1 rounded-full text-white">
                     <FiArrowLeft size={30} />

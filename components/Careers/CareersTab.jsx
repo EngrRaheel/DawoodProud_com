@@ -18,7 +18,7 @@ function Tab({ tabs }) {
 
     return (
         <div className="tab">
-            <div className="tab-list flex justify-start flex-wrap items-start">
+            <div className="tab-list flex justify-start flex-wrap items-start ">
                 {tabs.map((tab, index) => (
                     <Link key={index} href={tab.link}>
                         <button

@@ -12,7 +12,7 @@ function TrustPilotReview() {
                         <Image src={"/Images/trustpilot.webp"} alt={'image for the truts pilot'} fill></Image>
                     </div>
                     <p className='flex flex-col justify-center items-center text-white hover:text-[#F5812A] text-base font-medium' >5.0 reviews on Trustpilot</p>
-                    
+
                 </div>
                 <div className=' w-[90vw] md:w-[80vw] lg:w-[50vw] flex flex-col justify-center items-center text-white gap-12'>
                     <h2 className='xs:text-[30px] md:text-[40px] lg:text-[44px] font-semibold text-center'>What Our Clients Are Saying</h2>
@@ -52,10 +52,10 @@ function TrustPilotReview() {
                                 </div>
                                 <p className='text-[12.8px] font-bold'><strong>Great person to work with!</strong></p>
                                 <p className='text-[14px]'>{`"Excellent Ranking against Multiple Keywords. 12th project with Dawood.
-                             His Keywords Research is the most accurate. My content making team has tried numerous YouTube Experts,
-                              But No One matches the competence of Dawood. Thank you so much for helping me in videos rankings and overall YouTube SEO.
-                               Also, Thank you for your Channel Optimizations,
-                             I${"'"}m seeing a tangible growth difference after optimizing my channels."`}</p>
+                                 His Keywords Research is the most accurate. My content making team has tried numerous YouTube Experts,
+                                  But No One matches the competence of Dawood. Thank you so much for helping me in videos rankings and overall YouTube SEO. 
+                                  Also, Thank you for your Channel Optimizations, I${"'"}m seeing a tangible growth difference after optimizing my channels."`}
+                                  </p>
                             </div>
 
                             <div className=' bg-[#f7f7f7] flex flex-col justify-center items-start text-[black] p-5 space-y-1 rounded-xl shadow-md'>

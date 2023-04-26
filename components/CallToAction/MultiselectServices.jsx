@@ -26,40 +26,27 @@ const names = [
 
 ];
 
-function getStyles(name, personName, theme) {
-    return {
-        fontWeight:
-            personName.indexOf(name) === -1
-                ? theme.typography.fontWeightRegular
-                : theme.typography.fontWeightMedium,
-
-    };
-
-}
-
-export default function MultipleSelect() {
-    const theme = useTheme();
-    const [personName, setPersonName] = React.useState([]);
+export default function MultipleSelect({ setFormData, value, formData }) {
 
     const handleChange = (event) => {
         const {
             target: { value },
         } = event;
-        setPersonName(
-            // On autofill we get a stringified value.
-            typeof value === 'string' ? value.split(',') : value,
-        );
-    };
+        setFormData({ ...formData, ['services']: value })
+    }
+
+    console.log(value);
 
     return (
         <div>
-            <FormControl sx={{ m: 1, width: 370  }}>
+            <FormControl sx={{ m: 1, width: 370 }}>
                 <InputLabel id="demo-multiple-name-label" className='text-sm'>Services</InputLabel>
                 <Select
                     labelId="demo-multiple-name-label"
                     id="demo-multiple-name"
+                    name='services'
                     multiple
-                    value={personName}
+                    value={value}
                     onChange={handleChange}
                     input={<OutlinedInput label="Name" />}
                     MenuProps={MenuProps}
@@ -69,7 +56,7 @@ export default function MultipleSelect() {
                         <MenuItem
                             key={name}
                             value={name}
-                            style={getStyles(name, personName, theme, color)}
+                        // style={getStyles(name, personName, theme, color)}
                         >
                             {name}
                         </MenuItem>

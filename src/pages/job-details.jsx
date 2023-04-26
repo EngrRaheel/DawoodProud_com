@@ -23,7 +23,7 @@ function JobDetails() {
             <div className='w-full  bg-[#00438b] h-[50%]'>
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1200px] mx-auto'>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[10%]'>
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[6%] lg:ml-[6%]'>
                         <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold '>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />
@@ -35,13 +35,13 @@ function JobDetails() {
 
 
             <div className='w-full flex flex-col justify-center items-start max-w-[1200px] space-y-10 mb-8 mx-auto '>
-                <div className=''>
+                <div className='ml-[8%] md:ml-[6%] lg:ml-[6%] '>
                     <Tab tabs={tabs2} />
                 </div>
 
 
-                <div className='flex flex-col justify-center items-center text-[black] font-Inter gap-4 w-full  mx-auto p-6'>
-                    <div className='flex flex-col gap-2 '>
+                <div className='flex flex-col justify-center items-center text-[black] font-Inter gap-4 w-full  mx-auto p-6 '>
+                    <div className='flex flex-col gap-2 ml-[8%] md:ml-[6%] lg:ml-[6%]'>
                         <h1 className='font-semibold text-[24px] md:text-[32px] '>Job description</h1>
                         <h2 className='font-semibold text-[32px] md:text-[28px]'>About Us</h2>
                         <p className='font-normal text-[14px] md:text-[20px]'>
@@ -51,7 +51,7 @@ function JobDetails() {
                         </p>
 
                     </div>
-                    <div className='flex flex-col gap-2'>
+                    <div className='flex flex-col gap-2 ml-[8%] md:ml-[6%] lg:ml-[6%]'>
                         <h3 className='font-semibold text-[28px]'> Why Join Us?</h3>
                         <p className='font-normal text-[20px]'>
                             Our work is exciting as we are transforming the creator analytics space. This has provided many of us to work on new and exciting projects. Equally, we’ve set our people up for success by giving them professional development opportunities like courses or conferences that will help them acquire desirable skills/experience.
@@ -65,7 +65,7 @@ function JobDetails() {
                             <br />
                         </p>
 
-                        <h3 className='font-semibold text-[28px]'> What you will be doing:</h3>
+                        <h3 className='font-semibold text-[28px] '> What you will be doing:</h3>
                         <ul className='font-normal text-[20px] flex flex-col gap-3 list-disc p-4'>
 
                             <li> Serve as the main point of contact for our YouTube creator customers</li>
@@ -95,11 +95,14 @@ function JobDetails() {
                     <div className='mx-auto'>
                         <button
                             type="button"
-                            class="border border-indigo-500 bg-[black] text-white rounded-md px-12 py-3 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline">
-                            <Link href={""}>Apply</Link>
+                            class="text-2xl font-semibold border border-indigo-500 bg-[black] text-white rounded-md px-14 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline">
+                            <Link href={"/apply"}>Apply</Link>
                         </button>
                     </div>
-                    <FAQs />
+                    <div className="w-full ml-[8%] md:ml-[6%] lg:ml-[6%]">
+                        <FAQs />
+                    </div>
+
                 </div>
             </div>
 

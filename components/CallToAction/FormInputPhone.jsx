@@ -12,7 +12,7 @@ function FormStep6({ formData, onChange, nextStep, prevStep }) {
             </div>
             <label htmlFor="name"></label>
             <div>
-                <PhoneInput formData={formData.phone} onChange={onchange} />
+                <PhoneInput />
             </div>
             <div className='flex justify-center items-center gap-4'>
                 <button type="button" onClick={prevStep} className="bg-[#139dff] px-6 py-1 rounded-full text-white">

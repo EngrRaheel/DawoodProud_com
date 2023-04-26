@@ -46,28 +46,31 @@ function careers() {
 
     return (
         <div className='w-full  font-Inter text-white bg-white min-h-screen h-full'>
-            <div className='w-full  bg-[#00438b] h-[50%]'>
+            <div className='w-full  bg-[#054ada] h-[55vh]'>
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[15%]'>
-                        <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold '>
-                            <span className='text-[#1ecce4]'>We Think big,</span> <br />
+                    <div className='flex flex-col justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%]'>
+                        <h1 className=' text-[60px] md:text-[75px] lg:text-[90px] font-normal font-IBM_plex '>
+                            Join the Team
+                            {/* <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />
-                            <span className="text-white">and move fast</span>
+                            <span className="text-white">and move fast</span> */}
                         </h1>
+                        <h2 className='text-[22px]'>First do it, then do it right, then do it better.</h2>
                     </div>
+
                 </div>
             </div>
             <div className='w-full flex flex-col justify-center items-start max-w-[1172px] mx-auto '>
-                <div className='ml-[8%] md:ml-[10%] lg:ml-[15%]'>
+                <div className='ml-[8%] md:ml-[10%] lg:ml-[11%]'>
                     <Tab tabs={tabs} />
                 </div>
 
                 <hr className='w-[30%]' />
-                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter max-w-[900px] gap-2 mx-auto ml-[0%] md:ml-[10%] lg:ml-[15%]'>
-                    <div className='w-full self-start p-5'>
-                        <h1 className='font-semibold text-[44px] md:text-[56px]'>Why work at Dawood Proud</h1>
-                        <p className='font-normal text-[14px] md:text-[16px] font-Inter'>At Ahrefs, you’ll be part of an exciting, fast-moving environment with a flat hierarchy. Our motto isn’t “first do it, then do it right, then do it better” just for show.
+                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter max-w-[900px] gap-2 mx-auto ml-[0%] md:ml-[10%] lg:ml-[12%]'>
+                    <div className='flex flex-col justify-center items-start gap-3 w-full self-start p-5'>
+                        <h2 className='font-semibold text-[44px] md:text-[56px]'>Why work at Dawood Proud</h2>
+                        <p className='font-normal text-[14px] md:text-[16px] font-Inter'>Join the thrilling, flat hierarchy at Dawood Proud! Our motto: "do it, do it right, do it better". Let's soar to success together!
                             <br />
                             <br />
                             We’re always exploring growth opportunities, so there’s lots of potential to take on new tasks and help shape the company. Individually, the ability to make informed, independent decisions while justifying how they add value to the business is highly prized.
@@ -89,10 +92,10 @@ function careers() {
                         <h3 className='text-[black] text-[28px] sm:text-[32px] md:text-[44px] font-semibold'>Open positions</h3>
                     </div>
                     <div className='text-[black] max-w-[600px]'>
-                        <div className='border-2 border-solid border-[black]/20 grid grid-cols-[2fr_1fr] justify-between items-start sm:items-center p-3 md:p-4 shadow-md'>
+                        <div className='border-2 border-solid border-[black]/20 grid grid-cols-[2fr_1fr] justify-between items-start sm:items-center px-3 md:px-3 py-3 md:py-6 shadow-md'>
                             <div className='flex flex-col '>
-                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Stratagist — Onsite</p>
-                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11/1,Islamabad , Pakistan</p>
+                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Stratagist — In-Office</p>
+                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11,Islamabad , Pakistan</p>
                             </div>
                             <div className='mx-auto '>
                                 <button
@@ -104,25 +107,25 @@ function careers() {
                         </div>
                     </div>
                 </div>
-                <div className='mx-auto flex flex-col justify-start items-start gap-12 mb-6  md:ml-[10%] lg:ml-[15%] max-w-[900px] p-3'>
+                <div className='mx-auto flex flex-col justify-start items-start gap-12 mb-20  md:ml-[10%] lg:ml-[15%] max-w-[900px] p-3 '>
                     <div className=''>
                         <h3 className='text-[black] text-[28px] sm:text-[32px] md:text-[44px] font-semibold'>Closed positions</h3>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 text-[black] mx-auto gap-4 md:gap-6'>
-                        <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center p-4 shadow-md'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 text-[black] mx-auto gap-4 md:gap-8'>
+                        <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center px-3 md:px-3 py-3 md:py-6 shadow-md'>
                             <div className='flex flex-col '>
-                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Stratagist — Onsite</p>
-                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11/1,Islamabad , Pakistan</p>
+                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Content Writer — In-Office</p>
+                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11, Islamabad , Pakistan</p>
                             </div>
                             <button className='mx-auto' type='button'>
                                 <JobClosedBtn />
                             </button>
 
                         </div>
-                        <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center p-4 shadow-md'>
+                        <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center px-3 md:px-3 py-3 md:py-6 shadow-md'>
                             <div className='flex flex-col '>
-                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Stratagist — Onsite</p>
-                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11/1,Islamabad , Pakistan</p>
+                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Video Creator — In-Office</p>
+                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11, Islamabad , Pakistan</p>
                             </div>
                             <div className='mx-auto '>
                                 <button className='mx-auto' type='button'>
@@ -130,10 +133,10 @@ function careers() {
                                 </button>
                             </div>
                         </div>
-                        <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center p-4 shadow-md'>
+                        <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center px-3 md:px-3 py-3 md:py-6 shadow-md'>
                             <div className='flex flex-col '>
-                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Stratagist — Onsite</p>
-                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11/1,Islamabad , Pakistan</p>
+                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Thumbnail Designer — In-Office</p>
+                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11, Islamabad , Pakistan</p>
                             </div>
                             <div className='mx-auto '>
                                 <button className='mx-auto' type='button'>
@@ -141,10 +144,10 @@ function careers() {
                                 </button>
                             </div>
                         </div>
-                        <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center p-4 shadow-md'>
+                        <div className='border-1 border-solid border-[black] grid grid-cols-[2fr_1fr] justify-between items-center px-3 md:px-3 py-3 md:py-6 shadow-md'>
                             <div className='flex flex-col '>
-                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Stratagist — Onsite</p>
-                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11/1,Islamabad , Pakistan</p>
+                                <p className='text-[16px] md:text-[20px] font-semibold'>Voice Over Artist — In-Office</p>
+                                <p className='text-[14px] md:text-[16px] font-normal'>Onsite • G-11, Islamabad , Pakistan</p>
                             </div>
                             <div className='mx-auto '>
                                 <button className='mx-auto' type='button'>

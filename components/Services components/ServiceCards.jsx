@@ -7,11 +7,13 @@ import YtSlider from "../YtSlider/Slider"
 
 function ServiceCards() {
     return (
-        <div className="flex flex-col  bg-contain bg-center bg-[url('/Images/blob_bg_2.png')] gap-0 md:gap-12 ">
-            <YtSlider />
-            {/* <div className="bg-cover bg-center bg-[url('/Images/blob_bg_2.png')]"> */}
+        <div className="flex flex-col space-y-14 p-2 gap-8">
+            {/* <YtSlider /> */}
+
+            {/* Channel${"'"}s */}
+
             <ServiceCard heading={"Certified YouTube Consultant"}
-                heading2={`Unlock Your YouTube Channel${"'"}s Potential with a Certified YouTube Strategist`}
+                heading2={`Unlock Your YouTube  Potential with a Certified YouTube Strategist`}
                 para={`Unleash your channel${"'"}s potential with YouTube Content Strategy. Get a comprehensive channel evaluation and a tailored strategy that help you unlock the secrets to YouTube Channel Growth , connect with your audience, and build your brand on this exciting platform. Ready to take your channel to new heights? `}
                 btntext={`Let${"'"}s get started`} link={"/youtube-consultation"} images={"/Images/Services/cardimage.png"} />
 
@@ -22,7 +24,10 @@ function ServiceCards() {
 
 
             {/* rating of the gogle clietns review section */}
-            <ReviewSlider />
+       
+                <ReviewSlider />
+         
+
             {/* </div> */}
 
 
@@ -31,10 +36,10 @@ function ServiceCards() {
                 para={`Get ahead of the competition and unlock your Channel${"'"}s potential with Winning YouTube Keywords having high search volume, low competition, and rising future trend that help boost organic growth and visibility on YouTube.`}
                 btntext={"Elevate your YouTube Game"} bgColor={""} link={"/youtube-keyword-research"} images={"/Images/Services/Keywords Research.webp"} />
 
-
+{/* Automated  */}
 
             <ServiceCard heading={"YouTube Automation"}
-                heading2={"Unleash Passive Income with Faceless Videos on Automated YouTube Channel"}
+                heading2={"Unleash Passive Income with Faceless Videos on YouTube Channel"}
                 para={"Take the first step towards effortless YouTube success with YouTube Automation! Our innovative service offers Winning niche selection, Channel Set Up, Faceless Video Creation, and Expert Channel Management, all designed to help you generate Passive Income from your Automated YouTube channel."}
                 btntext={"Get started today"} bgColor={""} link={"/youtube-automation"} images={"/Images/Services/cardimage.png"} />
 
@@ -57,7 +62,7 @@ function ServiceCards() {
                 btntext={"Let us Help us Grow"} bgColor={""} link={"/youtube-channel-managment"} images={"/Images/Services/cardimage.png"} />
 
             <TrustPilotReview />
-            {/* </div> */}
+
         </div>
 
     )

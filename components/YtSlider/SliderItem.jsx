@@ -5,10 +5,11 @@ import { FiArrowUpRight } from 'react-icons/fi'
 import { IoIosPeople } from 'react-icons/io'
 import Link from 'next/link'
 
+
 const SliderItem = ({ url, name, subs, views, para, link }) => {
     return (
         <div className='w-full'>
-            <div className='flex flex-col justify-center items-center mx-auto font-Inter text-white rounded-2xl p-3 sm:p-2 md:p-3 min-w-[22.1875rem] min-h-[498px] bg_testimonials'>
+            <div className='flex flex-col justify-center items-center mx-auto font-Inter text-white rounded-2xl p-3 sm:p-2 md:p-3 max-w-[22.1875rem] min-h-[498px] bg_testimonials'>
                 {/* first group of three items */}
                 <div className='flex flex-col items-center space-y-3'>
                     <div className='w-[80px] h-[80px] rounded-full  relative mx-auto overflow-hidden' >
@@ -44,16 +45,17 @@ const SliderItem = ({ url, name, subs, views, para, link }) => {
                 </div>
 
                 {/* Group thrid itmes */}
-                <div className='flex flex-col flex-1 gap-2 h-full overflow-y-auto font-bold text-testimonial-card-quote-sm md:text-testimonial-card-quote-md lg:text-testimonial-card-quote-lg mt-6  '>
+                <div className='flex flex-col flex-1 h-full overflow-y-auto font-bold text-testimonial-card-quote-sm md:text-testimonial-card-quote-md lg:text-testimonial-card-quote-lg mt-6 space-y-5 '>
                     <div className='font-bold leading-6 text-xl overflow-auto justify-center items-center p-0'> {para}</div>
-                    <Link href="/ProofOfwork" >
+                    <div className='flex justify-center items-center '>
                         <Link href={"/portfolio"}>
-                            <div className='flex justify-center items-center mx-auto px-2 md:px-4 py-[9px] gap-1 rounded-full  drop-shadow-lg  bg-[#139dff] hover:bg-[#3b82f6] duration-200 absolute bottom-2 left-[30%]' >
+                            <button className='flex justify-center items-center mx-auto px-2 md:px-4 py-[8px] gap-1 rounded-full  drop-shadow-lg  bg-[#139dff] hover:bg-[#3b82f6] duration-200 absolute left-[30%] bottom-6' >
                                 <p className='font-Inter text-base font-medium '>See Proof</p>
                                 <FiArrowUpRight className="text-[20px] text-white" />
-                            </div>
+                            </button>
                         </Link>
-                    </Link>
+                    </div>
+
                 </div>
             </div>
         </div>

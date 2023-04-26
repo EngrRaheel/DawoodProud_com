@@ -1,6 +1,8 @@
 import React from 'react'
 import { FiArrowRight } from "react-icons/fi"
-function FormStep1({ formData, onChange, nextStep, handleFormSubmit }) {
+
+
+function FormStep1({ formData, nextStep, onChange }) {
     return (
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-8'>
             <div className='flex flex-col justify-between items-center gap-8 '>
@@ -21,11 +23,11 @@ function FormStep1({ formData, onChange, nextStep, handleFormSubmit }) {
                     marginBottom: "12px",
                     outline: 'none',
 
-
                 }}
                 name="name"
                 value={formData.name}
                 onChange={onChange}
+
 
             />
             <button type="button" onClick={nextStep} className="bg-[#139dff] px-6 py-1 rounded-full text-white">
