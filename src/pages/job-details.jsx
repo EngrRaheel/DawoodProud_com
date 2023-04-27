@@ -20,7 +20,7 @@ const tabs2 = [
 function JobDetails() {
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className='w-full  bg-[#00438b] h-[50%]'>
+            <div className="w-full  bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')] h-[30vh] sm:h-[30vh]  md:h-[50vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1200px] mx-auto'>
                     <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[6%] lg:ml-[6%]'>

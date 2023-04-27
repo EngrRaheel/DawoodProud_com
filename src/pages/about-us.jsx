@@ -32,7 +32,7 @@ function careers() {
 
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className='w-full  bg-[#00438b] h-[50%]'>
+            <div className="w-full bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')]  h-[30vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
                     <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%]'>
@@ -50,47 +50,55 @@ function careers() {
                 <div className='ml-[8%] md:ml-[10%] lg:ml-[12%]'>
                     <Tab tabs={tabs} />
                 </div>
-
-
                 <div className='flex flex-col justify-center items-center text-[#333333] font-Inter gap-4 w-full max-w-[1172px] mx-auto  p-6  '>
                     <div className='flex flex-col gap-2 ml-[0%] md:ml-[10%] lg:ml-[12%]'>
-                        <h1 className='font-semibold text-[28px]'>About our company</h1>
-                        <p className='font-normal text-[16px]'>Ahrefs Pte. Ltd. is a software company that develops online SEO tools and free educational materials for marketing professionals.
+                        <h1 className='font-semibold text-[28px]'>About our Agency</h1>
+                        <p className='font-normal text-[16px]'>
+                            Welcome to Dawood Proud, your one-stop-shop for all <span> <strong>YouTube Growth Services!</strong></span> Our agency specializes in providing high-quality services for YouTube content creators,
+                            helping them grow their channels and reach a wider audience. Whether you&#39;re just starting out or have been creating content for years,
+                            our team of experts has the knowledge and experience to take your channel to the next level. Our motto is simple yet powerful – &quot;Stand Out from the Crowd.&quot;
                             <br />
                             <br />
-                            We are a lean multinational startup headquartered in Singapore that values making meaningful and easy-to-use products.
-                            We shift things fast to give our customers what matters most to them, and to keep us ahead of the game.
-                            Our motto is First do it, then do it right, then do it better.
+                            Our agency was founded by Dawood Hussain, a man who has been fascinated with the inner workings of the YouTube Algorithm since his undergraduate days. Dawood&#39;s curiosity led him to build his first
+                            web crawler for the YouTube Search Engine, and he quickly became an expert on the platform. However, being a shy person, he found it difficult to come in front of the camera. To overcome this, he
+                            started creating Faceless Automated YouTube Channels in different niches. (These channels can be seen in the &quot;Our Channels&quot; Section of our website). Dawood used his expertise to grow these channels,
+                            and they soon became a hit among the English Speaking International Audience.
                             <br />
                             <br />
 
-                            Ahrefs founder and CEO, Dmitry Gerasimenko, built his first document search engine when he was only 15.
-                            His interest in search engines never waned and in 2007, he revisited his work on search engines for documents and files.
-                            This led to the birth of our backlinks index in 2010, which in turn became the source of data for Ahrefs first version of Site Explorer.
+                            Due to overwhelming requests from creators around the world, Dawood decided to help other YouTubers to grow on the platform. His interest in the YouTube Algorithm never waned, and in 2019,
+                            he took the leap to start his own online business to provide YouTube Growth Services. Since then, this Agency has helped countless creators achieve their goals and reach a wider audience on the platform.
                         </p>
                     </div>
                     <div className='flex flex-col gap-2 ml-[0%] md:ml-[10%] lg:ml-[12%]'>
-                        <h2 className='font-semibold text-[28px]'> About our products</h2>
+                        <h2 className='font-semibold text-[28px]'> About our Services</h2>
                         <p className='font-normal text-[16px]'>
-                            Ahrefs is an all-in-one SEO toolset for growing search traffic and optimizing websites. To do that, Ahrefs crawls the web,
-                            stores tons of data and makes it accessible via a simple user interface.
+                            Our team of experts specializes in providing customized solutions for every aspect of YouTube Channel Growth, from developing a <span><strong>YouTube Content Strategy</strong></span> to Engaging
+                            <span><strong>YouTube Content Creation</strong></span>. With our help,
+                            you can identify low competition niches, find winning YouTube Keywords,
+                            Rank your Videos higher in YouTube Search Results and can promote your Videos to Target Audiences.
                             <br />
                             <br />
-                            When Ahrefs launched its first tool, Site Explorer, it disrupted the stagnant field of backlink analysis and kick-started
-                            a new round of competition among SEO tool providers. It quickly became one of the worlds best backlink analysis tools.
+                            Speaking of growth services, our <span><strong>YouTube Content Creation</strong></span> service is second to none. We pride ourselves on producing <span><strong>high-quality videos</strong></span> that capture your audience&#39;s attention and keep them engaged.
+                            Our team takes care of everything, from <span><strong>scriptwriting</strong></span> and filming to <span><strong>editing, thumbnail designing,</strong></span> and <strong><span>post-production</span></strong>. You can sit back, relax, and let us do the hard for you.
                             <br />
                             <br />
-                            Since then Ahrefs has grown into a complete SEO suite by developing tools like Keywords Explorer for keyword research,
-                            Content Explorer for analyzing content, Rank Tracker for monitoring keyword rankings or Site Audit for auditing and optimizing websites.
+                            At Dawood Proud, we are committed to delivering exceptional service that exceeds your expectations. We understand the importance of growing your YouTube channel and increasing your online presence,
+                            which is why we work tirelessly to ensure that our services are designed to take your YouTube channel to the next level!
                             <br />
-                            <br />
-                            In 2020, we released Ahrefs Webmaster Tools as a free tier to website owners for improving their websites SEO performance.
-                            <br />
-                            <br />
-                            Today, we update our index with the freshest backlinks on the web every 15 minutes, and our crawler processes up to 8 billion pages a day.
-                            Thats more than a third of what Googlebot does which makes us the 5th most active crawler on the web.
+
                         </p>
                     </div>
+
+                </div>
+                <div className='w-[280px] xs:w-[400px] sm:w-[500px] md:w-[600px] lg:w-[900px] h-[300px] md:h-[400px] lg:h-[500px] mx-auto border-1 shadow-lg ml-[8%] md:ml-[10%] lg:ml-[12%] px-2 content-center'>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d830.1700534093038!2d72.99448426953482!3d33.66544699833158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDM5JzU1LjYiTiA3MsKwNTknNDIuNSJF!5e0!3m2!1sen!2s!4v1682636433364!5m2!1sen!2s"
+                        width="100%"
+                        height="100%"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 

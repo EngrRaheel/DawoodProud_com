@@ -33,7 +33,7 @@ function LegalInfo() {
 
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className='w-full  bg-[#00438b] h-[50%]'>
+            <div className="w-full  bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')]  h-[30vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
                     <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[15%]'>
@@ -57,27 +57,36 @@ function LegalInfo() {
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Terms & Conditions</h1>
                         <p className='font-normal text-[16px]'>
-                            This details Ahrefs Terms of Service on Parties responsibilities, Rights, Privacy, Subscriptions, Information usage, Cancellation of service and so on.
+                            This details Dawood Proud's Terms of Service on Parties' Responsibilities, Rights, Privacy, Subscriptions, Information Usage, Cancellation of Service and so on.
+
+                            Last Modified: February 25, 2023
                         </p>
                     </div>
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Privacy Policy</h1>
                         <p className='font-normal text-[16px]'>
-                            This details the Types of Data that Ahrefs collects and the mode and place of processing this Data.
+                            This details the Types of Data that Our Team collects and the mode and place of processing this Data.
+
+                            Last Modified: December 11, 2022
                         </p>
                     </div>
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Data Processing Addendum</h1>
                         <p className='font-normal text-[16px]'>
-                            This details the Processing of Customer Personal Data by Ahrefs.
+                            This details the Processing of Customer Personal Data by our Company.
+
+                            Last Modified: March 18, 2021
                         </p>
                     </div>
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Security Measures</h1>
                         <p className='font-normal text-[16px]'>
-                            This details the processes and measures taken by Ahrefs to maintain the overall security of the Service.</p>
+                            This details the processes and measures taken by our Company to maintain the overall security of your YouTube Channel.
+
+                            Last Modified: April 29, 2023
+                            </p>
                     </div>
-                    <div className='flex flex-col gap-2'>
+                    {/* <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Sub-Processors List</h1>
                         <p className='font-normal text-[16px]'>
                             This details Ahrefs sub-processors, their services provided, and their locations.
@@ -94,7 +103,7 @@ function LegalInfo() {
                         <p className='font-normal text-[16px]'>
                             This details how Ahrefs collects, uses, and discloses Personal Information for Ahrefs SEO Toolbar users.
                         </p>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

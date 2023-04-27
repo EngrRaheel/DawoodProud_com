@@ -14,7 +14,7 @@ function Footer() {
             <div className="page-section-container max-w-[1172px] px-6 md:px-4 md:mx-auto pt-24 md:pt-24 pb-10 grid grid-cols-1 md:grid-cols-12">
                 <div className="col-span-full mb-7 md:mb-8">
                     <div className='relative h-14 w-14 flex items-center justify-center rounded-full shadow-xl'>
-                        <Image src={'/Images/logo.png'} alt='logbimg' fill className='object-contain'/>
+                        <Image src={'/Images/logo.png'} alt='logbimg' fill className='object-contain' />
                     </div>
                 </div>
                 {/* <div className="col-span-full mb-7 md:mb-8"></div> */}
@@ -25,7 +25,7 @@ function Footer() {
                         and loyal audiences. With our support, our clients do achieve success and become leaders in their niches.
                     </div>
                     <div class="font-normal mt-8 w-full">
-                        © 2023 Dawood Proud <br /> All Rights Reserved.
+                        © 2023 Dawood Proud <br /> All Rights Reserved
                     </div>
                 </div>
                 <div className="col-span-full md:col-span-6 mt-8 md:mt-0 text-md">
@@ -42,7 +42,7 @@ function Footer() {
                         </div>
                         <div>
                             <div class="mb-4 sm:mb-3 font-bold">
-                                Product
+                               Services
                             </div>
                             <div class="flex flex-col items-start space-y-3 text-white text-opacity-60">
                                 <Link href={"/youtube-consultation"} >YouTube Consultation</Link>
@@ -61,15 +61,15 @@ function Footer() {
                             <div class="flex flex-col items-start space-y-3 text-white text-opacity-60">
                                 <Link href="/">Contact
                                 </Link>
-                                <Link href="/jobs">Careers
+                                <Link href="/jobs">Jobs
+                                </Link>
+                                <Link href='/team'>
+                                    Team
                                 </Link>
                                 <p>Privacy
                                 </p>
                                 <p>Support
                                 </p>
-                                <Link href='/team'>
-                                    Team
-                                </Link>
                             </div>
                         </div>
 

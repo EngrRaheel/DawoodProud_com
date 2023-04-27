@@ -45,11 +45,11 @@ const SliderItem = ({ url, name, subs, views, para, link }) => {
                 </div>
 
                 {/* Group thrid itmes */}
-                <div className='flex flex-col flex-1 h-full overflow-y-auto font-bold text-testimonial-card-quote-sm md:text-testimonial-card-quote-md lg:text-testimonial-card-quote-lg mt-6 space-y-5 '>
+                <div className='flex flex-col flex-1 justify-end items-center h-full overflow-y-auto font-bold text-testimonial-card-quote-sm md:text-testimonial-card-quote-md lg:text-testimonial-card-quote-lg mt-6 gap-4 '>
                     <div className='font-bold leading-6 text-xl overflow-auto justify-center items-center p-0'> {para}</div>
                     <div className='flex justify-center items-center '>
                         <Link href={"/portfolio"}>
-                            <button className='flex justify-center items-center mx-auto px-2 md:px-4 py-[8px] gap-1 rounded-full  drop-shadow-lg  bg-[#139dff] hover:bg-[#3b82f6] duration-200 absolute left-[30%] bottom-6' >
+                            <button className='flex justify-center items-center mx-auto px-2 md:px-4 py-[8px] gap-1 rounded-full  drop-shadow-lg  bg-[#139dff] hover:bg-[#3b82f6] duration-200 ' >
                                 <p className='font-Inter text-base font-medium '>See Proof</p>
                                 <FiArrowUpRight className="text-[20px] text-white" />
                             </button>

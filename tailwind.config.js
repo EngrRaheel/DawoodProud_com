@@ -29,7 +29,7 @@ module.exports = {
       // Inter_2: ["Inter Tight", "sans-serif"],
       // Roboto: ["Roboto", "sans-serif"],
       // Halvetica: ["Questrial", "sans-serif"],
-      // Halvic: ["HelveticaNeueRoman", "sans-serif"],
+      Halvic: ["HelveticaNeueRoman", "sans-serif"],
       IBM_plex: ["IBM Plex Sans", "san-serif"],
     },
     colors: {
