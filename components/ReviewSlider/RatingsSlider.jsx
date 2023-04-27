@@ -27,7 +27,7 @@ const ReviewSlider = () => {
                     subscribers, I know how challenging it can be to come up with new and engaging
                     content that keeps your audience interested.But this service has been a lifesaver for me,
                     providing me with tailored content ideas that resonate with my niche and target audience.
-                    I&#39;ve seen a significant growth in my channel's engagement and viewership since I started using their service,
+                    I&#39;ve seen a significant growth in my channel&#39;s engagement and viewership since I started using their service,
                     and I&#39;m excited to see where it takes me in the future. So if you&#39;re ready to take your YouTube game to the next level,
                     definitely give this service a try!&quot; </p>
             )
@@ -53,7 +53,7 @@ const ReviewSlider = () => {
                     Their team really knows their stuff when it comes to optimizing videos for search results, and they were able to get my videos ranking higher than ever before.
                     Not only that, but they also provided me with invaluable advice and strategies for creating content that resonates with my audience. Overall, I can&#39;t recommend
                     Dawood Proud Agency enough for anyone looking to take their YouTube channel to the next level. Thanks to their expertise and guidance, I&#39;ve been able to reach
-                    new viewers and build a community of dedicated fans. If you're serious about growing your channel, definitely check them out!</p>
+                    new viewers and build a community of dedicated fans. If you&#39;re serious about growing your channel, definitely check them out!</p>
             )
         },
         {

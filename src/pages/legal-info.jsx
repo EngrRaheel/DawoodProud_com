@@ -57,7 +57,7 @@ function LegalInfo() {
                     <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Terms & Conditions</h1>
                         <p className='font-normal text-[16px]'>
-                            This details Dawood Proud's Terms of Service on Parties' Responsibilities, Rights, Privacy, Subscriptions, Information Usage, Cancellation of Service and so on.
+                            This details Dawood Proud&#39;s Terms of Service on Parties&#39; Responsibilities, Rights, Privacy, Subscriptions, Information Usage, Cancellation of Service and so on.
 
                             Last Modified: February 25, 2023
                         </p>
@@ -84,7 +84,7 @@ function LegalInfo() {
                             This details the processes and measures taken by our Company to maintain the overall security of your YouTube Channel.
 
                             Last Modified: April 29, 2023
-                            </p>
+                        </p>
                     </div>
                     {/* <div className='flex flex-col gap-2'>
                         <h1 className='font-semibold text-[22px] text-[#054ada] hover:text-[#FF8800]'>Sub-Processors List</h1>
