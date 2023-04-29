@@ -10,7 +10,7 @@ import TeamMembers from '../../components/TeamSection/TeamMembers'
 
 const tabs = [
     {
-        label: "What we are",
+        label: "Who we are",
 
         link: "/about-us"
     },

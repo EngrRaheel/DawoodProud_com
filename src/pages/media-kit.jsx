@@ -58,15 +58,27 @@ function MediaKit() {
                 <div className='flex flex-col justify-around text-[#333333] font-Inter gap-4 w-full  mx-auto self-start p-6'>
                     <div className='flex flex-col  items-start justify-start space-y-12 ml-[6%] sm:ml-[10%] md:ml-[10%] xl:ml-[15%]'>
                         <div className='grid xs:grid-cols-2 md:grid-cols-3 items-center md:items-start justify-center md:justify-start gap-2 sm:gap-3 lg:gap-4 xl:gap-12  mx-auto'>
-                            <div className='relative w-[260px] xs:w-[200px] sm:w-[230px]  lg:w-[250px] xl:w-[280px] h-[280px]'>
-                                <Image src={"/Images/Logosahref/DP1.png"} fill className="object-contain" alt='jobi1mage1'></Image>
+                            <div className='flex flex-col justify-start gap-2'>
+                                <div className='relative w-[260px] xs:w-[200px] sm:w-[230px]  lg:w-[250px] xl:w-[280px] h-[280px]'>
+                                    <Image src={"/Images/Logosahref/DP1.png"} fill className="object-contain" alt='jobi1mage1'></Image>
+                                </div>
+                                <p>Dark</p>
                             </div>
-                            <div className=' relative w-[260px] xs:w-[200px] sm:w-[230px] lg:w-[250px] xl:w-[280px] h-[280px] '>
-                                <Image src={"/Images/Logosahref/DP2.png"} fill className='object-contain' alt='jobi1mage2'></Image>
+                            <div className='flex flex-col justify-start gap-2'>
+
+                                <div className=' relative w-[260px] xs:w-[200px] sm:w-[230px] lg:w-[250px] xl:w-[280px] h-[280px] '>
+                                    <Image src={"/Images/Logosahref/DP2.png"} fill className='object-contain' alt='jobi1mage2'></Image>
+                                </div>
+                                <p>Blue</p>
                             </div>
-                            <div className=' relative w-[260px] xs:w-[200px] sm:w-[230px]  lg:w-[250px] xl:w-[280px] h-[280px]'>
-                                <Image src={"/Images/Logosahref/DP3.png"} fill className='object-contain' alt='j1obimage3'></Image>
+
+                            <div className='flex flex-col justify-start gap-2'>
+                                <div className=' relative w-[260px] xs:w-[200px] sm:w-[230px]  lg:w-[250px] xl:w-[280px] h-[280px]'>
+                                    <Image src={"/Images/Logosahref/DP3.png"} fill className='object-contain' alt='j1obimage3'></Image>
+                                </div>
+                                <p>Black</p>
                             </div>
+
                         </div>
                         <button className='bg-[#ff8800] text-[#fff] px-[1rem] py-[6px] rounded-[3px] hover:bg-[#ea7e02] '>Download logo Kit</button>
 
@@ -89,7 +101,7 @@ function MediaKit() {
                 </div>
             </div>
 
-
+           
             <Footer />
         </div >
     )

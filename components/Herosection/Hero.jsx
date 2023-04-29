@@ -23,7 +23,7 @@ function Hero() {
                     <div className=" flex flex-col justify-center items-center  mx-auto gap-1 p-0 sm:p-4 md:p-6">
                         <div className="flex flex-col -space-y-2">
                             <h1 className=" font-extrabold text-[32px] sm:text-[36px] md:text-[40px] xl:text-[48px] abdal_color px-8 xs:px-0">Dawood Proud</h1>
-                            <h1 className=" font-extrabold text-[28px] sm:text-[36px] md:text-[40px] xl:text-[40px] abdal_color1 px-8 xs:px-0"> Stand Out from Crowd</h1>
+                            <h1 className=" font-extrabold text-[28px] sm:text-[36px] md:text-[40px] xl:text-[40px] abdal_color1 px-8 xs:px-0 "> Stand Out from Crowd</h1>
                         </div>
                         <div className="flex flex-col gap-1 max-w-[1172px] font-medium md:font-semibold px-4 sm:px-0 lg:font-medium  text-white sm:text-[16px] md:text-[18px] lg:text-[20px] text-center">
                             <p> Ultimate Destination for all  <span className="abdal_color1"> <strong> YouTube Growth Services</strong></span> to take your channel to new heights.</p>
@@ -54,7 +54,7 @@ function Hero() {
                                 <AiFillStar className="text-[35px] sm:text-[30px] md:text-[40px]" />
                             </div>
                             <div className=" text-[18px] sm:text-[16px]  md:text-[20px]">
-                                <p> <strong>4.9</strong> Stars | Based on <strong>360</strong> Reviews</p>
+                                <p> <strong>4.9</strong> Stars | Based on <strong>367</strong> Reviews</p>
                             </div>
                         </div>
                     </div>

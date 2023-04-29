@@ -7,7 +7,7 @@ function careers() {
 
     const tabs = [
         {
-            label: "What we are",
+            label: "Who we are",
 
             link: "/about-us"
         },
@@ -31,7 +31,7 @@ function careers() {
 
 
     return (
-        <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
+        <div className='w-full min-h-screen font-Inter text-white bg-white h-full '>
             <div className="w-full bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')]  h-[30vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
@@ -44,8 +44,6 @@ function careers() {
                     </div>
                 </div>
             </div>
-
-
             <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
                 <div className='ml-[8%] md:ml-[10%] lg:ml-[12%]'>
                     <Tab tabs={tabs} />
@@ -59,9 +57,9 @@ function careers() {
                             our team of experts has the knowledge and experience to take your channel to the next level. Our motto is simple yet powerful – &quot;Stand Out from the Crowd.&quot;
                             <br />
                             <br />
-                            Our agency was founded by Dawood Hussain, a man who has been fascinated with the inner workings of the YouTube Algorithm since his undergraduate days. Dawood&#39;s curiosity led him to build his first
+                            Our agency was founded by <span><strong> Dawood Hussain</strong></span>, a man who has been fascinated with the inner workings of the <span><strong>YouTube Algorithm</strong></span> since his undergraduate days. Dawood&#39;s curiosity led him to build his first
                             web crawler for the YouTube Search Engine, and he quickly became an expert on the platform. However, being a shy person, he found it difficult to come in front of the camera. To overcome this, he
-                            started creating Faceless Automated YouTube Channels in different niches. (These channels can be seen in the &quot;Our Channels&quot; Section of our website). Dawood used his expertise to grow these channels,
+                            started creating <span><strong>Faceless Automated YouTube Channels</strong></span> in different niches. (These channels can be seen in the &quot;Our Channels&quot; Section of our website). Dawood used his expertise to grow these channels,
                             and they soon became a hit among the English Speaking International Audience.
                             <br />
                             <br />
@@ -91,9 +89,9 @@ function careers() {
                     </div>
 
                 </div>
-                <div className='w-[280px] xs:w-[400px] sm:w-[500px] md:w-[600px] lg:w-[900px] h-[300px] md:h-[400px] lg:h-[500px] mx-auto border-1 shadow-lg ml-[8%] md:ml-[10%] lg:ml-[12%] px-2 content-center'>
+                <div className='w-[280px] xs:w-[400px] sm:w-[500px] md:w-[600px] lg:w-[900px] h-[300px] md:h-[400px] lg:h-[500px] mx-auto border-1 shadow-lg ml-[8%] md:ml-[10%] lg:ml-[12%] px-2 content-center '>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d830.1700534093038!2d72.99448426953482!3d33.66544699833158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDM5JzU1LjYiTiA3MsKwNTknNDIuNSJF!5e0!3m2!1sen!2s!4v1682636433364!5m2!1sen!2s"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1660.3023579296248!2d72.99264080701323!3d33.667402752637045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQwJzAyLjYiTiA3MsKwNTknMzcuMiJF!5e0!3m2!1sen!2s!4v1682759393458!5m2!1sen!2s"
                         width="100%"
                         height="100%"
                         allowfullscreen=""
@@ -101,9 +99,10 @@ function careers() {
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+            <div className=''>
+                <Footer />
+            </div>
 
-
-            <Footer />
         </div >
     )
 }

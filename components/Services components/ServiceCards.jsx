@@ -51,13 +51,13 @@ function ServiceCards() {
                 btntext={"Skyrocket Your Profits Today"} bgColor={""} link={"/youtube-monetization"} images={"/Images/Services/Monetization.png"} />
 
             <ServiceCard heading={"YouTube Promotion "}
-                heading2={"Write ABCDEF ABCDEF ABCDEF ABCDEF ABCDEF "}
+                heading2={"Supercharge Your YouTube Presence with Our Pro Promotion Services"}
                 para={"Effectively target and engage with the right audience to not only Grow your YouTube Channel but also to Generate Leads and boost your online presence."}
                 btntext={"Promote your Channel Now"} bgColor={""} link={"/youtube-promotion-ads"} images={"/Images/Services/YouTube Promotion_1.png"} />
 
 
             <ServiceCard heading={" Overall YouTube Channel Management"}
-                heading2={"Revolutionize Your YouTube Presence with Expert YouTube Channel Management Services"}
+                heading2={"Transform Your YouTube Channel with Expert Management Services"}
                 para={"Take your YouTube channel to the next level with our YouTube Automation Services. We handle everything from YouTube Content Creation to YouTube Channel Management, allowing you to grow your brand without ever having to appear on camera. Let us help you grow your audience, engage your viewers, and achieve your YouTube goals with ease."}
                 btntext={"Let us Help us Grow"} bgColor={""} link={"/youtube-channel-managment"} images={"/Images/Services/cardimage.png"} />
 

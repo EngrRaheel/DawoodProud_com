@@ -40,6 +40,7 @@ const YtSlider = () => {
       "url": "/Images/YouTubers/techAltar.jpg",
       "link": "TechAltar"
     },
+
     {
       "name": "Emil C. Anton",
       "subs": "4.32M",
@@ -48,13 +49,14 @@ const YtSlider = () => {
         <p>
           {"\"Dawood provided a tailored "}
           <span className="text-[#0ECF91]">content strategy</span>
-          {"  that helped me grow my brand. Highly recommend his services!\""}
+          {"  that helped me grow my brand.I highly recommend your services to anyone looking to improve their YouTube presence.\""}
         </p>
       ),
       "url": "/Images/YouTubers/alux1.jpg",
       "link": "Alux.com"
     },
-    {
+
+    { 
       "name": "Ian Plummer",
       "subs": "877K",
       "views": "243M",
@@ -90,7 +92,7 @@ const YtSlider = () => {
         <p>
           {"\"Thanks to my incredible  "}
           <span className="text-[#0ECF91]">Content Ideas Guru </span>
-          {" my art channel is now bursting with fresh and exciting video ideas that my subscribers love!\""}
+          {" my art channel is now bursting with fresh and exciting video ideas that my subscribers love!. \""}
         </p>
       ),
       "url": "/Images/YouTubers/zhcnight.jpg",

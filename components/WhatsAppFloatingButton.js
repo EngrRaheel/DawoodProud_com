@@ -14,6 +14,7 @@ function WhatsAppFloatingButton() {
       allowClickAway={true}
       notification
       notificationSound
+      // Image={"/Images/logb.jpg"}
     />
   );
 }

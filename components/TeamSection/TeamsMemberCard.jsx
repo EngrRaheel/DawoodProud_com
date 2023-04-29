@@ -19,7 +19,7 @@ function TeamsMemberCard({ name, position, bio, imageUrl, site }) {
           <p className='text-xs font-light '>{position}</p>
         </div>
         <div className='flex flex-col flex-1 h-full justify-between items-center gap-6'>
-          <p className=' w-full font-normal text-xs px-2'>{bio}</p>
+          <p className=' w-full font-normal text-xs px-8'>{bio}</p>
           <div className='flex'>
             <button className='text-center py-1 px-6 bg-[#139dff]/10 rounded-lg inline-block text-[12px] font-medium'>{site}</button>
           </div>

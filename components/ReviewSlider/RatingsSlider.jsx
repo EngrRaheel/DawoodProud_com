@@ -101,24 +101,24 @@ const ReviewSlider = () => {
             <div className='w-full max-w-[1280px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid:cols-3 xl:grid-cols-4 gap-5'>
                 {/* left portion */}
                 <div className="w-full h-full flex font-Halvic rounded-lg p-2 md:p-1 mx-auto bg-white ">
-                    <div className='w-full h-full grid grid-cols-[40%_60%] justify-center items-start  p-1 md:p-2 lg:p-5 mx-auto '>
+                    <div className='w-full h-full grid grid-cols-[40%_60%] justify-center items-start  p-1 md:p-2 lg:p-4 mx-auto '>
                         <div className='h-12 w-12 relative ml-5  '>
                             <Image src={'/Images/logo.png'} alt="" fill className='object-contain rounded-lg' />
                         </div>
                         <div className='flex flex-col gap-1 justify-center items-start'>
-                            <p className='font-bold font-Inter'>Dawood Proud</p>
+                            <p className='font-bold font-Inter text-lg'>Dawood Proud</p>
                             <div className='flex justify-center items-center'>
                                 <p className='text-[#e7711b] font-bold text-lg'>4.9</p>
                                 <div className='flex flex-wrap justify-start items-center text-[#e7711b]'>
-                                    <AiFillStar size={25} />
-                                    <AiFillStar size={25} />
-                                    <AiFillStar size={25} />
-                                    <AiFillStar size={25} />
-                                    <AiFillStar size={25} />
+                                    <AiFillStar size={23} />
+                                    <AiFillStar size={23} />
+                                    <AiFillStar size={23} />
+                                    <AiFillStar size={23} />
+                                    <AiFillStar size={23} />
                                 </div>
                             </div>
                             <div className='flex flex-col justify-center items-start gap-2'>
-                                <p className='text-[gray]'>Based on 360 reviews</p>
+                                <p className='text-[gray]'>Based on 367 reviews</p>
                                 <div className='relative  h-[20px] w-[130px]'>
                                     <Image src={'/Images/poweredByGoogle.webp'} alt='googleimg' className='object-contain' fill />
                                 </div>
