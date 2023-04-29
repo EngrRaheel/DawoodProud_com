@@ -8,7 +8,7 @@ function LegalInfo() {
 
     const tabs = [
         {
-            label: "What we are",
+            label: "Who we are",
 
             link: "/about-us"
         },
