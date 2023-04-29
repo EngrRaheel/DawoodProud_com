@@ -35,7 +35,7 @@ function careers() {
             <div className="w-full bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')]  h-[30vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%]'>
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-2 md:mt-6'>
                         <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold '>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />
@@ -44,11 +44,11 @@ function careers() {
                     </div>
                 </div>
             </div>
-            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
-                <div className='ml-[8%] md:ml-[10%] lg:ml-[12%]'>
+            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 '>
+                <div className='ml-[4%] md:ml-[10%] lg:ml-[11%] mx-auto'>
                     <Tab tabs={tabs} />
                 </div>
-                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter gap-4 w-full max-w-[1172px] mx-auto  p-6  '>
+                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter gap-4 w-full mx-auto  p-6  '>
                     <div className='flex flex-col gap-2 ml-[0%] md:ml-[10%] lg:ml-[12%]'>
                         <h1 className='font-semibold text-[28px]'>About our Agency</h1>
                         <p className='font-normal text-[16px]'>
@@ -89,7 +89,7 @@ function careers() {
                     </div>
 
                 </div>
-                <div className='w-[280px] xs:w-[400px] sm:w-[500px] md:w-[600px] lg:w-[900px] h-[300px] md:h-[400px] lg:h-[500px] mx-auto border-1 shadow-lg ml-[8%] md:ml-[10%] lg:ml-[12%] px-2 content-center '>
+                <div className='w-[250px] xs:w-[400px] sm:w-[500px] md:w-[600px] lg:w-[900px] h-[200px] md:h-[400px] lg:h-[500px] mx-auto border-1 shadow-lg ml-[8%] md:ml-[10%] lg:ml-[12%] px-2 content-center '>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1660.3023579296248!2d72.99264080701323!3d33.667402752637045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQwJzAyLjYiTiA3MsKwNTknMzcuMiJF!5e0!3m2!1sen!2s!4v1682759393458!5m2!1sen!2s"
                         width="100%"

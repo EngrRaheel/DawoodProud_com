@@ -124,7 +124,7 @@ function careers() {
                 </div>
             </div>
             <div className='w-full flex flex-col justify-center items-start max-w-[1172px] mx-auto '>
-                <div className='ml-[8%] md:ml-[10%] lg:ml-[11%]'>
+                <div className='ml-[4%] md:ml-[10%] lg:ml-[11%]'>
                     <Tab tabs={tabs} />
                 </div>
 

@@ -54,7 +54,7 @@ function LegalInfo() {
 
 
             <div className='flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
-                <div className='ml-[8%] md:ml-[10%] lg:ml-[11%] mx-auto'>
+                <div className='ml-[4%] md:ml-[10%] lg:ml-[11%] mx-auto'>
                     <Tab tabs={tabs} />
                 </div>
 
