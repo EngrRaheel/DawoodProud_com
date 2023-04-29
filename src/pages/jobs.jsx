@@ -174,8 +174,8 @@ function careers() {
                     <div className='grid grid-cols-1 md:grid-cols-2 text-[black] mx-auto gap-4 md:gap-8' >
                         {jobsClosed.map((data, index) => {
                             return (
-                                <div className='border-1 border-solid border-[black]  md:grid md:grid-cols-[2.2fr_1fr]  px-3 md:px-2 py-3 md:py-4 shadow-md '  >
-                                    <div className='flex flex-col ' key={index}>
+                                <div key={index} className='border-1 border-solid border-[black]  md:grid md:grid-cols-[2.2fr_1fr]  px-3 md:px-2 py-3 md:py-4 shadow-md '  >
+                                    <div className='flex flex-col ' >
                                         <p className='text-[16px] md:text-[20px] font-semibold' >{data.Job}</p>
                                         <p className='text-[14px] md:text-[16px] font-normal'>{data.Location}</p>
                                     </div>
