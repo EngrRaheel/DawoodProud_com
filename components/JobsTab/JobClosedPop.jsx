@@ -21,9 +21,9 @@ export default function SimplePopper() {
                 Job Closed
             </button>
             <Popper id={id} open={open} anchorEl={anchorEl} placement="top">
-                <Box className="p-2 sm:p-5 mx-auto bg-[#00438b] text-white rounded-md w-[200px] sm:w-[250px] h-[50px] sm:h-[80px] drop-shadow-lg">
+                <Box className="p-2 sm:p-5 flex justify-center items-center m-auto bg-[#00438b] text-white rounded-md w-[200px] sm:w-[250px] h-[70px] sm:h-[100px] drop-shadow-lg  ">
                     <AiOutlineClose className='absolute top-1 right-1 font-bold' onClick={handleClick} />
-                    <p>This Job has been closed!</p>
+                    <p>This Job has been closed! 🤗</p>
                 </Box>
             </Popper>
         </div>

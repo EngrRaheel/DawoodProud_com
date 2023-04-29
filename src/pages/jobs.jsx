@@ -115,13 +115,12 @@ function careers() {
             <div className="w-full   bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')]  h-[30vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex flex-col justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%]'>
+                    <div className='flex flex-col justify-center items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-6'>
                         <h1 className=' text-[30px] md:text-[65px] lg:text-[70px] font-normal font-inter text-[#1ecce4]'>
                             Join the Team
                         </h1>
                         <h2 className='text-[12px] sm:text-[16px] md:text-[20px] abdal_color2 font-bold'>First do it, then do it right, then do it better.</h2>
                     </div>
-
                 </div>
             </div>
             <div className='w-full flex flex-col justify-center items-start max-w-[1172px] mx-auto '>
@@ -145,7 +144,7 @@ function careers() {
                             If you&#39;re looking for a job that offers much more than just a paycheck, then this is the Right place for you !
                         </p>
                     </div>
-                    <div className='w-[300px] xs:w-[400px] sm:w-[500px] md:w-[680px] h-[300px] xs:h-[300px] sm:h-[300px] md:h-[400px] relative '>
+                    <div className='w-[250px] xs:w-[400px] sm:w-[500px] md:w-[680px] h-[300px] xs:h-[300px] sm:h-[300px] md:h-[400px] relative '>
                         <Image src={"/Images/jobs.png"} fill className='object-contain' alt='jobimage'></Image>
                     </div>
                 </div>
@@ -174,7 +173,7 @@ function careers() {
                     <div className='grid grid-cols-1 md:grid-cols-2 text-[black] mx-auto gap-4 md:gap-8' >
                         {jobsClosed.map((data, index) => {
                             return (
-                                <div key={index} className='border-1 border-solid border-[black]  md:grid md:grid-cols-[2.2fr_1fr]  px-3 md:px-2 py-3 md:py-4 shadow-md '  >
+                                <div key={index} className='border-1 border-solid border-[black] flex flex-col gap-2 md:grid md:grid-cols-[2.2fr_1fr]  px-3 md:px-2 py-3 md:py-4 shadow-md '  >
                                     <div className='flex flex-col ' >
                                         <p className='text-[16px] md:text-[20px] font-semibold' >{data.Job}</p>
                                         <p className='text-[14px] md:text-[16px] font-normal'>{data.Location}</p>
