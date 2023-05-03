@@ -16,7 +16,7 @@ function PorftfoliCard() {
                 </div>
                 <div>
                     <div className='relative w-[400px] h-[300px]' >
-                        <Image src={"/Images/Portfolio/5a3a1075-4a47-49b9-b94c-3f7a73a36491.gif"} fill />
+                        <Image src={"/Images/Portfolio/5a3a1075-4a47-49b9-b94c-3f7a73a36491.gif"} fill alt='yes'/>
                     </div>
                 </div>
                 <div>

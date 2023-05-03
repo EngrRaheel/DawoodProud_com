@@ -19,7 +19,7 @@ function Portfolio() {
                             <span className="text-white">and move fast</span> */}
                             We love our customers
                             <br />
-                            <span>And we're flattered to know they love us!</span>
+                            <span>And we&#39;re flattered to know they love us!</span>
                         </h1>
                     </div>
                 </div>
