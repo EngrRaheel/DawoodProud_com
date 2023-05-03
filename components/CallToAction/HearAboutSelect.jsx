@@ -7,9 +7,14 @@ import Select from '@mui/material/Select';
 
 
 const valueOptions = [
-        'Text',
-    'Video Call',
-    'Phone Call',
+    "Google Search",
+    "Ali Abdaal YouTube Channel",
+    "Referral",
+    "Facebook Ads",
+    " Trustpilot",
+    "Google Reviews",
+    " Review Sites",
+    " Others",
 
 ];
 
@@ -18,8 +23,8 @@ export default function SelectSmall({ setFormData, value, formData }) {
         const {
             target: { value },
         } = event;
-        setFormData({ ...formData, ["contactvia"]: value })
-
+        setFormData({ ...formData, ["hearaboutus"]: value })
+        console.log(value);
     }
 
 

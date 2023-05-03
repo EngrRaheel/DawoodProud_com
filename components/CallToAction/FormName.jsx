@@ -6,14 +6,14 @@ function FormStep1({ formData, nextStep, onChange }) {
     return (
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-8'>
             <div className='flex flex-col justify-between items-center gap-8 '>
-                <h1 className='text-[24px] font-bold text-center '>Thanks for showing interest in Dawood Proud <br /> One Step services to grow your business.</h1>
-                <h2 className='text-[20px] font-semibold text-center '>{`Let\'s get started... What\'s your full name?`}</h2>
+                <h1 className='text-[18px] sm:text-[20px] md:text-[24px] font-bold text-center  '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1>
+                <h2 className='text-[16px] md:text-[20px] font-semibold text-center '> <span className='text-[black]/70'>Let&#39;s get started...</span> What&#39;s your full name?</h2>
             </div>
             <label htmlFor="name"></label>
             <input
                 type="text"
                 id="name"
-                placeholder="Enter your name"
+                placeholder="Enter your full name"
                 // className="block px-4 py-3  placeholder-gray-500"
                 style={{
                     border: 'none',

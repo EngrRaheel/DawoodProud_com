@@ -7,9 +7,16 @@ import Select from '@mui/material/Select';
 
 
 const valueOptions = [
-        'Text',
-    'Video Call',
-    'Phone Call',
+    " Brand New YouTube Channel with No Subscribers",
+    "Less than 1000",
+    "  1,000 - 10,000",
+    " 10,001 - 25,000",
+    " 25,001 - 50,000",
+    "   50,001 - 100,000",
+    "100,001 - 500,000",
+    " 500,001 - 1 Million",
+    "1 Million - 5 Million",
+    " 5 Million - 10 Million",
 
 ];
 
@@ -18,20 +25,20 @@ export default function SelectSmall({ setFormData, value, formData }) {
         const {
             target: { value },
         } = event;
-        setFormData({ ...formData, ["contactvia"]: value })
-
+        setFormData({ ...formData, ["subs"]: value })
+     
     }
 
 
 
     return (
         <FormControl sx={{ m: 1, minWidth: 320 }} size="small">
-            <InputLabel id="demo-select-small-label">Please Select</InputLabel>
+            <InputLabel id="demo-select-small-label">Subscribers</InputLabel>
             <Select
                 labelId="demo-select-small-label"
                 id="demo-select-small"
                 value={value}
-                label="Please Select"
+                label="Subscribers"
                 onChange={handleChange}
             >
                 {valueOptions.map((option) => (

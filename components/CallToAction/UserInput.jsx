@@ -1,24 +1,33 @@
 import React, { useState } from "react";
 import FormName from "./FormName";
 import FormServices from "./FormServices";
-import FormBrand from "./FormBrand";
-import FormValue from "./FormValue";
+import FormBrand from "./FormChannelName";
+import FormSubs from "./FormSubs";
 import FormContact from "./FormContactChoice";
 import FormPhone from "./FormInputPhone";
 import FormEmail from "./FormEmail";
-
+import FormRev from "./RevenueForm"
 import ProgressBar from "./ProgressBar";
-
+import FormUrl from "./FormURL";
+import FormAbout from "./HearAboutFrom"
 
 function MultiStepForm() {
     const [step, setStep] = useState(1);
     const [formData, setFormData] = useState({
         name: "",
+        YoutubeName: "",
+        URL: "",
+        subs: "",
+        revenue: "",
         email: "",
-        value: [],
         phone: "",
         services: [],
-        brandName: "",
+        contactvia: [],
+        hearaboutus: "",
+       
+       
+       
+        
     });
 
 
@@ -31,7 +40,7 @@ function MultiStepForm() {
         const name = event.target.name;
         const value = event.target.value;
         setFormData({ ...formData, [name]: value });
-        console.log(formData.brandName)
+        console.log(formData.YoutubeName)
     };
 
     const nextStep = () => {
@@ -44,12 +53,12 @@ function MultiStepForm() {
     };
 
     const calculateProgress = (currentStep) => {
-        return Math.floor((currentStep / 7) * 100);
+        return Math.floor((currentStep / 10) * 100);
     };
 
     return (
-        <div className="max-w-[1200px] flex flex-col justify-center items-center  mx-auto border-1 border-[gray] shadow-md p-12 gap-8">
-            <div className="w-full max-w-[900px]">
+        <div className="max-w-[1200px] flex flex-col justify-center items-center  mx-auto border-1 border-[gray] shadow-2xl drop-shadow-lg p-12 gap-8">
+            <div className="w-full max-w-[800px]">
                 <ProgressBar progress={calculateProgress(step)} />
             </div>
             <form >
@@ -63,36 +72,39 @@ function MultiStepForm() {
                     <FormBrand formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
                     </FormBrand>
                 )}
-
                 {step === 4 && (
-                    <FormValue formData={formData} onChange={handleFormChange} setFormData={setFormData} prevStep={prevStep} nextStep={nextStep}>
-                    </FormValue>
+                    <FormUrl formData={formData} onChange={handleFormChange} setFormData={setFormData} prevStep={prevStep} nextStep={nextStep}>
+                    </FormUrl>
                 )}
 
                 {step === 5 && (
-                    <FormContact formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                    </FormContact>
+                    <FormSubs formData={formData} onChange={handleFormChange} setFormData={setFormData} prevStep={prevStep} nextStep={nextStep}>
+                    </FormSubs>
                 )}
-
                 {step === 6 && (
-                    <FormPhone formData={formData} onChange={handleFormChange} prevStep={prevStep} nextStep={nextStep}>
-                    </FormPhone>
+                    <FormRev formData={formData} onChange={handleFormChange} setFormData={setFormData} prevStep={prevStep} nextStep={nextStep}>
+                    </FormRev>
                 )}
 
                 {step === 7 && (
-                    <FormEmail formData={formData} onChange={handleFormChange} prevStep={prevStep} onClick={handleFormSubmit}>
+                    <FormAbout formData={formData} onChange={handleFormChange} setFormData={setFormData} prevStep={prevStep} nextStep={nextStep}>
+                    </FormAbout>
+                )}
+                {step === 8 && (
+                    <FormContact formData={formData} onChange={handleFormChange} setFormData={setFormData} prevStep={prevStep} nextStep={nextStep}>
+                    </FormContact>
+                )}
+
+                {step === 9 && (
+                    <FormPhone formData={formData} onChange={handleFormChange} setFormData={setFormData} prevStep={prevStep} nextStep={nextStep}>
+                    </FormPhone>
+                )}
+
+                {step === 10 && (
+                    <FormEmail formData={formData} onChange={handleFormChange} prevStep={prevStep} submit={handleFormSubmit}>
                     </FormEmail>
                 )}
-                {/* {step !== 1 && (
-                <button type="button" onClick={prevStep}>
-                    Previous
-                </button>
-            )}
-            {step !== 3 && (
-                <button type="button" onClick={nextStep} className="bg-blue">
-                    Next
-                </button>
-            )} */}
+
 
             </form>
         </div>

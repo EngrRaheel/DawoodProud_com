@@ -35,11 +35,11 @@ function MediaKit() {
 
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className="w-full bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')]  h-[30vh] md:h-[55vh]">
+            <div className="w-full  bg-[#121521]  h-[40vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[5%] md:ml-[10%] xl:ml-[15%]'>
-                        <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold '>
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[5%] md:ml-[10%] xl:ml-[15%] mt-2 md:mt-6'>
+                        <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold abdal_color '>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />
                             <span className="text-white">and move fast</span>
@@ -60,21 +60,20 @@ function MediaKit() {
                         <div className='grid xs:grid-cols-2 md:grid-cols-3 items-center md:items-start justify-center md:justify-start gap-2 sm:gap-3 lg:gap-4 xl:gap-12  mx-auto'>
                             <div className='flex flex-col justify-start gap-2'>
                                 <div className='relative w-[260px] xs:w-[200px] sm:w-[230px]  lg:w-[250px] xl:w-[280px] h-[280px]'>
-                                    <Image src={"/Images/Logosahref/DP1.png"} fill className="object-contain" alt='jobi1mage1'></Image>
+                                    <Image src={"/Images/Logosahref/DP1D.png"} fill className="object-contain" alt='jobi1mage1'></Image>
                                 </div>
                                 <p>Dark</p>
                             </div>
-                            <div className='flex flex-col justify-start gap-2'>
-
+                            <div className='flex flex-col justify-start gap-2 drop-shadow-lg'>
                                 <div className=' relative w-[260px] xs:w-[200px] sm:w-[230px] lg:w-[250px] xl:w-[280px] h-[280px] '>
-                                    <Image src={"/Images/Logosahref/DP2.png"} fill className='object-contain' alt='jobi1mage2'></Image>
+                                    <Image src={"/Images/Logosahref/DP2W.png"} fill className='object-contain' alt='jobi1mage2'></Image>
                                 </div>
-                                <p>Blue</p>
+                                <p>White</p>
                             </div>
 
                             <div className='flex flex-col justify-start gap-2'>
                                 <div className=' relative w-[260px] xs:w-[200px] sm:w-[230px]  lg:w-[250px] xl:w-[280px] h-[280px]'>
-                                    <Image src={"/Images/Logosahref/DP3.png"} fill className='object-contain' alt='j1obimage3'></Image>
+                                    <Image src={"/Images/Logosahref/DP3B.png"} fill className='object-contain' alt='j1obimage3'></Image>
                                 </div>
                                 <p>Black</p>
                             </div>
@@ -101,7 +100,7 @@ function MediaKit() {
                 </div>
             </div>
 
-           
+
             <Footer />
         </div >
     )

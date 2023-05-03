@@ -7,16 +7,16 @@ function FormStep3({ formData, onChange, nextStep, prevStep }) {
     return (
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto gap-3'>
             <div className='flex flex-col justify-between items-center gap-8 '>
-                <h1 className='text-[24px] font-bold text-center '>Thanks for showing interest in Dawood Proud <br /> One Step services to grow your business.</h1>
-                <h2 className='text-[20px] font-semibold text-center '>{`Great! Let\'s Talk Brand...`}</h2>
-                <h2 className='text-[20px] font-semibold text-center '>What is the name of your brand?</h2>
+                <h1 className='text-[18px] sm:text-[20px] md:text-[24px] font-bold text-center  '>Thanks for showing interest in Dawood Proud <br /> One Step services to grow your business.</h1>
+                <h2 className='text-[16px] md:text-[20px] font-semibold text-center text-[#139dff]'>Great! Let&#39;s Talk Brand...</h2>
+                <h2 className='text-[16px] md:text-[20px] font-semibold text-center '>What is the name of your YouTube Channel? (Optional for New YouTubers)</h2>
 
             </div>
-            <label htmlFor="brandName"></label>
+            <label htmlFor="YoutubeName"></label>
             <input
                 type="text"
-                id="brandName"
-                placeholder="Your Brand Name"
+                id="YoutubeName"
+                placeholder="Name of Your YouTube Channel"
                 // className="block px-4 py-3  placeholder-gray-500"
                 style={{
                     border: 'none',
@@ -28,8 +28,8 @@ function FormStep3({ formData, onChange, nextStep, prevStep }) {
 
 
                 }}
-                name="brandName"
-                value={formData.brandName}
+                name="YoutubeName"
+                value={formData.YoutubeName}
                 onChange={onChange}
 
             />

@@ -20,11 +20,11 @@ const tabs2 = [
 function Application() {
     return (
         <div className='w-full min-h-screen font-Inter text-white bg-white h-full'>
-            <div className="w-full  bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')]  h-[30vh] md:h-[55vh]">
+            <div className="w-full  bg-[#121521] h-[40vh]  md:h-[55vh]">
                 <Navbar bg_color={"bg-gradient-to-b from-[#121521] to-[#121521]/0"} />
                 <div className=' max-w-[1200px] mx-auto'>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[6%] lg:ml-[6%]'>
-                        <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold '>
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[6%] lg:ml-[6%] mt-0 md:mt-6'>
+                        <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold abdal_color '>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />
                             <span className="text-white">and move fast</span>

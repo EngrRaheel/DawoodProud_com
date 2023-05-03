@@ -112,14 +112,14 @@ function careers() {
 
     return (
         <div className='w-full  font-Inter text-white bg-white min-h-screen h-full'>
-            <div className="w-full   bg-cover bg-center  bg-[url('/Images/main-bg1.jpg')]  h-[30vh] md:h-[55vh]">
+            <div className="w-full bg-[#121521]  h-[40vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex flex-col justify-center items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-6'>
-                        <h1 className=' text-[30px] md:text-[65px] lg:text-[70px] font-normal font-inter text-[#1ecce4]'>
+                    <div className='flex flex-col justify-center items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-3 md:mt-6'>
+                        <h1 className=' text-[30px] md:text-[65px] lg:text-[70px] font-bold font-inter text-[#1ecce4] abdal_color '>
                             Join the Team
                         </h1>
-                        <h2 className='text-[12px] sm:text-[16px] md:text-[20px] abdal_color2 font-bold'>First do it, then do it right, then do it better.</h2>
+                        <h2 className='text-[12px] sm:text-[16px] md:text-[20px] abdal_color1 font-bold'>First do it, then do it right, then do it better.</h2>
                     </div>
                 </div>
             </div>
@@ -159,11 +159,11 @@ function careers() {
                                 <p className='text-[14px] md:text-[16px] font-normal'>May 2023 • In-Office • G-11, Islamabad</p>
                             </div>
                             <div className='mx-auto '>
-                                <button
+                                <Link href={"/job-details"}
                                     type="button"
                                     class="border border-indigo-500 text-[12px] md:text-[14px] bg-[black] text-white rounded-md  px-3 md:px-6 py-2 md:py-3  md:m-2  focus:outline-none focus:shadow-outline">
-                                    <Link href={"/job-details"}>Apply Now</Link>
-                                </button>
+                                    Apply Now
+                                </Link>
                             </div>
                         </div>
                     </div>

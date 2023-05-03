@@ -1,5 +1,6 @@
 import React from 'react'
 import TeamsMemberCard from './TeamsMemberCard'
+import CEOCard from './CeoCard'
 function TeamMembers() {
     return (
         <div className='flex flex-col justify-center items-center mx-auto space-y-14 gap-8 px-4 min-h-screen'>
@@ -9,7 +10,16 @@ function TeamMembers() {
                 <h2 className='text-[black] text-4xl font-semibold '>Meet Our Team!</h2>
             </div>
 
-
+            <div className='w-full mx-auto max-w-[1080px]'>
+                <CEOCard
+                    name="Muhammad Dawood"
+                    position="CEO, Founder"
+                    bio="Author of idea and founder of this Company. Dawood is the one driving the team, 
+                        and keeping constant motivation running alive through each and every team member. 
+                        Dawood's leadership is like a fresh cup of coffee - it wakes us up, keeps us energized,
+                         and makes us feel like we can conquer the world... Or at least the next company meeting :)"
+                />
+            </div>
 
             <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
                 <p className='font-bold text-3xl'>Administrative Coordinator</p>
@@ -93,74 +103,66 @@ function TeamMembers() {
                         site="In-Office" />
                     <TeamsMemberCard
                         name="Muhammad Jarjees"
-                        position="Premier Pro Expert"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team, and every team member."
-                        imageUrl="/Images/TeamMembers/Editors/Editor2.jpg"
+                        position="Commercial Editor"
+                        bio="Meet Jarjees, our commercial video editor who can make a boring ad look like a Hollywood blockbuster. He&#39;s so good at commercial editing, he can even make us excited about vacuum cleaners!"
+                        imageUrl="/Images/TeamMembers/Editors/jarjees.jpg"
                         site="In-Office" />
                     <TeamsMemberCard
                         name="Haroon Khan"
-                        position="Expert Editor"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team, each and every team member."
-                        imageUrl="/Images/TeamMembers/Editors/Editor3.jpg"
+                        position="Corporate video editor"
+                        bio="Haroon Khan can make even the dullest meeting look like a blockbuster event. With his magic touch, your quarterly reports will have more drama than a Game of Thrones episode."
+                        imageUrl="/Images/TeamMembers/Editors/haroon.jpg"
                         site="In-Office" />
                     <TeamsMemberCard
                         name="Ayesha Gul"
-                        position="Video Animator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
+                        position="VFX Editor"
+                        bio="Ayesha can make anything possible with a few clicks and some movie magic. From exploding buildings to flying unicorns, she's got your visual effects needs covered. (at least on screen)."
                         imageUrl="/Images/TeamMembers/Editors/Editor4.jpg"
+                        site="In-Office" />
+                    <TeamsMemberCard
+                        name="Sana Zulqarnain"
+                        position="Video Animator"
+                        bio="Meet Sana, our video animator who can bring even the most lifeless objects to life. With her creativity, a spoon can become a superhero, a stapler can breakdance, and a pencil can fly."
+                        imageUrl="/Images/TeamMembers/Editors/sana.jpg"
                         site="Remote" />
                     <TeamsMemberCard
-                        name="Safina Naz"
-                        position="Video Animator"
+                        name="Tanveer Hassan"
+                        position="Assistant Editor"
                         bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
                              He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Editors/Editor5.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Tabish Qureshi"
-                        position="Video Animator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Editors/Editor6.jpg"
+                        imageUrl="/Images/TeamMembers/Editors/Tanveer.jpg"
                         site="Remote" />
                     <TeamsMemberCard
                         name="Zubair Aslam"
-                        position="Video Animator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Editors/Editor7.jpg"
+                        position="Assistant Editor"
+                        bio="Zubair can make a blooper reel look like an Oscar-winning masterpiece. He&#39;s so good at editing, he can even make our CEO&#39;s awkward & cringy dance moves look like a viral sensation. "
+                        imageUrl="/Images/TeamMembers/Editors/zubair.jpg"
                         site="Remote" />
-                    <TeamsMemberCard
+                    {/* <TeamsMemberCard
                         name="Ammir Khan"
                         position="Video Animator"
                         bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
                              He is the one driving the team,  team member."
                         imageUrl="/Images/TeamMembers/Editors/Editor8.jpg"
-                        site="Remote" />
+                        site="Remote" /> */}
                     <TeamsMemberCard
                         name="Anmol Hussain"
                         position="Video Animator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
+                        bio="Watch out Hollywood, we&#39;ve got a video editing superstar in our midst - she can make even the most mundane footage look like a blockbuster hit!"
                         imageUrl="/Images/TeamMembers/Editors/Editor9.jpg"
                         site="Remote" />
                     <TeamsMemberCard
-                        name="Hira Khan"
-                        position="Video Animator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Editors/Editor10.jpg"
-                        site="Remote" />
+                        name="Hira Zaheer"
+                        position="Assistant Editor"
+                        bio="Hira is the master of both pixels and lipsticks. She ensures that every frame is not only flawlessly edited, but also looks stunning enough to make the Kardashians jealous."
+                        imageUrl="/Images/TeamMembers/Editors/hira.jpg"
+                        site="In-Office" />
                     <TeamsMemberCard
-                        name="Rana Moubeen"
-                        position="Video Animator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Editors/Editor11.jpg"
-                        site="Remote" />
+                        name="Moubeen Dawood"
+                        position="Assistant Editor"
+                        bio="Meet Moubeen Dawood, our Assistant Video Editor who is definitely NOT the Son of our CEO Dawood (or is he? We&#39;re still investigating). He&#39;s got an eye for detail and a knack for making us laugh."
+                        imageUrl="/Images/TeamMembers/Editors/moubeen.jpg"
+                        site="In-Office" />
                 </div>
             </div>
 
