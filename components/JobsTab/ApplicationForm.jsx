@@ -105,24 +105,26 @@ function ApplicationForm() {
         <form onSubmit={handleSubmit}>
             <div className="w-full flex flex-col justify-center sm:justify-start items-center sm:items-start space-y-8 text-blue ">
 
-                <div className="text-blue space-y-4">
-                    <h1 className="font-Inter text-xl font-bold">CV or resume  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></h1>
-                    <p className="text-lg font-medium">Upload your CV or resume file</p>
-                    <div className="ma-w-[150px] h-[150px] border-2 border-[gray] text-center p-3"
+                <div className="text-blue space-y-3">
+                    <div className="flex flex-col gap-1">
+                        <h1 className="font-Inter text-xl font-semibold">CV or resume  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></h1>
+                        <p className="text-lg font-normal">Upload your CV or resume file</p>
+                    </div>
+
+                    <div className="max-w-[768px] h-[150px] border-[1.5px] border-[gray] hover:border-[black] text-center py-3 px-8 rounded-md "
                         onClick={handleClick}
                         onDragOver={(e) => e.preventDefault()}
                         onDragEnter={(e) => e.preventDefault()}
                         onDrop={handleDrop}>
                         <label htmlFor="upload">
-                            <span className={cv ? 'hidden' : ''}> <strong>Upload a file</strong>  or drag and drop here
+                            <span className={cv ? 'hidden' : ''}> <strong>Upload a file</strong>  or drag and drop here <br />
                                 Accepted files: <br /> PDF, DOC, DOCX, JPEG and PNG up to 50MB.
                             </span>
                             {cv ? (
                                 <div>
                                     <p>File Uploaded:</p>
                                     <p>{cv.name}</p>
-                                    <div className="flex justify-center items-center gap-2">
-
+                                    <div className="flex justify-center items-center gap-2">    
                                         <button aria-live="polite" type="button" className="text-white px-2 py-2 border-1 border-blue rounded-xl bg-[black]" onClick={handleFileRemove}>
                                             <AiFillDelete />
                                         </button>
@@ -148,7 +150,7 @@ function ApplicationForm() {
                 <hr className="w-full text-[gray]/40" />
 
                 <div className="flex flex-col justify-start items-start space-y-6  text-[black] font-semibold text-[20px] w-full">
-                    <h1 className="font-Inter text-xl font-bold">Personal information</h1>
+                    <h1 className="font-Inter text-xl font-semibold">Personal information</h1>
                     <p className="text-lg font-medium">Fill out the information below</p>
 
                     <label className="flex flex-col justify-start items-start gap-1">
@@ -182,11 +184,11 @@ function ApplicationForm() {
 
 
                 <label className="flex flex-col justify-start items-start gap-1 w-full">
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 font-Inter text-xl font-semibold">
                         Cover Letter
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
-                    <textarea value={coverLetter} onChange={handleCoverLetterChange} placeholder="Coverletter" required className="max-w-[70%] min-h-[300px] w-full" />
+                    <textarea value={coverLetter} onChange={handleCoverLetterChange} placeholder="Insert your cover letter here " required className="max-w-[70%] min-h-[300px] w-full" />
                 </label>
                 <br />
 
@@ -194,15 +196,15 @@ function ApplicationForm() {
                 <hr className="w-full text-[gray]/40" />
                 {/* Questionaire is here , here are the quesiton */}
                 <div className="flex flex-col justify-start items-start text-sm font-normal gap-5">
-                    <h4 className="text-xl font-bold">Questions</h4>
-                    <p className="text-base font-medium">Please fill in additional questions</p>
+                    <h4 className="text-xl font-semibold">Questions</h4>
+                    <p className="text-sm font-medium">Please fill in additional questions</p>
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-xl font-semibold">
                         Address:
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
 
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>
                             Write your Address Here: <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
@@ -216,7 +218,7 @@ function ApplicationForm() {
                             required
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>
                             What is your current residential status in Islamabad / Rawalpindi? <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
@@ -237,11 +239,11 @@ function ApplicationForm() {
                     <hr className="w-full text-[gray]/40" />
                     <br />
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-xl font-semibold">
                         English Proficiency:
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>
                             What is your level of proficiency in English? <br /><span className="text-[black]/80">(Beginner, Elementary, Intermediate, Upper Intermediate, Advanced)</span> <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
@@ -256,7 +258,7 @@ function ApplicationForm() {
                             required
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[1px] text-sm">
                         Have you taken any English language proficiency tests?<span className="text-[black]/70">(such as TOEFL, IELTS, or Cambridge exams)</span> If so, what were your scores?
                         <input
                             type="text"
@@ -265,7 +267,7 @@ function ApplicationForm() {
                             onChange={handleAnswerChange}
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>How often do you speak, read, or write in English? <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
                         <textarea
                             type="text"
@@ -276,7 +278,7 @@ function ApplicationForm() {
 
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         Can you provide an example of a time when you had to communicate in English in a professional setting?
                         <textarea
                             type="text"
@@ -290,13 +292,13 @@ function ApplicationForm() {
                     <br />
                     <hr className="w-full text-[gray]/40" />
                     <br />
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-xl font-semibold">
                         Digital Skills:
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
 
 
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>
                             What is your level of proficiency in using various digital tools <span className="text-[black]/70">(e.g. Notion, Microsoft Office, Google Workspace, <br /> social media platforms, etc.)</span> ? <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
@@ -309,7 +311,7 @@ function ApplicationForm() {
                             required
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         Do you have any digital skills? <span className="text-[black]/80">(e.g. Digital Marketing, Social Media Management, Online Coaching, Email Marketing, etc.)</span> If yes, please list them. Have you freelanced or worked independently in any capacity utilizing your digital skills? <br />If yes, please provide details about your experience, the type of work you did and the Outcomes you achieved.
                         <textarea
                             type="text"
@@ -324,12 +326,12 @@ function ApplicationForm() {
                     <hr className="w-full text-[gray]/40" />
                     <br />
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-xl font-semibold">
                         Digital Quotient:
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
 
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         Have you ever developed a digital solution to a problem? If so, what was the problem and how did you <br />solve it? OR Can you provide an example of a digital project you worked on that required you to think creatively?
                         <textarea
                             type="text"
@@ -344,12 +346,12 @@ function ApplicationForm() {
                     <hr className="w-full text-[gray]/40" />
                     <br />
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-xl font-semibold">
                         Quick learning abilities:
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
 
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>Can you provide an example of a time when you had to learn a new skill quickly in order to complete a project? <br /> OR Can you provide an example of a time when you successfully learned something quickly under pressure?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
 
                         <textarea
@@ -366,12 +368,12 @@ function ApplicationForm() {
                     <hr className="w-full text-[gray]/40" />
                     <br />
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-xl font-semibold">
                         Problem solving:
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
 
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>Can you provide an example of a difficult problem you solved in the past?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
 
                         <textarea
@@ -382,7 +384,7 @@ function ApplicationForm() {
                             required
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         Have you ever had to make a difficult decision? If so, how did you approach it and what was the outcome?
                         <textarea
                             type="text"
@@ -397,12 +399,12 @@ function ApplicationForm() {
                     <hr className="w-full text-[gray]/40" />
                     <br />
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-xl font-semibold">
                         Social Media Proficiency:
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
 
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
 
                         <div>What social media platforms do you actively use and why?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
                         <textarea
@@ -413,7 +415,7 @@ function ApplicationForm() {
                             required
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         Have you created any social media content for yourself or for a brand? If yes, please provide links or examples.
                         <textarea
                             type="text"
@@ -422,7 +424,7 @@ function ApplicationForm() {
                             onChange={handleAnswerChange}
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         Can you describe a time when you used social media to achieve a specific business or personal goal?
                         <textarea
                             type="text"
@@ -436,13 +438,13 @@ function ApplicationForm() {
                     <hr className="w-full text-[gray]/40" />
                     <br />
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-xl font-semibold">
                         Additional Questions:
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
 
-                    <label className="flex flex-col gap-[6px]">
-                        <div>Have you read Job Description, Job Requirements, and all the FAQs Carefully? If yes, Why do you want to work for our company?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
+                    <label className="flex flex-col gap-[4px] text-sm">
+                        <div>Have you read Job Description, Job Requirements, and all the FAQs Carefully? If yes, Why do you want to work for our <br /> company?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
 
                         <textarea
                             type="text"
@@ -452,7 +454,7 @@ function ApplicationForm() {
                             required
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>
                             What are your key strengths and weaknesses? In which areas do you think you need to improve the most, and why?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
@@ -465,7 +467,7 @@ function ApplicationForm() {
                             required
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         <div>
                             What do you enjoy doing in your free time? How do you like to spend your weekends?   <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
@@ -478,7 +480,7 @@ function ApplicationForm() {
                             required
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         What was the most exciting activity or event you participated in, in the last year?
                         <textarea
                             type="text"
@@ -488,7 +490,7 @@ function ApplicationForm() {
 
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         What are some of your favorite books, movies, or TV shows?
                         <textarea
                             type="text"
@@ -498,7 +500,7 @@ function ApplicationForm() {
 
                         />
                     </label>
-                    <label className="flex flex-col gap-[6px]">
+                    <label className="flex flex-col gap-[4px] text-sm">
                         How did you hear about us? <br /> <span className="text-[black]/70">(Google Search, Facebook, Instagram, LinkedIn, <br /> WhatsApp Group, Referral, or You can Write Other Sources Here.)</span>
                         <input
                             type="text"
@@ -506,7 +508,7 @@ function ApplicationForm() {
                             value={answers.answer21}
                             onChange={handleAnswerChange}
                             placeholder="  "
-                       
+
                         />
                     </label>
                 </div>
