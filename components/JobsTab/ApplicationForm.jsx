@@ -206,7 +206,7 @@ function ApplicationForm() {
 
                     <label className="flex flex-col gap-[4px] text-sm w-full ">
                         <div className="w-full">
-                            Write your Address Here: <span aria-hidden="true" className="text-[#fe6363] " title="This field is required">*</span>
+                            Write your Address Here: (Mandatory) <span aria-hidden="true" className="text-[#fe6363] " title="This field is required">*</span>
                         </div>
                         <input
                             type="text"
@@ -219,7 +219,7 @@ function ApplicationForm() {
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
                         <div>
-                            What is your current residential status in Islamabad / Rawalpindi? <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
+                            What is your current residential status in Islamabad / Rawalpindi? (Mandatory) <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
 
                         <textarea
@@ -244,7 +244,7 @@ function ApplicationForm() {
                     </div>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
                         <div>
-                            What is your level of proficiency in English? <span className="text-[black]/80">(Beginner, Elementary, Intermediate, Upper Intermediate, Advanced)</span> <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
+                            What is your level of proficiency in English? (Mandatory)<span className="text-[black]/80">(Beginner, Elementary, Intermediate, Upper Intermediate, Advanced)</span> <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
 
                         <input
@@ -258,7 +258,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[1px] text-sm w-full">
-                        Have you taken any English language proficiency tests?<span className="text-[black]/70">(such as TOEFL, IELTS, or Cambridge exams)</span> If so, what were your scores?
+                        Have you taken any English language proficiency tests? (Optional)<span className="text-[black]/70">(such as TOEFL, IELTS, or Cambridge exams)</span> If so, what were your scores?
                         <input
                             type="text"
                             name="answer4"
@@ -267,7 +267,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        <div>How often do you speak, read, or write in English? <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
+                        <div>How often do you speak, read, or write in English? (Mandatory) <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
                         <textarea
                             type="text"
                             name="answer5"
@@ -278,7 +278,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        Can you provide an example of a time when you had to communicate in English in a professional setting?
+                        Can you provide an example of a time when you had to communicate in English in a professional setting? (Optional)
                         <textarea
                             type="text"
                             name="answer6"
@@ -299,7 +299,7 @@ function ApplicationForm() {
 
                     <label className="flex flex-col gap-[4px] text-sm w-full">
                         <div>
-                            What is your level of proficiency in using various digital tools <span className="text-[black]/70">(e.g. Notion, Microsoft Office, Google Workspace,  social media platforms, etc.)</span> ? <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
+                            What is your level of proficiency in using various digital tools (Mandatory)<span className="text-[black]/70">(e.g. Notion, Microsoft Office, Google Workspace,  social media platforms, etc.)</span> ? <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
 
                         <textarea
@@ -311,7 +311,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        Do you have any digital skills? <span className="text-[black]/80">(e.g. Digital Marketing, Social Media Management, Online Coaching, Email Marketing, etc.)</span> If yes, please list them. Have you freelanced or worked independently in any capacity utilizing your digital skills? If yes, please provide details about your experience, the type of work you did and the Outcomes you achieved.
+                        Do you have any digital skills? <span className="text-[black]/80">(e.g. Digital Marketing, Social Media Management, Online Coaching, Email Marketing, etc.)</span> If yes, please list them. Have you freelanced or worked independently in any capacity utilizing your digital skills? If yes, please provide details about your experience, the type of work you did and the Outcomes you achieved. (Optional)
                         <textarea
                             type="text"
                             name="answer8"
@@ -331,7 +331,7 @@ function ApplicationForm() {
                     </div>
 
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        Have you ever developed a digital solution to a problem? If so, what was the problem and how did you solve it? OR Can you provide an example of a digital project you worked on that required you to think creatively?
+                        Have you ever developed a digital solution to a problem? If so, what was the problem and how did you solve it? OR Can you provide an example of a digital project you worked on that required you to think creatively? (Optional)
                         <textarea
                             type="text"
                             name="answer9"
@@ -351,7 +351,7 @@ function ApplicationForm() {
                     </div>
 
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        <div>Can you provide an example of a time when you had to learn a new skill quickly in order to complete a project?  OR Can you provide an example of a time when you successfully learned something quickly under pressure?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
+                        <div>Can you provide an example of a time when you had to learn a new skill quickly in order to complete a project?  OR Can you provide an example of a time when you successfully learned something quickly under pressure? (Mandatory) <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
 
                         <textarea
                             type="text"
@@ -373,7 +373,7 @@ function ApplicationForm() {
                     </div>
 
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        <div>Can you provide an example of a difficult problem you solved in the past?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
+                        <div>Can you provide an example of a difficult problem you solved in the past? (Mandatory) <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
 
                         <textarea
                             type="text"
@@ -384,7 +384,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        Have you ever had to make a difficult decision? If so, how did you approach it and what was the outcome?
+                        Have you ever had to make a difficult decision? If so, how did you approach it and what was the outcome? (Optional)
                         <textarea
                             type="text"
                             name="answer12"
@@ -405,7 +405,7 @@ function ApplicationForm() {
 
                     <label className="flex flex-col gap-[4px] text-sm w-full">
 
-                        <div>What social media platforms do you actively use and why?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
+                        <div>What social media platforms do you actively use and why? (Mandatory) <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
                         <textarea
                             type="text"
                             name="answer13"
@@ -415,7 +415,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        Have you created any social media content for yourself or for a brand? If yes, please provide links or examples.
+                        Have you created any social media content for yourself or for a brand? If yes, please provide links or examples.(Optional)
                         <textarea
                             type="text"
                             name="answer14"
@@ -424,7 +424,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        Can you describe a time when you used social media to achieve a specific business or personal goal?
+                        Can you describe a time when you used social media to achieve a specific business or personal goal?(Optional)
                         <textarea
                             type="text"
                             name="answer15"
@@ -443,7 +443,7 @@ function ApplicationForm() {
                     </div>
 
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        <div>Have you read Job Description, Job Requirements, and all the FAQs Carefully? If yes, Why do you want to work for our company?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
+                        <div>Have you read Job Description, Job Requirements, and all the FAQs Carefully? If yes, Why do you want to work for our company? (Mandatory) <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
 
                         <textarea
                             type="text"
@@ -455,7 +455,7 @@ function ApplicationForm() {
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
                         <div>
-                            What are your key strengths and weaknesses? In which areas do you think you need to improve the most, and why?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
+                            What are your key strengths and weaknesses? In which areas do you think you need to improve the most, and why? (Mandatory) <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
 
                         <textarea
@@ -468,7 +468,7 @@ function ApplicationForm() {
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
                         <div>
-                            What do you enjoy doing in your free time? How do you like to spend your weekends?   <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
+                            What do you enjoy doing in your free time? How do you like to spend your weekends? (Mandatory)  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
 
                         <textarea
@@ -480,7 +480,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        What was the most exciting activity or event you participated in, in the last year?
+                        What was the most exciting activity or event you participated in, in the last year? (Optional)
                         <textarea
                             type="text"
                             name="answer19"
@@ -490,7 +490,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full">
-                        What are some of your favorite books, movies, or TV shows?
+                        What are some of your favorite books, movies, or TV shows? (Optional)
                         <textarea
                             type="text"
                             name="answer20"
@@ -500,14 +500,14 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[4px] text-sm w-full" >
-                        How did you hear about us? <br /> <span className="text-[black]/70">(Google Search, Facebook, Instagram, LinkedIn,  WhatsApp Group, Referral, or You can Write Other Sources Here.)</span>
+                        How did you hear about us? (Mandatory) <br /> <span className="text-[black]/70">(Google Search, Facebook, Instagram, LinkedIn,  WhatsApp Group, Referral, or You can Write Other Sources Here.) </span>
                         <input
                             type="text"
                             name="answer21"
                             value={answers.answer21}
                             onChange={handleAnswerChange}
                             placeholder="  "
-
+                            required
                         />
                     </label>
                 </div>
