@@ -298,7 +298,7 @@ function ApplicationForm() {
 
                     <label className="flex flex-col gap-[6px]">
                         <div>
-                            What is your level of proficiency in using various digital tools <span className="text-[black]/70">(e.g. Notion, Microsoft Office, Google Workspace, social media platforms, etc.)</span> ?    <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
+                            What is your level of proficiency in using various digital tools <span className="text-[black]/70">(e.g. Notion, Microsoft Office, Google Workspace, <br /> social media platforms, etc.)</span> ? <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
 
                         <textarea
@@ -310,7 +310,7 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[6px]">
-                        Do you have any digital skills? <span className="text-[black]/80">(e.g. Digital Marketing, Social Media Management, Online Coaching, Email Marketing, etc.)</span> If yes, please list them. Have you freelanced or worked independently in any capacity utilizing your digital skills? If yes, please provide details about your experience, the type of work you did and the Outcomes you achieved.
+                        Do you have any digital skills? <span className="text-[black]/80">(e.g. Digital Marketing, Social Media Management, Online Coaching, Email Marketing, etc.)</span> If yes, please list them. Have you freelanced or worked independently in any capacity utilizing your digital skills? <br />If yes, please provide details about your experience, the type of work you did and the Outcomes you achieved.
                         <textarea
                             type="text"
                             name="answer8"
@@ -330,7 +330,7 @@ function ApplicationForm() {
                     </div>
 
                     <label className="flex flex-col gap-[6px]">
-                        Have you ever developed a digital solution to a problem? If so, what was the problem and how did you solve it? OR Can you provide an example of a digital project you worked on that required you to think creatively?
+                        Have you ever developed a digital solution to a problem? If so, what was the problem and how did you <br />solve it? OR Can you provide an example of a digital project you worked on that required you to think creatively?
                         <textarea
                             type="text"
                             name="answer9"
@@ -350,7 +350,7 @@ function ApplicationForm() {
                     </div>
 
                     <label className="flex flex-col gap-[6px]">
-                        <div>Can you provide an example of a time when you had to learn a new skill quickly in order to complete a project? OR Can you provide an example of a time when you successfully learned something quickly under pressure?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
+                        <div>Can you provide an example of a time when you had to learn a new skill quickly in order to complete a project? <br /> OR Can you provide an example of a time when you successfully learned something quickly under pressure?  <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span></div>
 
                         <textarea
                             type="text"
@@ -499,14 +499,14 @@ function ApplicationForm() {
                         />
                     </label>
                     <label className="flex flex-col gap-[6px]">
-                        How did you hear about us? <br /> <span className="text-[black]/70">(Google Search, Facebook, Instagram, LinkedIn, WhatsApp Group, Referral, or You can Write Other Sources Here.)</span>
+                        How did you hear about us? <br /> <span className="text-[black]/70">(Google Search, Facebook, Instagram, LinkedIn, <br /> WhatsApp Group, Referral, or You can Write Other Sources Here.)</span>
                         <input
                             type="text"
                             name="answer21"
                             value={answers.answer21}
                             onChange={handleAnswerChange}
                             placeholder="  "
-                        // className="w-[900px]"
+                       
                         />
                     </label>
                 </div>

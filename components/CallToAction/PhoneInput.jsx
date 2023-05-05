@@ -12,7 +12,7 @@ const PhoneInput = ({ setFormData, formData }) => {
     
     console.log(phoneNumber)
     return (
-        <MuiTelInput value={phoneNumber} onChange={handleChange} />
+        <MuiTelInput value={phoneNumber} onChange={handleChange} defaultCountry="CA"/>
     )
 }
 

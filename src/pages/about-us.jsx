@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from "../../components/common/Footer"
-import Navbar from "../../components/common/Navbar"
+import Footer from "../../components/Common/Footer"
+import Navbar from "../../components/Common/Navbar"
 import Tab from "../../components/Careers/CareersTab"
 
 function careers() {
@@ -12,7 +12,7 @@ function careers() {
             link: "/about-us"
         },
         {
-            label: "Our team",
+            label: "Our Team",
             link: "/team"
         },
         {
@@ -31,11 +31,11 @@ function careers() {
 
 
     return (
-        <div className='w-full min-h-screen font-Inter text-white bg-white h-full '>
+        <div className='w-full  font-Inter text-white bg-white h-full '>
             <div className="w-full   bg-[#121521]  h-[40vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-2 md:mt-6'>
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-3 md:mt-6'>
                         <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold abdal_color'>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />
@@ -48,9 +48,11 @@ function careers() {
                 <div className='ml-[4%] md:ml-[10%] lg:ml-[11%] '>
                     <Tab tabs={tabs} />
                 </div>
+
+           
                 <div className='flex flex-col justify-center items-center text-[#333333] font-Inter gap-4 w-full mx-auto  p-6  '>
                     <div className='flex flex-col gap-2 ml-[0%] md:ml-[10%] lg:ml-[12%]'>
-                        <h1 className='font-semibold text-[28px]'>About our Agency</h1>
+                        <h1 className='font-semibold  text-[24px] md:text-[28px]'>About our Agency</h1>
                         <p className='font-normal text-[16px]'>
                             Welcome to Dawood Proud, your one-stop-shop for all <span> <strong>YouTube Growth Services!</strong></span> Our agency specializes in providing high-quality services for YouTube content creators,
                             helping them grow their channels and reach a wider audience. Whether you&#39;re just starting out or have been creating content for years,

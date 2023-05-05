@@ -11,9 +11,8 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"); */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
 
 @font-face {
   font-family: "Inter";
@@ -124,8 +123,17 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+  transition-duration: 1000ms; 
+  transition-delay: 1000ms;
+}
+
 body {
   background: #121521 !important;
+  scroll-behavior: smooth;
+  transition-duration: 1000ms; 
+  transition-delay: 1000ms;
 }
 * {
   margin: 0;
@@ -324,6 +332,13 @@ li:hover .dropdown {
 background: -webkit-radial-gradient(bottom, #1A2948, #030713);
 background: -moz-radial-gradient(bottom, #1A2948, #030713);
 background: radial-gradient(to top, #1A2948, #030713); */
+
+
+/* portfolio page */
+
+.active {
+  background-color: #0203060f;
+}
 
 /* call to action  */
 .bg_SCY {
@@ -584,14 +599,23 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  min-width: 300px;
+  max-width: 300px;
+}
+
+
+input[type="text1"],
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 700px;
+  min-height: 200px;
 }
 
 textarea {
   resize: vertical;
 }
-
-
 
 /* input[type="file"] {
   margin-top: 20px;
@@ -678,6 +702,34 @@ button[type="remove"]:hover {
   background-size: cover;
 }
 
+.glowbg1t {
+  background-color: #f918801a; /* set the initial background color */
+  border-radius: 0.6rem; /* set the border radius to create a rounded shape */
+  transition: box-shadow 0.2s ease-in-out; /* add a smooth transition effect */
+}
+
+.glowbg1t:hover {
+  box-shadow: 0 0 5px 5px #f918801a;
+}
 
 /* pop coponent styling */
 
+.glowbg2t {
+  background-color: #00ba7c1a; /* set the initial background color */
+  border-radius: 0.6rem; /* set the border radius to create a rounded shape */
+  transition: box-shadow 0.2s ease-in-out; /* add a smooth transition effect */
+}
+
+.glowbg2t:hover {
+  box-shadow: 0 0 5px 5px #00ba7c1a;
+}
+
+.glowbg3t {
+  background-color: #1d9bf01a; /* set the initial background color */
+  border-radius: 0.6rem; /* set the border radius to create a rounded shape */
+  transition: box-shadow 0.2s ease-in-out; /* add a smooth transition effect */
+}
+
+.glowbg3t:hover {
+  box-shadow: 0 0 5px 5px #1d9bf01a;
+}

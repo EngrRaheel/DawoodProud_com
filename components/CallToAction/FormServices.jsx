@@ -4,11 +4,11 @@ import { FiArrowLeft } from "react-icons/fi"
 import MultipleSelect1 from './MultiselectServices'
 function FormStep2({ formData, onChange, nextStep, prevStep, handleFormSubmit, setFormData }) {
     return (
-        <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-8'>
+        <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-3'>
             <div className='flex flex-col justify-between items-center gap-6 '>
-                <h2 className='text-[18px] sm:text-[20px] md:text-[24px] font-bold text-center '>Thanks for showing interest in Dawood Proud <br /> One Step services to grow your business.</h2>
+                <h2 className='text-[18px] sm:text-[20px] md:text-[24px] font-semibold text-center '>Thank you for Showing Interest in Dawood Proud Services<br /> to take your YouTube Channel to New Heights</h2>
                 <h2 className='text-[16] md:text-[20px] font-semibold text-center text-[#139dff]'>Nice to meet you😊</h2>
-                <h2 className=' text-[16px] md:text-[24px] font-semibold text-center '>What services are you looking for?</h2>
+                <h2 className=' text-[16px] md:text-[24px] font-medium text-center '>What services are you looking for?</h2>
             </div>
             <label htmlFor="name"></label>
             <div>

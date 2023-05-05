@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from "../../components/common/Footer"
-import Navbar from "../../components/common/Navbar"
+import Footer from "../../components/Common/Footer"
+import Navbar from "../../components/Common/Navbar"
 import Tab2 from "../../components/JobsTab/JobsTab"
 import Tab from "../../components/Careers/CareersTab"
 import Image from 'next/image'
@@ -16,7 +16,7 @@ function careers() {
             link: "/about-us"
         },
         {
-            label: "Our team",
+            label: "Our Team",
             link: "/team"
         },
         {
@@ -115,24 +115,26 @@ function careers() {
             <div className="w-full bg-[#121521]  h-[40vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex flex-col justify-center items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-3 md:mt-6'>
-                        <h1 className=' text-[30px] md:text-[65px] lg:text-[70px] font-bold font-inter text-[#1ecce4] abdal_color '>
-                            Join the Team
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-3 md:mt-6'>
+                    <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold abdal_color'>
+                            <span className='text-[#1ecce4]'>First do it,</span> <br />
+                            <span className="text-[#ead941]">then do it right,</span> <br />
+                            <span className="text-white"> then do it better.</span>
                         </h1>
-                        <h2 className='text-[12px] sm:text-[16px] md:text-[20px] abdal_color1 font-bold'>First do it, then do it right, then do it better.</h2>
+                      
                     </div>
                 </div>
             </div>
-            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] mx-auto '>
+            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] mx-auto gap-2'>
                 <div className='ml-[4%] md:ml-[10%] lg:ml-[11%]'>
                     <Tab tabs={tabs} />
                 </div>
 
                 <hr className='w-[30%]' />
-                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter max-w-[900px] gap-2 mx-auto ml-[0%] md:ml-[10%] lg:ml-[12%]'>
-                    <div className='flex flex-col justify-center items-start gap-3 w-full self-start px-4'>
-                        <h2 className='font-semibold text-[24px] sm:text-[44px] md:text-[44px] text-center sm:text-left' >Why Work at Dawood Proud Agency?</h2>
-                        <p className='font-normal text-[12px] sm:text-[14px] md:text-[16px] font-Inter px-3'>Our Motto is &quot;Stand Out from the Crowd&quot;. That&#39;s why we offer our Employees much more than just a job —
+                <div className='flex flex-col justify-center items-center text-[#333333] font-Inter mt-6 gap-2 mx-auto ml-[0%] md:ml-[10%] lg:ml-[12%] p-6'>
+                    <div className='flex flex-col justify-center items-start gap-3 w-full self-start'>
+                        <h2 className='font-semibold  text-[24px] md:text-[28px] text-center sm:text-left' >Why Work at Dawood Proud Agency?</h2>
+                        <p className='font-normal text-[12px] sm:text-[14px] md:text-[16px] font-Inter'>Our Motto is &quot;Stand Out from the Crowd&quot;. That&#39;s why we offer our Employees much more than just a job —
 
                             We offer them a chance to be a part of something bigger. For starters, we offer highly Competitive Salaries that are way above the industry average. But that&#39;s not all - We also provide our employees with home-like facilities that make coming to work a joy. Our office environment is designed to encourage creativity and innovation.
                             <br />

@@ -23,7 +23,7 @@ function TeamMembers() {
 
             <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
                 <p className='font-bold text-3xl'>Administrative Coordinator</p>
-                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
+                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
                     <TeamsMemberCard
                         name="Rimsha Shaheen"
                         position="Cheif Coordinator"
@@ -35,29 +35,24 @@ function TeamMembers() {
                         name="Muhammad Raheel"
                         position="Sales Coordinator"
                         bio="Raheel is like a magician who can sell ice to an Eskimo. 
-                        He's so good at closing deals, some say he once sold a pen to a pencil factory."
+                        He's so good at closing deals, some say he once sold a pen to a pencil factory, 
+                        a testament to his extraordinary talent and sheer force of will when it comes to sealing the deal. "
                         imageUrl="/Images/TeamMembers/Coordinators/Coordinator1.jpg"
                         site="In-Office" />
-                    {/* <TeamsMemberCard
-                        name="komail Khan"
-                        position="Administrative coordinator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs of Ahrefs innovations and developments.
-                             He is the one  running alive through each and every team member."
-                        imageUrl="/Images/TeamMembers/Coordinators/CheifCoord.jpg"
+                    <TeamsMemberCard
+                        name="Umer Javed"
+                        position="Production Coordinator"
+                        bio="Umer is our master of production mayhem. He&#39;s like a ninja, silently coordinating all of our video editors while they cut, 
+                        slice, and dice their way to cinematic glory. He's the go-to guy for anything production-related."
+                        imageUrl="/Images/TeamMembers/Coordinators/Umer javed.jpg"
 
                         site="In-Office" />
-                    <TeamsMemberCard
-                        name="Behroz Saleem"
-                        position="Sales coordinator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs of Ahrefs innovations and developments.
-                             He is the one  running alive through each and every team member."
-                        imageUrl="/Images/TeamMembers/Coordinators/Coordinator3.jpg"
-                        site="In-Office" /> */}
+
                 </div>
             </div>
 
             {/* Optimzation experts 🔶 */}
-            <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
+            {/* <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
                 <p className='font-bold text-3xl'>Optimzation Experts</p>
                 <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
                     <TeamsMemberCard
@@ -89,7 +84,116 @@ function TeamMembers() {
                         imageUrl="/Images/TeamMembers/Optimization experts/SeoExpert4.jpg"
                         site="Remote" />
                 </div>
+            </div> */}
+
+
+            {/* Content Writes 🔶*/}
+            <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
+                <p className='font-bold text-3xl'>Content Writer</p>
+                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
+                    <TeamsMemberCard
+                        name="Farhan Sabir"
+                        position="Script Writer"
+                        bio="Farhan is the genius behind our hilarious YouTube videos, and we&#39;re pretty sure 
+                        he&#39;s secretly writing material for the next Dave Chappelle special. Don&#39;t let his serious demeanor fool you, Farhan&#39;s got jokes for days."
+                        imageUrl="/Images/TeamMembers/ContentWrites/Farhan Sabir.jpg"
+                        site="In-Office" />
+                    <TeamsMemberCard
+                        name="Hurain Fatima"
+                        position="Script Writer"
+                        bio="Hurain can write a video script so good, even cats will pause their nap to watch. Plus, 
+                        She&#39;s always one pun ahead of the game. Just don&#39;t get her started on her conspiracy theories about talking cats."
+                        imageUrl="/Images/TeamMembers/ContentWrites/Hurain Fatima.jpg"
+                        site="In-Office" />
+                    <TeamsMemberCard
+                        name="Ali Shahid"
+                        position="Copywriter"
+                        bio="Ali sees Words as his playthings, which he can twist and turn at will to create masterpieces.
+                         Ali&#39;s writing is so good, it&#39;s almost criminal. In fact, he once wrote a headline so captivating, it caused a traffic jam. "
+                        imageUrl="/Images/TeamMembers/ContentWrites/Ali Shahid.jpg"
+                        site="In-Office" />
+                    <TeamsMemberCard
+                        name="Zunaira Farooq"
+                        position="SEO Content Writer"
+                        bio="Zunaira can turn a jumbled mess of technical jargon into a beautifully crafted masterpiece
+                         with the precision of a surgeon and the humor of a stand-up comedian. She's the wordsmith wizard of the team."
+                        imageUrl="/Images/TeamMembers/ContentWrites/Zunaira Farooq.jpg"
+                        site="Remote" />
+
+                </div>
             </div>
+
+            {/* Graphic Designers🔶*/}
+            <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
+                <p className='font-bold text-3xl'>Thumbnail Designers</p>
+                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
+                    <TeamsMemberCard
+                        name="Zeeshan Bilal"
+                        position="Chief Thumbnail Designer"
+                        bio="Zeeshan can make a thumbnail so eye-catching, even your grandma will want to click on it.
+                         We suspect he&#39;s secretly casting spells on them, but hey, as long as they look good, we won&#39;t ask questions."
+                        imageUrl="/Images/TeamMembers/Thumbnail/Zeeshan Bilal.jpg"
+                        site="In-Office" />
+                    <TeamsMemberCard
+                        name="Iqra Saad"
+                        position="Photoshop Expert"
+                        bio="Iqra can turn bland YouTube channels into vibrant works of art. 
+                        She&#39;s got an eye for design and a stomach for endless cups of coffee – the perfect combination for a YouTube channel art wizard"
+                        imageUrl="/Images/TeamMembers/Thumbnail/Iqra Saad.jpg"
+                        site="In-Office" />
+                    <TeamsMemberCard
+                        name="Ubaid Raza"
+                        position="Thumbnail Designer"
+                        bio="He is the ruler of design, and the caffeine-fueled Picasso of our team. 
+                        He can turn a bland thumbnail into a masterpiece that would make even Mona Lisa jealous. He&#39;ll make your eyes pop!"
+                        imageUrl="/Images/TeamMembers/Thumbnail/Ubaid Raza.jpg"
+                        site="In-Office" />
+                    <TeamsMemberCard
+                        name="Kinza Zain"
+                        position="Conceptualist"
+                        bio="Kinza can turn dull brands into shiny unicorns. When she&#39;s not whipping up designs, 
+                        you can find her sipping on chai and plotting her world domination (of the design industry, of course)."
+                        imageUrl="/Images/TeamMembers/Thumbnail/Kinza Zain.jpg"
+                        site="In-Office" />
+                </div>
+            </div>
+
+            {/* expert voice artist */}
+            <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
+                <p className='font-bold text-3xl'>Voice Over Artists</p>
+                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
+                    <TeamsMemberCard
+                        name="Saba Taimoor"
+                        position="Asian Accent"
+                        bio="Kinza is voiceover artist extraordinaire. She&#39;s got a voice so smooth,
+                         it could make a baby fall asleep mid-cry. When she&#39;s not nailing the perfect take, she's probably teaching Siri how to speak properly."
+                        imageUrl="/Images/TeamMembers/Voice Artist/Saba Taimoor.jpg"
+                        site="Remote" />
+                    <TeamsMemberCard
+                        name="Megan Bunting"
+                        position="American Accent"
+                        bio="Megan is the American accent wizard of our YouTube channels. 
+                        Her voice is so smooth, it could convince you to buy a toaster even if you don&#39;t eat bread. We suspect she might actually be a siren in disguise."
+                        imageUrl="/Images/TeamMembers/Voice Artist/Megan Bunting.jpg"
+                        site="Remote" />
+                    <TeamsMemberCard
+                        name="Matt Gallagher"
+                        position="American Accent"
+                        bio="Matt's voice is so smooth, it could make a porcupine purr. He can make anything sound like it belongs on the big screen.
+                         Just don&#39;t ask him to sing – we&#39;re still recovering from the last time he tried."
+                        imageUrl="/Images/TeamMembers/Voice Artist/Matt Gallagher.jpg"
+                        site="Remote" />
+                    <TeamsMemberCard
+                        name="Claire Lindsay"
+                        position="Canadian Accent"
+                        bio="Claire can make a script sound so good, you&#39;ll want to hire her just to read your grocery list.
+                         And if you ask nicely, she might even throw in a few &#39;ehs&#39; and &#39;aboots&#39; for free. Her vocals can make maple syrup jealous."
+                        imageUrl="/Images/TeamMembers/Voice Artist/Claire Lindsay.jpg"
+                        site="In-Office" />
+
+                </div>
+            </div>
+
 
             {/* Editiors🔶*/}
             <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
@@ -138,13 +242,7 @@ function TeamMembers() {
                         bio="Zubair can make a blooper reel look like an Oscar-winning masterpiece. He&#39;s so good at editing, he can even make our CEO&#39;s awkward & cringy dance moves look like a viral sensation. "
                         imageUrl="/Images/TeamMembers/Editors/zubair.jpg"
                         site="Remote" />
-                    {/* <TeamsMemberCard
-                        name="Ammir Khan"
-                        position="Video Animator"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Editors/Editor8.jpg"
-                        site="Remote" /> */}
+                  
                     <TeamsMemberCard
                         name="Anmol Hussain"
                         position="Video Animator"
@@ -167,139 +265,11 @@ function TeamMembers() {
             </div>
 
 
-            {/* Content Writes 🔶*/}
-            <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
-                <p className='font-bold text-3xl'>Content Writer</p>
-                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
-                    <TeamsMemberCard
-                        name="Farhan ALi Khan"
-                        position="Expert Content Writer"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                            He is the one  running alive through each and every team member."
-                        imageUrl="/Images/TeamMembers/ContentWrites/Contentwriter1.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Hurain Fatima"
-                        position="Scriptwriter"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                            He is the one driving the team, and every team member."
-                        imageUrl="/Images/TeamMembers/ContentWrites/Contentwriter2.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Kamran Shahid"
-                        position="Expert Copywriter"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team, each and every team member."
-                        imageUrl="/Images/TeamMembers/ContentWrites/Contentwriter3.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Zunaira Chaudhary"
-                        position="SEO Content Writer"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/ContentWrites/Contentwriter4.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Zainab Abbas"
-                        position="SEO Content Writer"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/ContentWrites/Contentwriter5.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Huma Khan"
-                        position="SEO Content Writer"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/ContentWrites/Contentwriter6.jpg"
-                        site="Remote" />
-                </div>
-            </div>
 
 
-            {/* Thumbnail Designers 🔶*/}
-            <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
-                <p className='font-bold text-3xl'>Thumbnail Designers</p>
-                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
-                    <TeamsMemberCard
-                        name="Muhammad Zeeshan "
-                        position="Cheif Tumnail Designer"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one  running alive through each and every team member."
-                        imageUrl="/Images/TeamMembers/Thumbnail/Thumbnail1.jpg"
-                        site="In-Office" />
-                    <TeamsMemberCard
-                        name="Ubaid Raza"
-                        position="Photoshop Expert"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                            He is the one driving the team, and every team member."
-                        imageUrl="/Images/TeamMembers/Thumbnail/Thumbnail2.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Muhammad Khalil"
-                        position="Tech Thumnail Expert"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team, each and every team member."
-                        imageUrl="/Images/TeamMembers/Thumbnail/Thumbnail3.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Nasir Hussain"
-                        position="Conceptualist"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Thumbnail/Thumbnail4.jpg"
-                        site="In-Office" />
-                </div>
-            </div>
 
-            {/* expert voice artist */}
-            <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
-                <p className='font-bold text-3xl'>Voice Artist</p>
-                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
-                    <TeamsMemberCard
-                        name="Urvaha Karim"
-                        position="Voice Artist (Asian)"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one  running alive through each and every team member."
-                        imageUrl="/Images/TeamMembers/Voice Artist/VoiceArtist1.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Amelia"
-                        position="Voice Artist (US)"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                            He is the one driving the team, and every team member."
-                        imageUrl="/Images/TeamMembers/Voice Artist/VoiceArtist2.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Cameron S."
-                        position="Voice Artist (US)"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team, each and every team member."
-                        imageUrl="/Images/TeamMembers/Voice Artist/VoiceArtist3.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Irshad Akram"
-                        position="Voice Artist (Asian)"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Voice Artist/VoiceArtist4.jpg"
-                        site="In-Office" />
-                    <TeamsMemberCard
-                        name="Emma Watkins"
-                        position="Voice Artist (US)"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team, each and every team member."
-                        imageUrl="/Images/TeamMembers/Voice Artist/VoiceArtist5.jpg"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Liam Sant"
-                        position="Voice Artist (UK)"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team, each and every team member."
-                        imageUrl="/Images/TeamMembers/Voice Artist/VoiceArtist6.jpg"
-                        site="Remote" />
-                </div>
-            </div>
+
+
         </div>
 
 

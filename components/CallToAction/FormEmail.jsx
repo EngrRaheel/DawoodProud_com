@@ -2,10 +2,10 @@ import React from 'react'
 import { FiArrowLeft } from "react-icons/fi"
 function FormStep7({ formData, onChange, nextStep, prevStep, submit}) {
     return (
-        <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-8'>
-            <div className='flex flex-col justify-between items-center gap-8 '>
+        <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-2'>
+            <div className='flex flex-col justify-between items-center gap-8 md:gap-14 '>
                 <h1 className='text-[18px] sm:text-[20px] md:text-[24px] font-bold text-center '>Thanks for showing interest in Dawood Proud <br /> One Step services to grow your business.</h1>
-                <h2 className='text-[16px] md:text-[20px] font-semibold text-center '>Last Question... What is your email address?</h2>
+                <h2 className='text-[16px] md:text-[20px] font-medium '>Last Question... What is your email address?</h2>
             </div>
             <label htmlFor="name"></label>
             <input

@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ProofOfwork() {
+function ServicesPage() {
   return (
     <div>
-      
+        
     </div>
   )
 }
 
-export default ProofOfwork
+export default ServicesPage

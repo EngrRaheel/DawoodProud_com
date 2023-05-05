@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../common/Navbar";
+import Navbar from "../Common/Navbar";
 import Image from "next/image";
 import { height } from "@mui/system";
 import { AiFillStar } from "react-icons/ai";

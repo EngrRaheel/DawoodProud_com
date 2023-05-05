@@ -1,9 +1,9 @@
 import React from 'react'
-import Footer from "../../components/common/Footer"
-import Navbar from "../../components/common/Navbar"
+import Footer from "../../components/Common/Footer"
+import Navbar from "../../components/Common/Navbar"
 import Tab from "../../components/Careers/CareersTab"
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 function MediaKit() {
 
@@ -15,7 +15,7 @@ function MediaKit() {
             link: "/about-us"
         },
         {
-            label: "Our team",
+            label: "Our Team",
             link: "/team"
         },
         {
@@ -38,7 +38,7 @@ function MediaKit() {
             <div className="w-full  bg-[#121521]  h-[40vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[5%] md:ml-[10%] xl:ml-[15%] mt-2 md:mt-6'>
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-3 md:mt-6'>
                         <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold abdal_color '>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />
@@ -50,7 +50,7 @@ function MediaKit() {
 
 
             <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
-                <div className='ml-[5%] md:ml-[10%] xl:ml-[15%]'>
+                <div className='ml-[4%] md:ml-[10%] lg:ml-[11%]'>
                     <Tab tabs={tabs} />
                 </div>
 
@@ -79,23 +79,13 @@ function MediaKit() {
                             </div>
 
                         </div>
-                        <button className='bg-[#ff8800] text-[#fff] px-[1rem] py-[6px] rounded-[3px] hover:bg-[#ea7e02] '>Download logo Kit</button>
+                        <a href={"https://www.dropbox.com/sh/sovsg6zfj438yec/AACU6G9VJvG2OAfpeDoNXnpla?dl=0"} target="_blank">
+                            <button className='bg-[#ff8800] text-[#fff] px-[1rem] py-[6px] rounded-[3px] hover:bg-[#ea7e02] '>Download logo Kit</button>
+                        </a>
+
 
                     </div>
-                    {/* <div className='flex flex-col gap-2 max-w-[768px] self-start ml-[5%] md:ml-[10%] xl:ml-[15%]'>
-                        <h1 className='font-semibold text-[28px]'>About us</h1>
-                        <p className='font-normal text-[16px]'>Ahrefs builds online SEO tools and creates free learning materials that help millions of website owners around the globe to get more traffic from search engines.
-                            <br />
-                            <br />
-                            For over 10 years now, Ahrefs has been crawling the web, storing and processing petabytes of data and fine-tuning a simple, intuitive user interface. Its now widely regarded as both a must-have for top marketing professionals and a trusted friend to small business owners.
-                            <br />
-                            <br />
-                            Ahrefs tools and features cover most essential SEO needs like competitor research, keyword research, site auditing, rank tracking and much, much more.
-                            <br />
-                            <br />
-                            The company was founded in 2010 by Dmitry Gerasimenko and is headquartered in Singapore.
-                        </p>
-                    </div> */}
+
 
                 </div>
             </div>

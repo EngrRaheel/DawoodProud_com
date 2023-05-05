@@ -1,6 +1,6 @@
 import React from 'react'
 import UserInput from '../../components/CallToAction/UserInput'
-import Navbar from '../../components/common/Navbar'
+import Navbar from '../../components/Common/Navbar'
 
 function cutomerpage() {
     return (

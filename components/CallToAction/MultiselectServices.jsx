@@ -8,6 +8,10 @@ import Select from '@mui/material/Select';
 import { color } from '@mui/system';
 import Chip from '@mui/material/Chip';
 import CancelIcon from '@mui/icons-material/Cancel';
+import { Typography } from '@mui/material';
+// import { makeStyles } from '@mui/styles';
+
+
 
 const ITEM_HEIGHT = 32;
 const ITEM_PADDING_TOP = 10;
@@ -15,7 +19,7 @@ const MenuProps = {
     PaperProps: {
         style: {
             maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-            // width: "100%",
+            width: "50%",
             overflowY: 'auto',
             maxHeight: '200px',
         },
@@ -49,15 +53,12 @@ export default function MultipleSelect({ setFormData, value, formData }) {
         setFormData({ ...formData, ['services']: value })
     }
 
-    const handleDelete = (item) => {
-        const newValues = value.filter((valueItem) => valueItem !== item);
-        setValue(newValues);
-    };
-    console.log(value);
+
+
 
     return (
         <div>
-            <FormControl sx={{ m: 0, width: `${Math.max(200, 180 * value.length)}px` }} shrink={true}  >
+            <FormControl sx={{ m: 0, minWidth: "280px", maxWidth: "95%", margin: "auto", flexWrap: 'wrap', }} shrink={true}  >
                 <InputLabel id="demo-multiple-name-label" className='text-sm'>Services</InputLabel>
                 <Select
                     labelId="demo-multiple-name-label"
@@ -69,33 +70,49 @@ export default function MultipleSelect({ setFormData, value, formData }) {
 
                     input={<OutlinedInput label="Service" />}
                     renderValue={(selected) => (
-                        <div sx={{ display: 'flex', flexWrap: 'wrap', maxWidth: '100%', }}>
+                        <Typography sx={{
+                            display: 'flex', overflowY: "auto",
+                            '@media (min-width: 320px)': {
+                                flexDirection: 'column',
+                                maxWidth: '80%',
+                                marginX: "auto",
+                                gap: '0.5rem',
+                                flexWrap: 'wrap',
+                            },
+                            '@media (min-width: 768px)': {
+                                flexDirection: 'row',
+                                maxWidth: '95%',
+                                flexWrap: 'wrap',
+                            },
+
+
+                        }}>
                             {selected.map((value) => (
                                 <Chip
                                     key={value}
                                     label={value}
 
-                                    onDelete={() => handleDelete(item)}
+                                    onDelete={handleDelete}
                                     deleteIcon={<CancelIcon className=' rounded-full' color='white' />}
                                     sx={{
                                         color: 'white', backgroundColor: '#247ddd', mr: 0.5,
                                     }}
                                 />
                             ))}
-                        </div>
+                        </Typography>
                     )}
                     MenuProps={MenuProps}
-                    sx={{ color: 'black', fontWeight: 'normal', }}
+                    sx={{ color: 'red', fontWeight: 'normal', maxWidth: "900px", }}
                 >
+
                     {names.map((name) => (
                         <MenuItem
                             key={name}
                             value={name}
-
                             sx={{
-                                backgroundColor: "#fffff", color: "black", font: 10, '&:hover': {
-                                    backgroundColor: 'black', color: "white"
-                                }
+                                backgroundColor: "#fffff", color: "black", font: "18px", '&:hover': {
+                                    backgroundColor: 'black', color: "white",
+                                },
                             }}
 
                         >

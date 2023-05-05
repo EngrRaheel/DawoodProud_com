@@ -1,8 +1,8 @@
 import React from 'react'
 // import Image from 'next/image'
 import CEOCard from '../../components/TeamSection/CeoCard'
-import Navbar from '../../components/common/Navbar'
-import Footer from '../../components/common/Footer'
+import Navbar from '../../components/Common/Navbar'
+import Footer from '../../components/Common/Footer'
 import Tab from "../../components/Careers/CareersTab"
 import { relative } from 'path'
 import TeamMembers from '../../components/TeamSection/TeamMembers'
@@ -15,7 +15,7 @@ const tabs = [
         link: "/about-us"
     },
     {
-        label: "Our team",
+        label: "Our Team",
         link: "/team"
     },
     {
@@ -34,11 +34,11 @@ const tabs = [
 
 function TeamPage() {
     return (
-        <div className='w-full bg-white h-full'>
-            <div className="w-full bg-cover bg-center   bg-[#121521] h-[40vh] md:h-[55vh]">
+        <div className='w-full font-Inter bg-white h-full'>
+            <div className="w-full bg-[#121521] h-[40vh] md:h-[55vh]">
                 <Navbar bg_color={""} position={relative} />
                 <div className=' max-w-[1172px] mx-auto '>
-                    <div className='flex justify-start items-start space-y-2 py-4 ml-[4%] md:ml-[8%] lg:ml-[12%] mx-auto mt-2 md:mt-6'>
+                    <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-2 md:mt-6  '>
                         <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold abdal_color'>
                             <span className='text-[#1ecce4]'>We Think big,</span> <br />
                             <span className="text-[#ead941]">start small,</span> <br />

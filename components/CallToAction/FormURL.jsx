@@ -3,11 +3,11 @@ import { FiArrowLeft, FiArrowRight } from "react-icons/fi"
 function FormURL({ formData, onChange, nextStep, prevStep }) {
     return (
 
-        <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto gap-3'>
+        <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-1'>
             <div className='flex flex-col justify-between items-center gap-8 '>
-                <h1 className='text-[18px] sm:text-[20px] md:text-[24px] font-bold text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1>
-                <h2 className='text-[18px] sm:text-[20px] md:text-[24px] font-semibold text-center text-[#139dff]'>Great! Let&#39;s Talk Brand...</h2>
-                <h2 className='text-[18px] sm:text-[20px] md:text-[24px] font-semibold text-center '>Please Write your YouTube Channel Handle or Paste Channel URL here. (Optional for New YouTubers)</h2>
+                <h1 className='text-[18px] sm:text-[20px] md:text-[24px] font-semibold text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1>
+                <h2 className='text-[18px] sm:text-[20px]  font-medium text-center text-[#139dff]'>Great! Let&#39;s Talk Brand...</h2>
+                <h2 className='text-[18px] sm:text-[20px]  font-medium text-center '>Please Write your YouTube Channel Handle or Paste Channel URL here. <br /> (Optional for New YouTubers)</h2>
 
             </div>
             <label htmlFor="URL"></label>

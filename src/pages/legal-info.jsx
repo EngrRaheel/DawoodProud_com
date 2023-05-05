@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from "../../components/common/Footer"
-import Navbar from "../../components/common/Navbar"
+import Footer from "../../components/Common/Footer"
+import Navbar from "../../components/Common/Navbar"
 import Tab from "../../components/Careers/CareersTab"
 
 
@@ -13,7 +13,7 @@ function LegalInfo() {
             link: "/about-us"
         },
         {
-            label: "Our team",
+            label: "Our Team",
             link: "/team"
         },
         {
