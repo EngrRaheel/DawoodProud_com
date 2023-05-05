@@ -158,7 +158,7 @@ function ApplicationForm() {
                             Full Name
                             <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
-                        <input type="text" value={fullName} onChange={handleFullNameChange} placeholder="Full Name " required />
+                        <input className="font-light"  type="text" value={fullName} onChange={handleFullNameChange} placeholder="Full Name " required />
                     </label >
 
                     <label className="flex flex-col justify-start items-start gap-1">
@@ -166,7 +166,7 @@ function ApplicationForm() {
                             Email
                             <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
-                        <input type="email" onChange={handleEmailChange} placeholder="youremail@gmail.com " required />
+                        <input className="font-light"  type="email" onChange={handleEmailChange} placeholder="Your email address " required />
                     </label>
 
 
@@ -176,7 +176,7 @@ function ApplicationForm() {
                             Personal Number
                             <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
-                        <input type="tel" value={phone} onChange={handlePhoneChange} placeholder="+923XZ-YYYYYYY " required />
+                        <input className="font-light" type="tel" value={phone} onChange={handlePhoneChange} placeholder="Your phone number " required />
                     </label>
                 </div>
 
