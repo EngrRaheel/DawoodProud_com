@@ -6,7 +6,7 @@ import { IoIosPeople } from 'react-icons/io'
 import Link from 'next/link'
 
 
-const SliderItem = ({ url, name, subs, views, para, link }) => {
+const SliderItem = ({ url, name, subs, views, para, link,navtoportfolio }) => {
     return (
         <div className='w-full'>
             <div className='flex flex-col justify-center items-center mx-auto font-Inter text-white rounded-2xl p-[12px] sm:p-2 md:p-3 max-w-[22.1875rem] min-h-[498px] bg_testimonials'>
@@ -48,7 +48,7 @@ const SliderItem = ({ url, name, subs, views, para, link }) => {
                 <div className='flex flex-col flex-1 justify-between items-center h-full overflow-y-auto font-bold text-testimonial-card-quote-sm md:text-testimonial-card-quote-md lg:text-testimonial-card-quote-lg mt-6  '>
                     <div className='font-bold leading-6 text-xl overflow-auto justify-center items-center p-1 '> {para}</div>
                     <div className='flex flex-col justify-center items-center '>
-                        <Link href={"/portfolio"}>
+                        <Link href={navtoportfolio}>
                             <button className=' flex justify-center items-center mx-auto px-2 md:px-4 py-[8px] gap-1 rounded-full  drop-shadow-lg  bg-[#139dff] hover:bg-[#3b82f6] duration-200 ' >
                                 <p className='font-Inter text-base font-medium '>See Proof</p>
                                 <FiArrowUpRight className="text-[20px] text-white" />

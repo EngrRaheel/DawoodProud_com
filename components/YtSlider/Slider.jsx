@@ -24,7 +24,8 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/WatchMojo.jpg",
-      "link": "Watch Mojo"
+      "link": "Watch Mojo",
+      "navtoportfolio": "/portfolio#Emil_Anton"
     },
     {
       "name": "Marton Barcza",
@@ -38,7 +39,8 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/techAltar.jpg",
-      "link": "TechAltar"
+      "link": "TechAltar",
+      "navtoportfolio": "/portfolio#Ashkan_Karbasfrooshan"
     },
 
     {
@@ -53,10 +55,11 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/alux1.jpg",
-      "link": "Alux.com"
+      "link": "Alux.com",
+      "navtoportfolio": "/portfolio#Zach_Hsieh"
     },
 
-    { 
+    {
       "name": "Ian Plummer",
       "subs": "877K",
       "views": "243M",
@@ -68,7 +71,8 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/autotrader.jpg",
-      "link": "AutoTrader"
+      "link": "AutoTrader",
+      "navtoportfolio": "/portfolio#Linus_Sebastian"
     },
     {
       "name": "Emmeline Mayline",
@@ -82,7 +86,8 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/Emmymade.jpg",
-      "link": "EmmyMade"
+      "link": "EmmyMade",
+      "navtoportfolio": "/portfolio#Emmeline_Mayline"
     },
     {
       "name": "Zach Hsieh",
@@ -96,7 +101,8 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/zhcnight.jpg",
-      "link": "ZHC Crafts"
+      "link": "ZHC Crafts",
+      "navtoportfolio": "/portfolio#Ian_Plummer"
     },
     {
       "name": "Linus Sebastian",
@@ -110,7 +116,8 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/LinusTechTipsFace.webp",
-      "link": "Linus Tech Tips"
+      "link": "Linus Tech Tips",
+      "navtoportfolio": "/portfolio#Marton_Barcza"
     }
   ]
 
@@ -167,7 +174,7 @@ const YtSlider = () => {
             className="mySwiper"
           >
             {channels.map((item, index) => (
-              <SwiperSlide key={index}><SliderItem url={item.url} name={item.name} para={item.para} subs={item.subs} views={item.views} link={item.link} /></SwiperSlide>
+              <SwiperSlide key={index}><SliderItem url={item.url} name={item.name} para={item.para} subs={item.subs} views={item.views} link={item.link} navtoportfolio={item.navtoportfolio}/></SwiperSlide>
             ))}
           </Swiper>
         </div>

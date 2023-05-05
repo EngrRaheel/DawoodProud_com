@@ -13,7 +13,7 @@ function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }
             <div className="w-full p-2 mt-6 md:mt-0">
                 <div className="w-full max-w-[1172px]  flex flex-col items-center justify-center  mx-auto gap-3 md:gap-8 mt-12">
                     <h2 className=' max-w-auto md:max-w-[580px] font-extrabold text-[28px] md:text-[38px] lg:text-[38px] text-center  '>{heading}</h2>
-                    <div className='flex flex-col md:flex-row justify-center md:justify-between md:items-center'>
+                    <div className='flex flex-col md:flex-row justify-center md:justify-between md:items-center '>
                         <div className='flex-1 mb-6 md:mb-0 p-2 sm:p-6 md:p-8'>
                             <Fade delay={100} direction="left"  >
                                 <div className='w-full h-[300px] md:h-[400px] relative drop-shadow-2xl '>
