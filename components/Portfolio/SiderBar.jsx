@@ -6,31 +6,31 @@ function SiderBar() {
     // const [activeSection, setActiveSection] = useState('');
     const liItem = [
         {
-            "name": "1. Emil Anton",
+            "name": "1. Alux.com",
             "id": "#Emil_Anton"
         },
         {
-            "name": "2. Ashkan Karbasfrooshan",
+            "name": "2. Watch Mojo",
             "id": "#Ashkan_Karbasfrooshan"
         },
         {
-            "name": "3. Zach Hsieh",
+            "name": "3. ZHC Crafts",
             "id": "#Zach_Hsieh"
         },
         {
-            "name": "4. Linus Sebastian",
+            "name": "4. Linus Tech Tips",
             "id": "#Linus_Sebastian"
         },
         {
-            "name": "5. Emmeline Mayline",
+            "name": "5. EmmyMade",
             "id": "#Emmeline_Mayline"
         },
         {
-            "name": "6. Ian Plummer",
+            "name": "6. AutoTrader",
             "id": "#Ian_Plummer"
         },
         {
-            "name": "7. Marton Barcza",
+            "name": "7. TechAltar",
             "id": "#Marton_Barcza"
         }
 
