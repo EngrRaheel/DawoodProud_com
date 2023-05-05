@@ -31,8 +31,8 @@ function TwitterTweet() {
         <div>
 
             {data.map((item, index) => (
-                <div className='flex flex-col max-w-[400px] mx-auto border-[1px] border-[gray]/40 drop-shadow-2xl p-4  rounded-xl'>
-                    <div className='flex justify-between items-start' key={index} >
+                <div className='flex flex-col max-w-[400px] mx-auto border-[1px] border-[gray]/40 drop-shadow-2xl p-4  rounded-xl'key={index}>
+                    <div className='flex justify-between items-start'  >
                         <div className='flex items-center justify-center gap-1'>
                             <div className='relative h-10 w-10  rounded-full  bg-blue'>
                                 <Image src={"/Images/YouTubers/alux1.jpg"} alt='logo' className='object-contain rounded-full shadow-sm ' fill />
