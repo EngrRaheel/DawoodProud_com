@@ -5,7 +5,7 @@ import BoostYTV from '../../components/BoostYTV/BoostYTV';
 import SuperchargeYT from "../../components/CallToAction/CallToAction";
 import YtSlider from "../../components/YtSlider/Slider";
 
-import Footer from "../../components/Common/Footer";
+import Footer from "../../components/common/Footer";
 // import TrustPilotReview from "../../components/TrustPilot/TrustPilotReview"
 
 
