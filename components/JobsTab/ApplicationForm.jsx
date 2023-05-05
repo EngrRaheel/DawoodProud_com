@@ -124,7 +124,7 @@ function ApplicationForm() {
                                 <div>
                                     <p>File Uploaded:</p>
                                     <p>{cv.name}</p>
-                                    <div className="flex justify-center items-center gap-2">    
+                                    <div className="flex justify-center items-center gap-2">
                                         <button aria-live="polite" type="button" className="text-white px-2 py-2 border-1 border-blue rounded-xl bg-[black]" onClick={handleFileRemove}>
                                             <AiFillDelete />
                                         </button>
@@ -153,12 +153,12 @@ function ApplicationForm() {
                     <h1 className="font-Inter text-xl font-semibold">Personal information</h1>
                     <p className="text-lg font-medium">Fill out the information below</p>
 
-                    <label className="flex flex-col justify-start items-start gap-1">
+                    <label className="flex flex-col justify-start items-start gap-1 w-full">
                         <div className="flex gap-2">
                             Full Name
                             <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
-                        <input className="font-light"  type="text" value={fullName} onChange={handleFullNameChange} placeholder="Full Name " required />
+                        <input className="font-light" type="text" value={fullName} onChange={handleFullNameChange} placeholder="Full Name " required />
                     </label >
 
                     <label className="flex flex-col justify-start items-start gap-1">
@@ -166,7 +166,7 @@ function ApplicationForm() {
                             Email
                             <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                         </div>
-                        <input className="font-light"  type="email" onChange={handleEmailChange} placeholder="Your email address " required />
+                        <input className="font-light" type="email" onChange={handleEmailChange} placeholder="Your email address " required />
                     </label>
 
 
@@ -204,13 +204,11 @@ function ApplicationForm() {
                         <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                     </div>
 
-                    <label className="flex flex-col gap-[4px] text-sm w-full">
-                        <div>
-                            Write your Address Here: <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
+                    <label className="flex flex-col gap-[4px] text-sm w-full ">
+                        <div className="w-full">
+                            Write your Address Here: <span aria-hidden="true" className="text-[#fe6363] " title="This field is required">*</span>
                         </div>
-
                         <input
-                    
                             type="text"
                             name="answer1"
                             value={answers.answer1}
