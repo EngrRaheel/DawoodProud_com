@@ -11,7 +11,7 @@ function TeamsMemberCard({ name, position, bio, imageUrl, site }) {
     <div className='grid grid-cols-1 w-full  md:max-w-[30vw] lg:max-w-[20vw] p-3 rounded-xl shadow-2xl shadow-[#d2e7f7] font-Inter min-h-[350px]'>
       <div className='flex flex-col justify-center items-center gap-4'>
         <div className="w-[80px] h-[80px] md:w-[70px] md:h-[70px] relative mx-auto ">
-          <Image src={imageUrl} fill className='object-contain rounded-full' alt='CEO'
+          <Image src={imageUrl} fill className='object-contain rounded-full' alt='teammemberimg'
           ></Image>
         </div>
         <div>

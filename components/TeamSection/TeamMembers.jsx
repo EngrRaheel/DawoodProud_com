@@ -29,7 +29,7 @@ function TeamMembers() {
                         position="Cheif Coordinator"
                         bio="Rimsha, is like a superhero who communicates with different teams faster than the speed of light.
                          Her email game is so strong, it&#39;s rumored that she once received a response before hitting send!"
-                        imageUrl="/Images/TeamMembers/Optimization experts/SeoExpert02.avif"
+                        imageUrl="/Images/TeamMembers/Coordinators/rimshashaheen.jpg"
                         site="In-Office" />
                     <TeamsMemberCard
                         name="Muhammad Raheel"
@@ -51,40 +51,7 @@ function TeamMembers() {
                 </div>
             </div>
 
-            {/* Optimzation experts 🔶 */}
-            {/* <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
-                <p className='font-bold text-3xl'>Optimzation Experts</p>
-                <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
-                    <TeamsMemberCard
-                        name="Muhammad Younis Ali"
-                        position="Cheif Optimization Expert"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one  running alive through each and every team member."
-                        imageUrl="/Images/TeamMembers/Optimization experts/SeoExpert01.jpeg"
-                        site="In-Office" />
-                    <TeamsMemberCard
-                        name="Rimsha Shaheen"
-                        position="Optimzation Expert"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team, and every team member."
-                        imageUrl="/Images/TeamMembers/Optimization experts/SeoExpert02.avif"
-                        site="In-Office" />
-                    <TeamsMemberCard
-                        name="Ammara Shaheen"
-                        position="Optimzation Expert"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                            He is the one driving the team, each and every team member."
-                        imageUrl="/Images/TeamMembers/Optimization experts/SeoExpert03.avif"
-                        site="Remote" />
-                    <TeamsMemberCard
-                        name="Muhammad Hamza"
-                        position="Optimzation Expert"
-                        bio="Author of idea and founder of Ahrefs. Dmitry performs deep intuitive control on all aspects of Ahrefs innovations and developments.
-                             He is the one driving the team,  team member."
-                        imageUrl="/Images/TeamMembers/Optimization experts/SeoExpert4.jpg"
-                        site="Remote" />
-                </div>
-            </div> */}
+
 
 
             {/* Content Writes 🔶*/}
@@ -114,7 +81,7 @@ function TeamMembers() {
                         site="In-Office" />
                     <TeamsMemberCard
                         name="Zunaira Farooq"
-                        position="SEO Content Writer"
+                        position="Technical Writer"
                         bio="Zunaira can turn a jumbled mess of technical jargon into a beautifully crafted masterpiece
                          with the precision of a surgeon and the humor of a stand-up comedian. She's the wordsmith wizard of the team."
                         imageUrl="/Images/TeamMembers/ContentWrites/Zunaira Farooq.jpg"
@@ -136,7 +103,7 @@ function TeamMembers() {
                         site="In-Office" />
                     <TeamsMemberCard
                         name="Iqra Saad"
-                        position="Photoshop Expert"
+                        position="Channel Art Designer"
                         bio="Iqra can turn bland YouTube channels into vibrant works of art. 
                         She&#39;s got an eye for design and a stomach for endless cups of coffee – the perfect combination for a YouTube channel art wizard"
                         imageUrl="/Images/TeamMembers/Thumbnail/Iqra Saad.jpg"
@@ -150,7 +117,7 @@ function TeamMembers() {
                         site="In-Office" />
                     <TeamsMemberCard
                         name="Kinza Zain"
-                        position="Conceptualist"
+                        position="Branding Designer"
                         bio="Kinza can turn dull brands into shiny unicorns. When she&#39;s not whipping up designs, 
                         you can find her sipping on chai and plotting her world domination (of the design industry, of course)."
                         imageUrl="/Images/TeamMembers/Thumbnail/Kinza Zain.jpg"
@@ -242,7 +209,7 @@ function TeamMembers() {
                         bio="Zubair can make a blooper reel look like an Oscar-winning masterpiece. He&#39;s so good at editing, he can even make our CEO&#39;s awkward & cringy dance moves look like a viral sensation. "
                         imageUrl="/Images/TeamMembers/Editors/zubair.jpg"
                         site="Remote" />
-                  
+
                     <TeamsMemberCard
                         name="Anmol Hussain"
                         position="Video Animator"
