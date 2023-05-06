@@ -106,7 +106,7 @@ function FAQs() {
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
                                 We&#39;ll be sorry to hear that you&#39;re experiencing technical difficulties with our website.
                                 If you&#39;re having issues with the application form due to session cookies or other technical problems,
-                                we recommend you to contact at our official contact number or email and we&#39;ll send you a Google Form link where you can submit your application without any issues. Similarly, if your CV is not decrypting properly, please reach out to us and we'll provide you with an alternative method to submit your application.
+                                we recommend you to contact at our official contact number or email and we&#39;ll send you a Google Form link where you can submit your application without any issues. Similarly, if your CV is not decrypting properly, please reach out to us and we&#39;ll provide you with an alternative method to submit your application.
                                 We want to make sure that the application process is as smooth as possible for our candidates, so please don&#39;t hesitate to reach out to us if you encounter any issues.
                             </p>
                         </details>
