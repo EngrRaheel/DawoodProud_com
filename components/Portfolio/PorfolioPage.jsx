@@ -12,19 +12,28 @@ function PorfolioPage() {
 
         {
             "SectionId": "Emil_Anton",
-            "ChannelName": "Alux.com",
+            "ChannelName": (
+                <div>
+                    <a href="https://www.youtube.com/@alux" target="_blank">
+                        Alux.com
+                    </a>
+                </div>
+            )
+            ,
             "TweetComponent": (
                 <div>
-                    <TwitterTweet
-                        name="Emil Anton"
-                        username="@EmilAnton"
-                        text=" Dawood&#39;s expertise in providing a personalized content strategy was invaluable in helping me grow my brand
+                    <a href="https://twitter.com/i/flow/signup" target="_blank">
+                        <TwitterTweet
+                            name="Emil Anton"
+                            username="@EmilAnton"
+                            text=" Dawood&#39;s expertise in providing a personalized content strategy was invaluable in helping me grow my brand
                                 on YouTube. With his guidance, I was able to connect with my audience in meaningful ways and increase my reach on the platform.
                                I highly recommend his services to anyone looking to improve their YouTube presence,
                                 as he truly understands the nuances of the platform and how to make your content stand out. Thank you, Dawood!"
-                        img="/Images/Portfolio/TwitterDP/Emil_Anton.jpeg"
-                        likes="373"
-                        read="23" />
+                            img="/Images/Portfolio/TwitterDP/Emil_Anton.jpeg"
+                            likes="373"
+                            read="23" />
+                    </a>
                 </div>
             ),
             "para": (
@@ -39,18 +48,28 @@ function PorfolioPage() {
 
         {
             "SectionId": "Ashkan_Karbasfrooshan",
-            "ChannelName": "Watch Mojo",
+
+            "ChannelName": (
+                <div>
+                    <a href="https://www.youtube.com/@WatchMojo" target="_blank">
+                        Watch Mojo
+                    </a>
+                </div>
+            )
+            ,
             "TweetComponent": (
                 <div>
-                    <TwitterTweet
-                        name="Ashkan Karbasfrooshan"
-                        username="@ashkan"
-                        text="&quot;DP's YouTube Services have been a game-changer for Watch Mojo! Thanks to your algorithm expertise, because of which our channel has seen explosive growth. Your dedication and knowledge have helped us reach new heights and engage with our audience in meaningful ways. We appreciate your hard work and commitment to helping us succeed on YouTube!&quot;"
-                        // date="{ fsaf}"
-                        img="/Images/Portfolio/TwitterDP/ashkan.jpg"
-                        likes="157"
-                        read="34"
-                    />
+                    <a href="https://twitter.com/i/flow/signup" target="_blank">
+                        <TwitterTweet
+                            name="Ashkan Karbasfrooshan"
+                            username="@ashkan"
+                            text="&quot;DP's YouTube Services have been a game-changer for Watch Mojo! Thanks to your algorithm expertise, because of which our channel has seen explosive growth. Your dedication and knowledge have helped us reach new heights and engage with our audience in meaningful ways. We appreciate your hard work and commitment to helping us succeed on YouTube!&quot;"
+                            // date="{ fsaf}"
+                            img="/Images/Portfolio/TwitterDP/ashkan.jpg"
+                            likes="157"
+                            read="34"
+                        />
+                    </a>
                 </div>
             ),
             "para": (
@@ -65,17 +84,27 @@ function PorfolioPage() {
 
         {
             "SectionId": "Zach_Hsieh",
-            "ChannelName": "ZHC Crafts",
+
+            "ChannelName": (
+                <div>
+                    <a href="https://www.youtube.com/@zhccrafts" target="_blank">
+                        ZHC Crafts
+                    </a>
+                </div>
+            )
+            ,
             "TweetComponent": (
                 <div>
-                    <InstagramPost
-                        name="zhccrafts"
-                        para="Thanks to my incredible Content Ideas Guru, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! 
+                    <a href='https://www.instagram.com/accounts/login/' target="_blank">
+                        <InstagramPost
+                            name="zhccrafts"
+                            para="Thanks to my incredible Content Ideas Guru, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! 
                         Their expertise in understanding my niche and target audience has helped me grow my channel and engage with my viewers in new and exciting ways.
                          I highly recommend their services to any content creator looking to take their channel to the next level. Thank you, Content Ideas Guru!"
-                        likes="2,337"
-                        img="/Images/Portfolio/InstaDP/zhc.jpg"
-                    />
+                            likes="2,337"
+                            img="/Images/Portfolio/InstaDP/zhc.jpg"
+                        />
+                    </a>
                 </div>
             ),
             "para": (
@@ -91,18 +120,28 @@ function PorfolioPage() {
 
         {
             "SectionId": "Linus_Sebastian",
-            "ChannelName": "Linus Tech Tips",
+
+            "ChannelName": (
+                <div>
+                    <a href="https://www.youtube.com/@LinusTechTips" target="_blank">
+                        Linus Tech Tips
+                    </a>
+                </div>
+            )
+            ,
             "TweetComponent": (
                 <div>
-                    <InstagramPost
-                        name="linustech"
-                        para="Thanks to my beloved YouTube SEO, most of my videos are now dominating Google & YouTube search results!
+                    <a href='https://www.instagram.com/accounts/login/' target="_blank">
+                        <InstagramPost
+                            name="linustech"
+                            para="Thanks to my beloved YouTube SEO, most of my videos are now dominating Google & YouTube search results!
                          It&#39;s amazing to see my content rise to the top and reach a wider audience, all thanks to the power of search engine optimization.
                           If you&#39;re looking to improve your YouTube presence, I highly recommend investing in your YouTube SEO strategy. 
                           It can make all the difference in getting your content noticed and growing your channel."
-                        img="/Images/Portfolio/InstaDP/linustech.jpg"
-                        likes="21.3k"
-                    />
+                            img="/Images/Portfolio/InstaDP/linustech.jpg"
+                            likes="21.3k"
+                        />
+                    </a>
                 </div>
             ),
             "para": (
@@ -117,21 +156,31 @@ function PorfolioPage() {
 
         {
             "SectionId": "Emmeline_Mayline",
-            "ChannelName": "EmmyMade",
+
+            "ChannelName": (
+                <div>
+                    <a href="https://www.youtube.com/@emmymade" target="_blank">
+                        EmmyMade
+                    </a>
+                </div>
+            )
+            ,
             "TweetComponent": (
                 <div>
-                    <TwitterTweet
-                        name="emmymade"
-                        username="@emmymadeinjapan"
-                        text="Thanks to my amazing YouTube Keywords Researcher, 
-                        I have discovered the perfect keywords to help my food content thrive in the USA.
-                         Their expertise has helped me optimize my videos for search, resulting in increased visibility and engagement.
-                         I highly recommend their services to any content creator looking to improve their discoverability on YouTube. Thank you🤗"
+                    <a href="https://twitter.com/i/flow/signup" target="_blank">
+                        <TwitterTweet
+                            name="emmymade"
+                            username="@emmymadeinjapan"
+                            text="Thanks to my amazing YouTube Keywords Researcher, 
+                                 I have discovered the perfect keywords to help my food content thrive in the USA.
+                                 Their expertise has helped me optimize my videos for search, resulting in increased visibility and engagement.
+                                 I highly recommend their services to any content creator looking to improve their discoverability on YouTube. Thank you🤗"
 
-                        img="/Images/Portfolio/TwitterDP/emmymade.jpg"
-                        likes="1,431"
-                        read="17"
-                    />
+                            img="/Images/Portfolio/TwitterDP/emmymade.jpg"
+                            likes="1,431"
+                            read="17"
+                        />
+                    </a>
                 </div>
             ),
             "para": (
@@ -146,21 +195,32 @@ function PorfolioPage() {
 
         {
             "SectionId": "Ian_Plummer",
-            "ChannelName": "AutoTrader",
+         
+     
+            "ChannelName": (
+                <div>
+                    <a href="https://www.youtube.com/@AutoTraderTV" target="_blank">
+                    AutoTrader
+                    </a>
+                </div>
+            )
+            ,
             "TweetComponent": (
                 <div>
-                    <TwitterTweet
-                        name="Ian Plummer"
-                        username="@IanJPlummer"
-                        text="Thanks to your amazing services, TechAltar has been transformed! Your guidance has given my channel a clear direction and purpose, 
+                    <a href="https://twitter.com/i/flow/signup" target="_blank">
+                        <TwitterTweet
+                            name="Ian Plummer"
+                            username="@IanJPlummer"
+                            text="Thanks to your amazing services, TechAltar has been transformed! Your guidance has given my channel a clear direction and purpose, 
                               resulting in significant growth and engagement from my audience.
                               I am so grateful for your expertise in the YouTube space and highly recommend your services
                               to anyone looking to take their channel to the next level."
 
-                        img="/Images/Portfolio/TwitterDP/Ian_Plummer.jpg"
-                        likes="19"
-                        read="7"
-                    />
+                            img="/Images/Portfolio/TwitterDP/Ian_Plummer.jpg"
+                            likes="19"
+                            read="7"
+                        />
+                    </a>
                 </div>
             ),
             "para": (
@@ -177,18 +237,28 @@ function PorfolioPage() {
 
         {
             "SectionId": "Marton_Barcza",
-            "ChannelName": "TechAltar",
+                    
+            "ChannelName": (
+                <div>
+                    <a href="https://www.youtube.com/channel/UCtZO3K2p8mqFwiKWb9k7fXA" target="_blank">
+                    TechAltar
+                    </a>
+                </div>
+            )
+            ,
             "TweetComponent": (
                 <div>
-                    <InstagramPost
-                        name="techaltar"
-                        para="Thank you for your amazing services, which have truly been a Godsend for TechAltar! 
+                    <a href='https://www.instagram.com/accounts/login/' target="_blank">
+                        <InstagramPost
+                            name="techaltar"
+                            para="Thank you for your amazing services, which have truly been a Godsend for TechAltar! 
                         With your expert guidance, my channel now has a clear direction and purpose. As a result,
                         I have seen a significant increase in engagement and growth.
                         Your dedication and expertise have been invaluable, and I cannot recommend your services enough. Thank you again!"
-                        img="/Images/Portfolio/InstaDP/techaltar.jpg"
-                        likes="347"
-                    />
+                            img="/Images/Portfolio/InstaDP/techaltar.jpg"
+                            likes="347"
+                        />
+                    </a>
                 </div>
             ),
             "para": (

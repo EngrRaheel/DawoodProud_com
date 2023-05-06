@@ -15,12 +15,11 @@ function PorftfoliCard({ image, ChannelName, para, tweet, SectionId }) {
                     </div>
                     <div className='p-4'>
                         {tweet}
-                       
                     </div>
 
                 </div>
                 <div className='relative w-[90%] h-[300px] sm:h-[300px] md:h-[580px] ' >
-                    <Image src={image} fill alt='yes' className='object-contain drop-shadow-sm' />
+                    <Image src={image} fill alt='channelanalytics' className='object-contain drop-shadow-sm' />
                 </div>
             </div>
 

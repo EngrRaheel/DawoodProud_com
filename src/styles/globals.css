@@ -702,7 +702,8 @@ button[type="remove"]:hover {
 }
 
 .glowbg1t {
-  background-color: #f918801a; /* set the initial background color */
+  /* background-color: #f918801a;  */
+  /* set the initial background color */
   border-radius: 0.6rem; /* set the border radius to create a rounded shape */
   transition: box-shadow 0.2s ease-in-out; /* add a smooth transition effect */
 }
