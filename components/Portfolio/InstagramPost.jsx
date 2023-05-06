@@ -4,17 +4,17 @@ import { BsThreeDots } from "react-icons/bs"
 import { BsInstagram } from "react-icons/bs"
 import { MdVerified } from "react-icons/md"
 import { AiOutlineHeart } from "react-icons/ai"
-function InstagramPost() {
+function InstagramPost({name, para, likes, img}) {
     return (
 
         <div className='flex flex-col  mx-auto border-[1px] border-[gray]/40 drop-shadow-2xl p-4  rounded-xl' >
             <div className='flex justify-between items-start'  >
                 <div className='flex items-center justify-center gap-2'>
                     <div className='relative h-10 w-10  rounded-full  bg-blue'>
-                        <Image src={"/Images/YouTubers/alux1.jpg"} alt='logo' className='object-contain rounded-full shadow-sm ' fill />
+                        <Image src={img} alt='logo' className='object-contain rounded-full shadow-sm ' fill />
                     </div>
                     <div className='flex  justify-center items-center gap-1'>
-                        <p className='text-sm md:text-base font-semibold text-blue'>Emil Anton</p>
+                        <p className='text-sm md:text-base font-semibold text-blue'>{name}</p>
                         <MdVerified color='#1d9bf0' />
                         <p className='text-[gray]/90 text-sm'> <span className='font-bold text-base'>.</span> <span className='text-[#1d9bf0] text-sm font-bold hover:underline'><a href="">Follow</a> </span></p>
                     </div>
@@ -23,12 +23,10 @@ function InstagramPost() {
                 <BsThreeDots size={26} color='gray' />
             </div>
             <hr className='w-full bg-[gray]/50 border-none h-[0.5px] mt-3' />
-            <div className='text-blue  flex flex-col justify-center items-center gap-2 font-Syne h-[200px] '>
+            <div className='text-blue  flex flex-col justify-center items-center gap-2 font-Syne px-3 py-5 '>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis commodi eaque, enim itaque molestias hic porro dolorem dolorum sint. Accusamus aliquid quae numquam! Vero ad natus voluptate fuga eaque perferendis.
+                    {para}
                 </p>
-
-
             </div>
             <hr className='w-full bg-[gray]/40 border-none h-[0.5px]' />
             <div className='flex justify-between items-center mt-3'>
@@ -44,7 +42,7 @@ function InstagramPost() {
 
             <div className='text-[black]/90 font-semibold text-[13px] mt-2 font-Noto'>
                 <p>
-                    <span>242324</span> likes
+                    <span>{likes}</span> likes
                 </p>
             </div>
             <hr className='w-full bg-[gray]/40 border-none h-[0.5px] mt-3' />

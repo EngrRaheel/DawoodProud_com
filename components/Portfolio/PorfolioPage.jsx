@@ -15,7 +15,16 @@ function PorfolioPage() {
             "ChannelName": "Alux.com",
             "TweetComponent": (
                 <div>
-                    <TwitterTweet />
+                    <TwitterTweet
+                        name="Emil Anton"
+                        username="@EmilAnton"
+                        text=" Dawood&#39;s expertise in providing a personalized content strategy was invaluable in helping me grow my brand
+                                on YouTube. With his guidance, I was able to connect with my audience in meaningful ways and increase my reach on the platform.
+                               I highly recommend his services to anyone looking to improve their YouTube presence,
+                                as he truly understands the nuances of the platform and how to make your content stand out. Thank you, Dawood!"
+                        img="/Images/Portfolio/TwitterDP/Emil_Anton.jpeg"
+                        likes="373"
+                        read="23" />
                 </div>
             ),
             "para": (
@@ -33,7 +42,15 @@ function PorfolioPage() {
             "ChannelName": "Watch Mojo",
             "TweetComponent": (
                 <div>
-                    <TwitterTweet />
+                    <TwitterTweet
+                        name="Ashkan Karbasfrooshan"
+                        username="@ashkan"
+                        text="&quot;DP's YouTube Services have been a game-changer for Watch Mojo! Thanks to your algorithm expertise, because of which our channel has seen explosive growth. Your dedication and knowledge have helped us reach new heights and engage with our audience in meaningful ways. We appreciate your hard work and commitment to helping us succeed on YouTube!&quot;"
+                        // date="{ fsaf}"
+                        img="/Images/Portfolio/TwitterDP/ashkan.jpg"
+                        likes="157"
+                        read="34"
+                    />
                 </div>
             ),
             "para": (
@@ -51,7 +68,14 @@ function PorfolioPage() {
             "ChannelName": "ZHC Crafts",
             "TweetComponent": (
                 <div>
-                    <TwitterTweet />
+                    <InstagramPost
+                        name="zhccrafts"
+                        para="Thanks to my incredible Content Ideas Guru, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! 
+                        Their expertise in understanding my niche and target audience has helped me grow my channel and engage with my viewers in new and exciting ways.
+                         I highly recommend their services to any content creator looking to take their channel to the next level. Thank you, Content Ideas Guru!"
+                        likes="2,337"
+                        img="/Images/Portfolio/InstaDP/zhc.jpg"
+                    />
                 </div>
             ),
             "para": (
@@ -70,7 +94,15 @@ function PorfolioPage() {
             "ChannelName": "Linus Tech Tips",
             "TweetComponent": (
                 <div>
-                    <TwitterTweet />
+                    <InstagramPost
+                        name="linustech"
+                        para="Thanks to my beloved YouTube SEO, most of my videos are now dominating Google & YouTube search results!
+                         It&#39;s amazing to see my content rise to the top and reach a wider audience, all thanks to the power of search engine optimization.
+                          If you&#39;re looking to improve your YouTube presence, I highly recommend investing in your YouTube SEO strategy. 
+                          It can make all the difference in getting your content noticed and growing your channel."
+                        img="/Images/Portfolio/InstaDP/linustech.jpg"
+                        likes="21.3k"
+                    />
                 </div>
             ),
             "para": (
@@ -88,7 +120,18 @@ function PorfolioPage() {
             "ChannelName": "EmmyMade",
             "TweetComponent": (
                 <div>
-                    <InstagramPost />
+                    <TwitterTweet
+                        name="emmymade"
+                        username="@emmymadeinjapan"
+                        text="Thanks to my amazing YouTube Keywords Researcher, 
+                        I have discovered the perfect keywords to help my food content thrive in the USA.
+                         Their expertise has helped me optimize my videos for search, resulting in increased visibility and engagement.
+                         I highly recommend their services to any content creator looking to improve their discoverability on YouTube. Thank you🤗"
+
+                        img="/Images/Portfolio/TwitterDP/emmymade.jpg"
+                        likes="1,431"
+                        read="17"
+                    />
                 </div>
             ),
             "para": (
@@ -106,8 +149,19 @@ function PorfolioPage() {
             "ChannelName": "AutoTrader",
             "TweetComponent": (
                 <div>
-                    <TwitterTweet />
-                </div>
+                    <TwitterTweet
+                        name="Ian Plummer"
+                        username="@IanJPlummer"
+                        text="Thanks to your amazing services, TechAltar has been transformed! Your guidance has given my channel a clear direction and purpose, 
+                              resulting in significant growth and engagement from my audience.
+                              I am so grateful for your expertise in the YouTube space and highly recommend your services
+                              to anyone looking to take their channel to the next level."
+
+                        img="/Images/Portfolio/TwitterDP/Ian_Plummer.jpg"
+                        likes="19"
+                        read="7"
+                    />
+                </div>  
             ),
             "para": (
                 <p>
@@ -126,7 +180,15 @@ function PorfolioPage() {
             "ChannelName": "TechAltar",
             "TweetComponent": (
                 <div>
-                     <InstagramPost />
+                    <InstagramPost
+                        name="techaltar"
+                        para="Thank you for your amazing services, which have truly been a Godsend for TechAltar! 
+                        With your expert guidance, my channel now has a clear direction and purpose. As a result,
+                        I have seen a significant increase in engagement and growth.
+                        Your dedication and expertise have been invaluable, and I cannot recommend your services enough. Thank you again!"
+                        img="/Images/Portfolio/InstaDP/techaltar.jpg"
+                        likes="347"
+                    />
                 </div>
             ),
             "para": (
