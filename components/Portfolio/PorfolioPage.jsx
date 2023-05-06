@@ -34,7 +34,7 @@ function PorfolioPage() {
                     We&#39;re happy to report that Alux.com Channel has seen significant growth in their viewership and subscribers thanks to our expert team of professionals.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/channelanalytics1.png",
+            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics1.png",
         },
 
         {
@@ -60,7 +60,7 @@ function PorfolioPage() {
                     and the results have been impressive. We&#39;re thrilled to see that Watch Mojo Channel has seen significant growth in their viewership and engagement.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/channelanalytics2.png",
+            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics2.png",
         },
 
         {
@@ -86,7 +86,7 @@ function PorfolioPage() {
                     We&#39;re happy to report that our collaboration with ZHC Crafts Channel has been a resounding success.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/channelanalytics3.png",
+            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics3.png",
         },
 
         {
@@ -112,7 +112,7 @@ function PorfolioPage() {
                     We&#39;re pleased to report that Linus Tech Tips Channel has seen significant growth and success thanks to our partnership.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/channelanalytics4.png",
+            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics4.png",
         },
 
         {
@@ -141,7 +141,7 @@ function PorfolioPage() {
                     We&#39;re thrilled to see that our partnership with EmmyMade Channel has been a success, with significant growth in their subscribers and views.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/channelanalytics6.png",
+            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics6.png",
         },
 
         {
@@ -161,7 +161,7 @@ function PorfolioPage() {
                         likes="19"
                         read="7"
                     />
-                </div>  
+                </div>
             ),
             "para": (
                 <p>
@@ -172,7 +172,7 @@ function PorfolioPage() {
                     and increased engagement on the channel.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/channelanalytics7.png",
+            "Imageurl": "/Images/Portfolio/AnalyticsAnalytics/channelanalytics7.png",
         },
 
         {
@@ -198,7 +198,7 @@ function PorfolioPage() {
                     resulting in substantial growth in their subscribers and viewership. We&#39;re proud to have played a role in TechAltar Channel&#39;s success on the platform.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/channelanalytics5.png",
+            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics5.png",
         },
     ]
 
