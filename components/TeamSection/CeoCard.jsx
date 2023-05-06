@@ -8,12 +8,12 @@ import Image from 'next/image'
 function CEOCard({ name, position, bio, imageUrl }) {
     return (
 
-        <div className='grid grid-cols-1 md:grid-cols-12 justify-center items-center mx-auto max-w-[1172px]  mb-12  sm:ml-[10%]'>
-            <div className="w-[190px] sm:w-[300px] h-[230px] sm:h-[200px] relative col-span-5 mx-auto">
-                <Image src='/Images/TeamMembers/CEO/dawoodproudceo1.jpg' fill className='object-contain rounded-full' alt='CEO_Img'></Image>
+        <div className='grid grid-cols-1 md:grid-cols-12 justify-center items-center mx-auto max-w-[900px] mb-12 md:ml-[15%]'>
+            <div className="w-[190px] sm:w-[180px] h-[230px] sm:h-[180px] relative md:col-span-3 mx-auto">
+                <Image src='/Images/TeamMembers/CEO/ceodawoodproud3.jpg' fill className='object-contain rounded-full' alt='CEO_Img'></Image>
             </div>
 
-            <div className='flex flex-col items-center md:items-start px-6 py-2 col-span-7'>
+            <div className='flex flex-col items-center md:items-start px-6 py-2 md:col-span-8'>
                 <div className='flex flex-col items-center md:items-start mx-auto sm:mx-0 '>
                     <h3 className='w-full font-semibold text-xl md:text-2xl'>{name}</h3>
                     <p className='text-base md:text-base font-light '>{position}</p>
