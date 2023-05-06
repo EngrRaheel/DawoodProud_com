@@ -9,148 +9,170 @@ function FAQs() {
                     <h2 class="font-bold text-5xl mt-5 ">
                         FAQs
                     </h2>
-                  
+
                 </div>
                 <div class="grid divide-y  max-w-[1172px] mx-auto mt-8">
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> What is a Dawood Proud organization?</span>
+                                <span>How many positions / jobs are available?  </span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti necessitatibus fuga commodi quo blanditiis quod expedita ipsam eligendi eos eum delectus accusamus ex ratione rem, labore rerum doloremque, aut quae?
-                             Ullam labore facere, eum assumenda aperiam unde. Ullam aspernatur placeat ipsa magni esse deserunt repellat laborum quia? Accusamus explicabo hic maxime perferendis velit, eos, corporis numquam quos doloribus, magnam amet?
+                                We are in the process of heavy expansion, we are in need of many talented individuals to join our team. So, don't worry about the number of slots available.
+                                If you think you have the skills and qualifications we are looking for, don't hesitate to apply. We are looking for multiple candidates, and we will consider each application carefully.
                             </p>
                         </details>
                     </div>
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> How does  billing work?</span>
+                                <span>What is the last date to apply for this Job? </span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                We offers a variety of billing options, including monthly and annual subscription plans,
-                                as well as pay-as-you-go pricing for certain services. Payment is typically made through a credit
-                                card or other secure online payment method.
+                                Well, as we've mentioned above, we are in the phase of radical expansion and in dire need of talented individuals to join our team.
+                                So, if you feel like you are the perfect candidate for this job, don't wait for any deadline or last date.
+                                Apply as soon as possible until we close the job on our website.
+                                We don't want to miss out on hiring the perfect fit for our team, so go ahead and submit your application today!
                             </p>
                         </details>
                     </div>
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> Can I get a refund for my subscription?</span>
+                                <span>Can you apply if you are in the last semester of your bachelors degree?</span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                We offers a 30-day money-back guarantee for most of its subscription plans. If you are not
-                                satisfied with your subscription within the first 30 days, you can request a full refund. Refunds
-                                for subscriptions that have been active for longer than 30 days may be considered on a case-by-case
-                                basis.
+                                Unfortunately, we cannot consider candidates who are still in their last semester of their bachelors degree program.
+                                We are looking for candidates who are ready to join the team as soon as possible.
+                                We are seeking applicants who have already completed their bachelor's degree. Our preferred candidates have a passing-out year of either 2022 or 2023.
+                                We apologize for any inconvenience this may cause, and we encourage you to apply once you have completed your degree.
                             </p>
                         </details>
                     </div>
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> How do I cancel my subscription?</span>
+                                <span>Why do you run your offices from homes?</span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                To cancel your We subscription, you can log in to your account and navigate to the
-                                subscription management page. From there, you should be able to cancel your subscription and stop
-                                future billing.
+                                We've experimented with different office setups over the years and have found that running our organization from homes is the most effective for our team. Initially, we rented an office space in **Silver City Plaza G-11 Markaz**, but we noticed that our employees' productivity began to decrease. After trying out both options, we realized that **working from home like environment** provided numerous benefits for our team.
+
+                                <br />Remember that, to rent a single office space in Markaz and stuff all our team members in one place, is much more cost effective for us, but Instead, we choose to spend heavily on multiple houses in G-11 to provide our employees with a **home-like environment**. Each house is equipped with very very spacious working areas, attached bathrooms, a dedicated cook, and a clean working environment in close proximity to each other. Primary House is dedicated to Video Editors only, while Secondary and Tertiary House have dedicated workspaces for Content Writers, Graphic Designers, Administrative Coordinators and more. We believe that such an environment leads to happier and more productive employees, as they can work without any distractions and focus solely on their tasks. (thanks to Naval Ravikant for his Insights on entrepreneurial ecosystem). Moreover, having like-minded individuals specializing in particular niche, working in a common place helps build intellectual capital and enhances teamwork.
                             </p>
                         </details>
                     </div>
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> Can I try this platform for free?</span>
+                                <span>Does the type of your bachelor degree affect your chances of selection?</span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                We offers a free trial of its  platform for a limited time. During the trial period,
-                                you will have access to a limited set of features and functionality, but you will not be charged.
+                                No, it doesn't. At our organization, we value skills and experience over formal education.
+                                While having an IT-related degree may certainly be beneficial, but it is NOT a requirement for the job.
+                                What we are looking for are candidates with excellent English skills and a high level of exposure to the internet world.
+                                We are looking for talented individuals from all backgrounds and experiences.
                             </p>
                         </details>
                     </div>
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> How do I access   documentation?</span>
+                                <span> What if I'm having issues with application form present on this website?</span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                Documentation is available on the companys website and can be accessed by
-                                logging in to your account. The documentation provides detailed information on how to use the ,
-                                as well as code examples and other resources.
+                                We'll be sorry to hear that you're experiencing technical difficulties with our website.
+                                If you're having issues with the application form due to session cookies or other technical problems,
+                                we recommend you to contact at our official contact number or email and we'll send you a Google Form link where you can submit your application without any issues. Similarly, if your CV is not decrypting properly, please reach out to us and we'll provide you with an alternative method to submit your application.
+                                We want to make sure that the application process is as smooth as possible for our candidates, so please don't hesitate to reach out to us if you encounter any issues.
                             </p>
                         </details>
                     </div>
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> How do I contact support?</span>
+                                <span>Do I need previous experience to apply for this role?</span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                If you need help with the platform or have any other questions, you can contact the
-                                companys support team by submitting a support request through the website or by emailing
-                                support@We.com.
+                                No, you don't need previous experience to apply for this role.
+                                We will teach you everything you need to know about being a YouTube Content Strategist.
                             </p>
                         </details>
                     </div>
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> Do you offer any discounts or promotions?</span>
+                                <span>Can I apply if I am not a resident of Islamabad or Rawalpindi?</span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                We may offer discounts or promotions from time to time. To stay up-to-date on the latest
-                                deals and special offers, you can sign up for the companys newsletter or follow it on social media.
+                                Unfortunately, we are looking for candidates who are residents of Islamabad or Rawalpindi as our office is located in G-11 and it is essential that you can come to the office easily.
                             </p>
                         </details>
                     </div>
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> How do we compare to other similar services?</span>
+                                <span>Can I use ChatGPT to fill out my application form?</span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                This platform is a highly reliable and feature-rich service that offers a wide range
-                                of tools and functionality. It is competitively priced and offers a variety of billing options to
-                                suit different needs and budgets.
+                                No, you cannot use ChatGPT or any other AI tool to fill out the application form.
+                                We will be using cross APIs to determine whether the content is AI-generated or not.
+                                Therefore, we strongly advise against trying to deceive us by using such tools.
+                                Candidates are expected to write the application form in their own English and fill it out by themselves.
+                                While optional questions can be skipped, we encourage candidates to be honest and genuine in their responses.
+                                This is an opportunity to showcase your skills and qualifications,
+                                and we want to get to know the real you. So, please do not try to cheat the system and fill out the form honestly and in your own words.
+                            </p>
+                        </details>
+                    </div>
+                    <div class="py-5">
+                        <details class="group">
+                            <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                                <span> Is this job a SCAM?</span>
+                                <span class="transition group-open:rotate-180">
+                                    <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                                    </svg>
+                                </span>
+                            </summary>
+                            <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                                We understand that fresh graduates may have concerns about job offers that seem too good to be true. We are a well-established organization that values competent and talented individuals, particularly from the Gen-Z population who are known to **bring fresh perspectives** and **innovative ideas to the table**. Our employees have been instrumental in helping us achieve success beyond our expectations.
+
+                                <br />Moreover, we strongly believe in contributing to the **growth of the Pakistani economy**, particularly during these financially challenging times, by creating employment opportunities and increasing **IT exports**. We are not selling any third-class courses, nor are we asking applicants for any application fees. We simply encourage you to apply if you possess the necessary skills and are interested in working with us. If you have any further doubts, we invite you to visit our offices in G-11 by contacting us through our official number. We are more than happy to address any concerns or questions you may have.
                             </p>
                         </details>
                     </div>

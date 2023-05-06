@@ -13,6 +13,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,400&display=swap");
 
 @font-face {
   font-family: "Inter";
@@ -125,14 +126,14 @@
 
 html {
   scroll-behavior: smooth;
-  transition-duration: 1000ms; 
+  transition-duration: 1000ms;
   transition-delay: 1000ms;
 }
 
 body {
   background: #121521 !important;
   scroll-behavior: smooth;
-  transition-duration: 1000ms; 
+  transition-duration: 1000ms;
   transition-delay: 1000ms;
 }
 * {
@@ -332,7 +333,6 @@ li:hover .dropdown {
 background: -webkit-radial-gradient(bottom, #1A2948, #030713);
 background: -moz-radial-gradient(bottom, #1A2948, #030713);
 background: radial-gradient(to top, #1A2948, #030713); */
-
 
 /* portfolio page */
 
@@ -601,7 +601,6 @@ textarea {
   font-size: 16px;
   min-width: 300px;
 }
-
 
 input[type="text1"],
 textarea {

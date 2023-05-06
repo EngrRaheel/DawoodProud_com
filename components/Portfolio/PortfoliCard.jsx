@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import TwitterTweet from './TwitterTweet'
-function PorftfoliCard({ image, ChannelName, para, tweet,SectionId }) {
+import InstagramPost from './InstagramPost'
+function PorftfoliCard({ image, ChannelName, para, tweet, SectionId }) {
 
 
     return (
@@ -14,6 +15,7 @@ function PorftfoliCard({ image, ChannelName, para, tweet,SectionId }) {
                     </div>
                     <div className='p-4'>
                         {tweet}
+                       
                     </div>
 
                 </div>

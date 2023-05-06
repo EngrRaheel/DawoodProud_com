@@ -2,6 +2,8 @@
 import React, { useEffect } from 'react';
 import PorftfoliCard from './PortfoliCard'
 import TwitterTweet from './TwitterTweet'
+import InstagramPost from './InstagramPost';
+
 function PorfolioPage() {
 
 
@@ -86,7 +88,7 @@ function PorfolioPage() {
             "ChannelName": "EmmyMade",
             "TweetComponent": (
                 <div>
-                    <TwitterTweet />
+                    <InstagramPost />
                 </div>
             ),
             "para": (
@@ -124,7 +126,7 @@ function PorfolioPage() {
             "ChannelName": "TechAltar",
             "TweetComponent": (
                 <div>
-                    <TwitterTweet />
+                     <InstagramPost />
                 </div>
             ),
             "para": (

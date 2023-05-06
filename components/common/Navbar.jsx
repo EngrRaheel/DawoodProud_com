@@ -150,10 +150,12 @@ function Navbar({ bg_color, position }) {
               </div>
             </Link>
           ))}
-          <button className='flex flex-col justify-center items-center px-3 py-[1px] ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
-            <div className="flex justify-center items-center">{`Let${"'"}s Start`}<BsArrowRightShort className="text-[25px]  text-white" /></div>
-            <Link href={"/cutomerpage"} className="text-xs">A New Project Together</Link>
-          </button>
+          <Link href={"/cutomerpage"} className="text-xs">
+            <button className='flex flex-col justify-center items-center px-3 py-[1px] ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
+              <div className="flex justify-center items-center">{`Let${"'"}s Start`}<BsArrowRightShort className="text-[25px]  text-white" /></div>
+              A New Project Together
+            </button>
+          </Link>
         </div>
 
 

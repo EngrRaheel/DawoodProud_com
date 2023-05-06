@@ -7,7 +7,7 @@ import PorftfoliCard from '../../components/Portfolio/PortfoliCard';
 import TwitterTweet from '../../components/Portfolio/TwitterTweet';
 import SiderBar from '../../components/Portfolio/SiderBar';
 import PortfoliPage from "../../components/Portfolio/PorfolioPage"
-
+import InstagramPost from '../../components/Portfolio/InstagramPost';
 
 function Portfolio() {
     return (
@@ -40,6 +40,7 @@ function Portfolio() {
                 <div className='col-span-9 overflow-auto'>
                     <PortfoliPage />
                 </div>
+           
             </div>
             <div>
                 <Footer />
