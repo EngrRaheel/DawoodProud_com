@@ -148,6 +148,12 @@ body {
   width: 54px !important;
   height: 54px !important;
 }
+
+.styles-module_chatBody__VBxQH {
+  padding: 10px !important;
+}
+
+/* HiringRecruttie */
 .jwieGb {
   display: flex;
   -webkit-box-pack: center;
@@ -155,7 +161,7 @@ body {
   -webkit-box-align: center;
   align-items: center;
   padding: 32px 0px;
-  font-size: 18px;
+  font-size: 12px;
   line-height: normal;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   background-color: rgb(255, 255, 255);

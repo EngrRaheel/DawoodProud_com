@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect,  } from 'react';
 import AdminTable from './AdminTable';
 import ClientInfoTable from './ClientInfoTable';
 import ApplicantInfoTable from './ApplicantInfoTable';
@@ -9,8 +9,15 @@ import { FaUser } from "react-icons/fa"
 import { HiOutlineLogout } from "react-icons/hi"
 // import DashBoardSidebar from './DashBoardSidebar';
 
-function AdminDashboard({onclick}) {
+function AdminDashboard({ onclick }) {
     const [activeTab, setActiveTab] = useState('admin');
+
+    useEffect(() => {
+        const token = localStorage.getItem("token")
+if (!token) {
+
+}
+    }, [])
 
     const handleTabChange = (tab) => {
         setActiveTab(tab);
@@ -35,7 +42,7 @@ function AdminDashboard({onclick}) {
                 <div className='w-full flex flex-col justify-between items-center bg-[#001e2b]  text-white col-span-2 '>
                     <div className='w-full p-3 text-base font-bold   space-y-8'>
                         <div className='w-[90px] h-[90px] relative mx-auto'>
-                            <Image src={"/Images/logo.png"} fill className='rounded-full object-contain' />
+                            <Image src={"/Images/logo.png"} alt="logo" fill className='rounded-full object-contain' />
                         </div>
                         <div div className='mt-6 text-xl md:text-2xl lg:text-2xl font-bold abdal_color mx-auto'>
                             <h1>Admin Pannel</h1>
@@ -66,11 +73,11 @@ function AdminDashboard({onclick}) {
 
                     {/* log out button */}
 
-                    <button 
-                    onClick={onclick}
-                     className=' flex gap-2 items-center justify-center py-2 self-start ml-2 font-semibold'>
+                    <button
+                        onClick={onclick}
+                        className=' flex gap-2 items-center justify-center py-2 self-start ml-2 font-semibold'>
                         <p>Log out </p>
-                        <HiOutlineLogout size={15}/>
+                        <HiOutlineLogout size={15} />
                     </button>
                 </div>
                 {/* <DashBoardSidebar /> */}
@@ -80,7 +87,7 @@ function AdminDashboard({onclick}) {
                             Welcome to Admin Pannel
                         </div>
                         <div className='w-[50px] h-[50px] relative'>
-                            <Image src={"/Images/TeamMembers/CEO/ceodawoodproud3.jpg"} fill className='rounded-full object-contain' />
+                            <Image src={"/Images/TeamMembers/CEO/ceodawoodproud3.jpg"} alt="adminimage" fill className='rounded-full object-contain' />
                         </div>
                     </div>
                     <div className='mx-auto w-full'>

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 
 
-function dashboard() {
+function Dashboard() {
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -45,7 +45,7 @@ function dashboard() {
                     <div className="flex flex-col justify-center items-center space-y-6 h-screen">
                         <p className='font-extrabold text-[32px] sm:text-[36px] md:text-[40px] xl:text-[48px] abdal_color'>Welcome Mr Dawood Hussain</p>
                         <div className='w-[80px] h-[80px] relative mx-auto'>
-                            <Image src={"/Images/logo.png"} fill className='object-contain' />
+                            <Image src={"/Images/logo.png"} fill alt='logo' className='object-contain' />
 
                         </div>
                         <div className="grid grid-cols-1 w-full px-6 py-4 bg-white shadow-md sm:max-w-md sm:rounded-lg mx-auto">
@@ -97,4 +97,4 @@ function dashboard() {
 
 
 
-export default dashboard
+export default Dashboard

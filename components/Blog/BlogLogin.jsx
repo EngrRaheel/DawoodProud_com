@@ -6,7 +6,7 @@ function BlogLogin() {
             <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0  ">
 
                 <div className='w-[80px] h-[80px] relative mx-auto'>
-                    <Image src={"/Images/logo.png"} fill className='object-contain' />
+                    <Image src={"/Images/logo.png"} alt="logo" fill className='object-contain' />
 
                 </div>
                 <div className="grid grid-cols-1 w-full px-6 py-4 mt-6  bg-white shadow-md sm:max-w-md sm:rounded-lg">
