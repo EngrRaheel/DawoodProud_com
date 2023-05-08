@@ -23,17 +23,21 @@ function PorfolioPage() {
             "TweetComponent": (
                 <div>
                     <a href="https://twitter.com/i/flow/signup" target="_blank">
-                        <TwitterTweet
-                            name="Emil Anton"
-                            username="@EmilAnton"
-                            text=" Dawood&#39;s expertise in providing a personalized content strategy was invaluable in helping me grow my brand
-                                on YouTube. With his guidance, I was able to connect with my audience in meaningful ways and increase my reach on the platform.
-                               I highly recommend his services to anyone looking to improve their YouTube presence,
-                                as he truly understands the nuances of the platform and how to make your content stand out. Thank you, Dawood!"
-                            img="/Images/Portfolio/TwitterDP/Emil_Anton.jpeg"
-                            likes="373"
-                            read="23" />
+                        <div class="whitespace-pre-line">
+                            <TwitterTweet
+                                name="Alux.com"
+                                username="@aluxcom"
+                                text={`Hey Twitter fam! So many of you have been asking about our YouTube content strategy and services,
+
+                                        and we're happy to reveal that we've been using Dawood Proud Services for a while now!
+                                        They're doing an amazing job, and we're grateful for their expertise.`}
+                                img="/Images/Portfolio/TwitterDP/alux.jpg"
+                                date="9:18 PM · December 15, 2022"
+                                likes="373"
+                                read="23" />
+                        </div>
                     </a>
+
                 </div>
             ),
             "para": (
@@ -60,15 +64,19 @@ function PorfolioPage() {
             "TweetComponent": (
                 <div>
                     <a href="https://twitter.com/i/flow/signup" target="_blank">
-                        <TwitterTweet
-                            name="Ashkan Karbasfrooshan"
-                            username="@ashkan"
-                            text="&quot;DP's YouTube Services have been a game-changer for Watch Mojo! Thanks to your algorithm expertise, because of which our channel has seen explosive growth. Your dedication and knowledge have helped us reach new heights and engage with our audience in meaningful ways. We appreciate your hard work and commitment to helping us succeed on YouTube!&quot;"
-                            // date="{ fsaf}"
-                            img="/Images/Portfolio/TwitterDP/ashkan.jpg"
-                            likes="157"
-                            read="34"
-                        />
+                        <div className='whitespace-pre-line'>
+                            <TwitterTweet
+                                name="Ashkan Karbasfrooshan"
+                                username="@ashkan"
+                                text={`DP${"'"}s YouTube Services have been a game-changer for Watch Mojo! Thanks to your algorithm expertise, because of which our channel has seen explosive growth. 
+                                
+                                Your dedication and knowledge have helped us reach new heights and engage with our audience in meaningful ways. We appreciate your hard work and commitment to helping us succeed on YouTube!`}
+                                date="9:18 PM · Jan 18, 2023"
+                                img="/Images/Portfolio/TwitterDP/ashkan.jpg"
+                                likes="157"
+                                read="34"
+                            />
+                        </div>
                     </a>
                 </div>
             ),
@@ -168,18 +176,19 @@ function PorfolioPage() {
             "TweetComponent": (
                 <div>
                     <a href="https://twitter.com/i/flow/signup" target="_blank">
-                        <TwitterTweet
-                            name="emmymade"
-                            username="@emmymadeinjapan"
-                            text="Thanks to my amazing YouTube Keywords Researcher, 
-                                 I have discovered the perfect keywords to help my food content thrive in the USA.
-                                 Their expertise has helped me optimize my videos for search, resulting in increased visibility and engagement.
-                                 I highly recommend their services to any content creator looking to improve their discoverability on YouTube. Thank you🤗"
+                        <div className='whitespace-pre-line'>
+                            <TwitterTweet
+                                name="emmymade"
+                                username="@emmymadeinjapan"
+                                text={`Thanks to my amazing YouTube Keywords Researcher, I have discovered the perfect keywords to help my food content thrive in the USA.
+                                 
+                                 Their expertise has helped me optimize my videos for search, resulting in increased visibility and engagement. I highly recommend their services to any content creator looking to improve their discoverability on YouTube. Thank you🤗`}
 
-                            img="/Images/Portfolio/TwitterDP/emmymade.jpg"
-                            likes="1,431"
-                            read="17"
-                        />
+                                img="/Images/Portfolio/TwitterDP/emmymade.jpg"
+                                likes="1,431"
+                                read="17"
+                            />
+                        </div>
                     </a>
                 </div>
             ),
@@ -195,12 +204,12 @@ function PorfolioPage() {
 
         {
             "SectionId": "Ian_Plummer",
-         
-     
+
+
             "ChannelName": (
                 <div>
                     <a href="https://www.youtube.com/@AutoTraderTV" target="_blank">
-                    AutoTrader
+                        AutoTrader
                     </a>
                 </div>
             )
@@ -208,18 +217,20 @@ function PorfolioPage() {
             "TweetComponent": (
                 <div>
                     <a href="https://twitter.com/i/flow/signup" target="_blank">
-                        <TwitterTweet
-                            name="Ian Plummer"
-                            username="@IanJPlummer"
-                            text="Thanks to your amazing services, TechAltar has been transformed! Your guidance has given my channel a clear direction and purpose, 
-                              resulting in significant growth and engagement from my audience.
-                              I am so grateful for your expertise in the YouTube space and highly recommend your services
-                              to anyone looking to take their channel to the next level."
+                        <div className='whitespace-pre-line'>
+                            <TwitterTweet
+                                name="Ian Plummer"
+                                username="@IanJPlummer"
+                                text={`Thanks to your amazing services, TechAltar has been transformed! Your guidance has given my channel a clear direction and purpose, resulting in significant growth and engagement from my audience.
+                              
+                            I am so grateful for your expertise in the YouTube space and highly recommend your services
+                              to anyone looking to take their channel to the next level.`}
 
-                            img="/Images/Portfolio/TwitterDP/Ian_Plummer.jpg"
-                            likes="19"
-                            read="7"
-                        />
+                                img="/Images/Portfolio/TwitterDP/Ian_Plummer.jpg"
+                                likes="19"
+                                read="7"
+                            />
+                        </div>
                     </a>
                 </div>
             ),
@@ -232,16 +243,16 @@ function PorfolioPage() {
                     and increased engagement on the channel.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/AnalyticsAnalytics/channelanalytics7.png",
+            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics7.png",
         },
 
         {
             "SectionId": "Marton_Barcza",
-                    
+
             "ChannelName": (
                 <div>
                     <a href="https://www.youtube.com/channel/UCtZO3K2p8mqFwiKWb9k7fXA" target="_blank">
-                    TechAltar
+                        TechAltar
                     </a>
                 </div>
             )

@@ -11,7 +11,7 @@ function TrustPilotReview() {
                     <div className='w-[200px] h-[100px] relative'>
                         <Image src={"/Images/trustpilot.webp"} alt={'image for the truts pilot'} fill></Image>
                     </div>
-                    <p className='flex flex-col justify-center items-center text-white hover:text-[#F5812A] text-base font-medium' >5.0 reviews on Trustpilot</p>
+                    <p className='flex flex-col justify-center items-center text-white hover:text-[#00b67a] text-base font-medium' >5.0 reviews on Trustpilot</p>
 
                 </div>
                 <div className=' w-[90vw] md:w-[80vw] lg:w-[50vw] flex flex-col justify-center items-center text-white gap-12'>

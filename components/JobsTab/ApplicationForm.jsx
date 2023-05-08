@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { AiFillDelete } from "react-icons/ai"
-
+import axios from "axios";
 
 function ApplicationForm() {
     const [fullName, setFullName] = useState("");
@@ -97,7 +97,39 @@ function ApplicationForm() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        const formData = [fullName, email, phone, coverLetter, cv, answers];
+        // const formData = [fullName, email, phone, coverLetter, cv, answers];
+
+
+        debugger;
+        const ApplicantObject = {
+            fullName: fullName,
+            email: email,
+            phone: phone,
+            coverLetter: coverLetter,
+            cv: "htts:/sdfeweg",
+            answer1: answers.answer1,
+            answer2: answers.answer2,
+            answer3: answers.answer3,
+            answer4: answers.answer4,
+            answer5: answers.answer5,
+            answer6: answers.answer6,
+            answer7: answers.answer7,
+            answer8: answers.answer8,
+            answer9: answers.answer9,
+            answer10: answers.answer10,
+            answer11: answers.answer11,
+            answer12: answers.answer12,
+            answer13: answers.answer13,
+            answer14: answers.answer14,
+            answer15: answers.answer15,
+            answer16: answers.answer16,
+            answer17: answers.answer17,
+            answer18: answers.answer18,
+            answer19: answers.answer19,
+            answer20: answers.answer20,
+            answer21: answers.answer21,
+        }
+        axios.post("http://localhost:5000/api/candidate/apply", ApplicantObject).then(res => console.log(res))
         console.log(formData);
     };
     return (
@@ -137,7 +169,7 @@ function ApplicationForm() {
                                     type="file"
                                     accept=".jpg,.jpeg,.png,.pdf,.doc,.docx"
                                     onChange={(e) => setCv(e.target.files[0])}
-                                    required
+                                    // required
                                     id="upload"
                                     placeholder="Upload A file here: "
                                     aria-hidden='true'

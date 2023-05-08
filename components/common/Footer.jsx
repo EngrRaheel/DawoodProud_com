@@ -66,8 +66,8 @@ function Footer() {
                                 <Link href='/team'>
                                     Team
                                 </Link>
-                                <p>Privacy
-                                </p>
+                                <Link href="/legal-info">Privacy
+                                </Link>
                                 <p>Support
                                 </p>
                             </div>

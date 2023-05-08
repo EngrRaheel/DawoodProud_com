@@ -32,33 +32,33 @@ const navItems = [
     dropdownItems: [
       {
         name: "YouTube Consultation",
-        path: "/youtube-consultation"
+        path: "/consultation"
       },
       {
         name: "YouTube SEO",
-        path: "/youtube-seo"
+        path: "/consultation"
       },
       {
         name: "YouTube Keyword Research",
-        path: "/youtube-keyword-research"
+        path: "/consultation"
       },
       {
         name: "YouTube Automation",
-        path: "/youtube-automation"
+        path: "/consultation"
       },
       {
         name: "YouTube Monetization",
-        path: "/youtube-monetization"
+        path: "/consultation"
       },
       {
         name: "YouTube Promotion / Ads",
-        path: "/youtube-promotion-ads"
+        path: "/consultation"
       },
 
 
       {
         name: "YouTube Channel Managment",
-        path: "/youtube-channel-managment"
+        path: "/consultation"
       },
 
 
@@ -84,27 +84,7 @@ const navItems = [
     id: 6,
     Name: "Blog",
     Route: "/blog",
-    // hasDropdown: false,
-    // selected: true,
-    // dropdownItems: [
-    //   {
-    //     name: "Views",
-    //     path: "/views"
-    //   },
-    //   {
-    //     name: "Monetization",
-    //     path: "/monetization"
-    //   },
-    //   {
-    //     name: "Analytics",
-    //     path: "/analytics"
-    //   },
-    //   {
-    //     name: "All Tips and Insights",
-    //     path: "/tipandinsights"
-    //   },
 
-    // ]
 
   },
   {
@@ -116,14 +96,12 @@ const navItems = [
 ];
 
 
-
-
-
 function Navbar({ bg_color, position }) {
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => {
     setIsOpen((prevState) => !prevState);
   };
+
   return (
     <div className={`w-full min-h-[4.1rem]  font-Inter font-bold ${position} top-0 z-10 ${bg_color} `}>
       <div className="mx-w-[1172px] mx-auto min-h-full flex items-center text-[#FFFFFF] justify-between lg:justify-around  ">
@@ -151,16 +129,14 @@ function Navbar({ bg_color, position }) {
             </Link>
           ))}
           <Link href={"/cutomerpage"} className="text-xs">
-            <button className='flex flex-col justify-center items-center px-3 py-[1px] ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
-              <div className="flex justify-center items-center">{`Let${"'"}s Start`}<BsArrowRightShort className="text-[25px]  text-white" /></div>
-              A New Project Together
+            <button className='flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
+              <div className="flex justify-center items-center">
+                <p>Get Free Consultation</p>    
+              </div>
+
             </button>
           </Link>
         </div>
-
-
-
-
 
 
         {/* Hamburgur */}
@@ -185,11 +161,18 @@ function Navbar({ bg_color, position }) {
                 <RxCross2 onClick={toggleDrawer} size={30} />
               </div>
               {/* button for the order now in mobile view */}
-              <button className='text-base font-medium flex gap-3 justify-center items-center px-3 py-3  mx-auto mt-4 rounded-3xl text-white bg-[rgb(19,157,255)]'>
-                <div className="flex justify-center items-center ">{`Let${"'"}s Start`}<BsArrowRightShort className=" text-white" size={30} /></div>
-                <Link href={"/cutomerpage"}>A New Project Together</Link>
-              </button>
 
+              <div className="mx-auto">
+             <Link href={"/cutomerpage"}  >
+                <button className='text-base font-medium flex gap-3 justify-center items-center px-8 py-4   mt-4 rounded-3xl text-white bg-[rgb(19,157,255)]'>
+                  <div className="flex justify-center items-center gap-4">
+                    Get Free Consultation
+                    {/* <BsArrowRightShort className=" text-white" size={30} /> */}
+                  </div>
+                </button>
+              </Link>    
+              </div>
+             
               {navItems.map((item, index) => (
                 <Link href={item.Route} key={index} >
                   <div className="w-full flex flex-col justify-center items-center px-4 py-1 ml-2">
@@ -216,8 +199,8 @@ function Navbar({ bg_color, position }) {
             </div>
           </Drawer>
         </div >
-      </div>
-    </div>
+      </div >
+    </div >
 
 
   );

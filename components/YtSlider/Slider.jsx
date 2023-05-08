@@ -51,7 +51,7 @@ const YtSlider = () => {
         <p>
           {"\"Dawood provided a tailored "}
           <span className="text-[#0ECF91]">content strategy</span>
-          {"  that helped me grow my brand.I highly recommend your services to anyone looking to improve their YouTube presence.\""}
+          {"  that helped me grow my brand. I highly recommend your services to anyone looking to improve their YouTube presence.\""}
         </p>
       ),
       "url": "/Images/YouTubers/alux1.jpg",

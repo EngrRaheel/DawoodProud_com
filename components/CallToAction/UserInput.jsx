@@ -10,9 +10,12 @@ import FormRev from "./RevenueForm"
 import ProgressBar from "./ProgressBar";
 import FormUrl from "./FormURL";
 import FormAbout from "./HearAboutFrom"
+import axios from "axios";
+
 
 function MultiStepForm() {
     const [step, setStep] = useState(1);
+
     const [formData, setFormData] = useState({
         name: "",
         YoutubeName: "",
@@ -24,15 +27,30 @@ function MultiStepForm() {
         services: [],
         contactvia: [],
         hearaboutus: "",
-       
-       
-       
-        
+
+
+
+
     });
 
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
+        // debugger;
+        const clientObject = {
+            name: formData.name,
+            YoutubeName: formData.YoutubeName,
+            URL: formData.URL,
+            subs: formData.subs,
+            revenue: formData.revenue,
+            email: formData.email,
+            phone: formData.phone,
+            services: formData.services,
+            contactvia: formData.contactvia,
+            hearaboutus: formData.hearaboutus,
+        }
+        axios.post("http://localhost:5000/api/client/info", clientObject).then(res => console.log(res))
+
         console.log(formData);
     };
 

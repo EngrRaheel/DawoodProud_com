@@ -92,7 +92,7 @@ export default function MultipleSelect({ setFormData, value, formData }) {
                                     key={value}
                                     label={value}
 
-                                    onDelete={handleDelete}
+                                    // onDelete={handleDelete}
                                     deleteIcon={<CancelIcon className=' rounded-full' color='white' />}
                                     sx={{
                                         color: 'white', backgroundColor: '#247ddd', mr: 0.5,

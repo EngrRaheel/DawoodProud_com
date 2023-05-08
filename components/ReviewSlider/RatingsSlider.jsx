@@ -119,13 +119,17 @@ const ReviewSlider = () => {
                             </div>
                             <div className='flex flex-col justify-center items-start gap-2'>
                                 <p className='text-[gray]'>Based on 367 reviews</p>
+
                                 <div className='relative  h-[20px] w-[130px]'>
                                     <Image src={'/Images/poweredByGoogle.webp'} alt='googleimg' className='object-contain' fill />
                                 </div>
-                                <button className=' flex gap-1 text-white shadow-lg items-center justify-center bg-[#1c62e4] hover:bg-[#064bcd] duration-200 py-[2px] px-4 md:px-3 lg:px-4 rounded-3xl '>
-                                    review us on
-                                    <Icons.GoogleIcon ClassName='bg-white rounded-full' />
-                                </button>
+
+                                <a href="https://accounts.google.com/signup" target="_blank">
+                                    <button className=' flex gap-1 text-white shadow-lg items-center justify-center bg-[#1c62e4] hover:bg-[#064bcd] duration-200 py-[2px] px-4 md:px-3 lg:px-4 rounded-3xl '>
+                                        review us on
+                                        <Icons.GoogleIcon ClassName='bg-white rounded-full' />
+                                    </button>
+                                </a>
                             </div>
 
                         </div>
@@ -179,7 +183,7 @@ const ReviewSlider = () => {
 
                         })}
 
-                      
+
 
                     </Swiper>
                 </div>

@@ -17,7 +17,7 @@ function TeamMembers() {
                     bio="Author of idea and founder of this Company. Dawood is the one driving the team, 
                         and keeping constant motivation running alive through each and every team member. 
                         Dawood's leadership is like a fresh cup of coffee - it wakes us up, keeps us energized,
-                         and makes us feel like we can conquer the world... Or at least the next company meeting :)"
+                         and makes us feel like we can conquer the world... Or at least the next Project :)"
                 />
             </div>
 
@@ -92,7 +92,7 @@ function TeamMembers() {
 
             {/* Graphic Designers🔶*/}
             <div className='flex flex-col justify-center items-center gap-10 mx-auto'>
-                <p className='font-bold text-3xl'>Thumbnail Designers</p>
+                <p className='font-bold text-3xl'>Graphic Designers</p>
                 <div className='grid grid-col-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10 lg:gap-6 justify-center items-center'>
                     <TeamsMemberCard
                         name="Zeeshan Bilal"

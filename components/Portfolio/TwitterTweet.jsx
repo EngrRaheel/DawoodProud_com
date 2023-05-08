@@ -5,19 +5,19 @@ import Image from 'next/image'
 import { AiFillHeart } from "react-icons/ai"
 import { TbMessageCircle2Filled } from "react-icons/tb"
 import { BsTwitter } from "react-icons/bs"
-import { HiOutlineUpload } from "react-icons/hi"
+import { HiOutlineInformationCircle } from "react-icons/hi"
 function TwitterTweet({ name, username, img, text, date, likes, read }) {
 
 
     return (
         <div>
-            <div className='flex flex-col max-w-[400px] mx-auto border-[1px] border-[gray]/40 drop-shadow-2xl p-4  rounded-xl'>
+            <div className='flex flex-col max-w-[400px] mx-auto border-[1px] border-[gray]/40 shadow-xl p-4  rounded-xl'>
                 <div className='flex justify-between items-start'  >
                     <div className='flex items-center justify-center gap-1'>
-                        <div className='relative h-10 w-10  rounded-full  bg-blue'>
-                            <Image src={img} alt='logo' className='object-contain rounded-full shadow-sm ' fill />
+                        <div className='relative h-10 w-10  rounded-full'>
+                            <Image src={img} alt='logo' className='object-contain rounded-full' fill />
                         </div>
-                        <div className='flex flex-col justify-start items-start'>
+                        <div className='flex flex-col justify-center items-start -space-y-2'>
                             <p className='text-sm md:text-base font-semibold text-blue'>{name}</p>
                             <div className='flex justify-center items-center gap-2'>
                                 <p className='text-[gray]/90 text-sm'>{username} </p>
@@ -33,8 +33,15 @@ function TwitterTweet({ name, username, img, text, date, likes, read }) {
                     <p>
                         {text}
                     </p>
-                    <div className='text-[gray]'>
-                        {date}
+                    <div className='flex justify-between items-center w-full text-sm'>
+                        <div className='text-[gray]'>
+                            {date}
+                        </div>
+                        <div>
+                        <HiOutlineInformationCircle size={15}/>
+                        </div>
+
+
                     </div>
                     <hr className='w-full bg-[gray]/50 border-none h-[0.5px]' />
                 </div>
