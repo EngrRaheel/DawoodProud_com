@@ -72,7 +72,7 @@ const navItems = [
   {
     id: 4,
     Name: "Our Channels",
-    Route: "/our-channels",
+    Route: "/team",
   },
   {
     id: 5,
