@@ -16,6 +16,9 @@ function OurChannels() {
                     </div>
                 </div>
                 <div className='col-span-7 overflow-auto mt-20 '>
+                    <h1 className='px-3 text-xl md:text-2xl lg:text-2xl font-bold mb-8'>
+                        From Zero to Hero: Check Out Our Top-performing Faceless YouTube Channels
+                    </h1>
                     <p className='px-3 text-sm md:text-base lg:text-lg font-normal'>
                         Welcome to &quot;Our Channels&quot; page, where we showcase our expertise in YouTube growth strategies. We don&#39;t just talk the talk, we walk the walk. Our channels are the living proof of our ability to apply winning YouTube content strategies that help channels grow. As a wise person once said, &quot;Don&#39;t tell me, show me.&quot; And that&#39;s exactly what we&#39;re doing here.
                         We specialize in not only understanding the <strong>YouTube Algorithm</strong>, but also in applying those strategies to grow our channels. We believe that success is not a one-size-fits-all approach, which is why we offer <strong>customized growth strategies</strong> tailored to each channel&#39;s unique needs.
@@ -26,7 +29,7 @@ function OurChannels() {
                         <ChannelPage />
                     </div>
                     <p className='px-3 text-sm md:text-base lg:text-lg font-normal mb-6'>
-                        If you&#39;re interested in exploring our complete list of YouTube channels across various niches for promotional purposes, please don&#39;t hesitate to contact us at our official number. 
+                        If you&#39;re interested in exploring our complete list of YouTube channels across various niches for promotional purposes, please don&#39;t hesitate to contact us at our official number.
                         We&#39;ll work with you to identify the most relevant channel for your needs and help you achieve your YouTube Growth goals.
                     </p>
                 </div>
