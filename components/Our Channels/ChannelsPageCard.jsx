@@ -18,7 +18,7 @@ function ChannelCard({ channleURL, ChannelName, para, SectionId, list }) {
                         </div>
                     </div>
                 </div>
-                <div className='relative w-[80%] h-[300px] sm:h-[380px] md:h-[450px] mx-auto ' >
+                <div className='relative w-[100%] h-[300px] sm:h-[380px] md:h-[450px] mx-auto px-1 shadow-md' >
                     {channleURL}
                 </div>
             </div>

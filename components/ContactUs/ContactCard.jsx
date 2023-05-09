@@ -13,7 +13,7 @@ function ContactCard() {
     return (
         <div className='px-4'>
             <div className='grid grid-cols-1 md:grid-cols-12 bg-white max-w-4xl  border border-[gray] p-12 shadow-2xl drop-shadow-2xl mx-auto rounded-lg'>
-                <div className='col-span-5 px-6 space-y-6 text-base font-medium'>
+                <div className='col-span-5 px-6 space-y-5 text-base font-medium'>
                     <h2 className='text-2xl'>Call Us</h2>
                     <div>
                         <p>Contact Our Support Team</p>
@@ -22,6 +22,10 @@ function ContactCard() {
                     <div>
                         <p>Email Us</p>
                         <p className='text-[#139dff] font-normal'>support@dawoodproud.com</p>
+                    </div>
+                    <div>
+                        <p>For Any Complaints, Email Us at</p>
+                        <p className='text-[#139dff] font-normal'>complaints@dawoodproud.com</p>
                     </div>
                 </div>
                 <div className='md:h-full md:w-[2px] bg-[gray] col-span-1 '>
@@ -34,12 +38,15 @@ function ContactCard() {
 
                     <button onClick={handleButtonClick} className='flex justify-center items-center px-4 py-3 bg-[#139dff] rounded-md gap-2 text-white font-medium' >
                         <BsFillChatRightDotsFill className='mt-1' />
-
                         <p >
                             Chat now
                         </p>
-
                     </button>
+                    <div>
+                        <p>
+                            Hours:  24x7
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

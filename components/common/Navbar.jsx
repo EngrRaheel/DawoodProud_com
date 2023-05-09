@@ -73,7 +73,7 @@ const navItems = [
   {
     id: 4,
     Name: "Our Channels",
-    Route: "/our-channels",
+    Route: "/ourchannels",
   },
   {
     id: 5,
@@ -91,7 +91,7 @@ const navItems = [
   {
     id: 7,
     Name: "Contact Us",
-    Route: "/contact-us",
+    Route: "/contactus",
 
   },
 ];
