@@ -4,7 +4,8 @@ import Footer from "../../components/common/Footer";
 import SiderBar from '../../components/Our Channels/Sidebar';
 import ChannelPage from '../../components/Our Channels/ChannelsPage';
 
-function ourChannels() {
+
+function OurChannels() {
     return (
         <div className="w-full min-h-screen grid grid-cols-1">
             <Navbar bg_color={"bg-blue"} position={'fixed'} />
@@ -37,4 +38,4 @@ function ourChannels() {
     )
 }
 
-export default ourChannels
+export default OurChannels
