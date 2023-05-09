@@ -1,6 +1,7 @@
 // import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Router } from "next/router";
 // import component 👇
 import Drawer from "react-modern-drawer";
 import { Spin as Hamburger } from 'hamburger-react';// hamburger 
@@ -90,7 +91,7 @@ const navItems = [
   {
     id: 7,
     Name: "Contact Us",
-    Route: "/contact-Us",
+    Route: "/contact-us",
 
   },
 ];
