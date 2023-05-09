@@ -9,7 +9,7 @@ function CEOCard({ name, position, bio, imageUrl }) {
     return (
 
         <div className='grid grid-cols-1 md:grid-cols-12 justify-center items-center mx-auto max-w-[900px] mb-12 md:ml-[15%]'>
-            <div className="w-[190px] sm:w-[180px] h-[230px] sm:h-[180px] relative md:col-span-3 mx-auto">
+            <div className="w-[190px] sm:w-[180px] h-[200px] sm:h-[180px] relative md:col-span-3 mx-auto">
                 <Image src='/Images/TeamMembers/CEO/ceodawoodproud3.jpg' fill className='object-contain rounded-full' alt='CEO_Img'></Image>
             </div>
 

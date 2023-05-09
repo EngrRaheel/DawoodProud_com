@@ -131,7 +131,7 @@ function Navbar({ bg_color, position }) {
           <Link href={"/cutomerpage"} className="text-xs">
             <button className='flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
               <div className="flex justify-center items-center">
-                <p>Get Free Consultation</p>    
+                <p>Get Free Consultation</p>
               </div>
 
             </button>
@@ -163,16 +163,16 @@ function Navbar({ bg_color, position }) {
               {/* button for the order now in mobile view */}
 
               <div className="mx-auto">
-             <Link href={"/cutomerpage"}  >
-                <button className='text-base font-medium flex gap-3 justify-center items-center px-8 py-4   mt-4 rounded-3xl text-white bg-[rgb(19,157,255)]'>
-                  <div className="flex justify-center items-center gap-4">
-                    Get Free Consultation
-                    {/* <BsArrowRightShort className=" text-white" size={30} /> */}
-                  </div>
-                </button>
-              </Link>    
+                <Link href={"/cutomerpage"}  >
+                  <button className='text-base font-medium flex gap-3 justify-center items-center px-8 py-4   mt-4 rounded-3xl text-white bg-[rgb(19,157,255)]'>
+                    <div className="flex justify-center items-center gap-4">
+                      Get Free Consultation
+                      {/* <BsArrowRightShort className=" text-white" size={30} /> */}
+                    </div>
+                  </button>
+                </Link>
               </div>
-             
+
               {navItems.map((item, index) => (
                 <Link href={item.Route} key={index} >
                   <div className="w-full flex flex-col justify-center items-center px-4 py-1 ml-2">

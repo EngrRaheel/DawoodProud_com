@@ -5,7 +5,7 @@ function SignIn() {
     return (
 
         <div >
-            <div className="flex flex-col items-center min-h-screen pt-6 justify-center sm:pt-0 space-y-2 px-4 font-Inter">
+            <div className="flex flex-col items-center min-h-screen  justify-center sm:pt-0 space-y-6 gap-2 px-4 font-Inter">
                 <div className='text-white text-2xl sm:text-5xl font-bold text-center space-y-4 max-w-3xl mt-8'>
                     <p>
                     Welcome to our exclusive Client-Only Blog!
@@ -13,9 +13,6 @@ function SignIn() {
                     <p className=' text-xl sm:text-xl font-semibold'>
                     Log in to Gain access to insider knowledge, YouTube Algorithm Update, Latest Trends, and Valuable Tips designed to help you succeed in YouTube industry.
                     </p>
-                </div>
-                <div className='w-[50px] h-[50px] relative mx-auto'>
-                    <Image src={"/Images/logo.png"} alt="logo" fill className='object-contain' />
                 </div>
                 <div className="grid grid-cols-1 w-full px-6 py-3 mt-6  bg-white shadow-md max-w-md rounded-lg">
                     <form>
