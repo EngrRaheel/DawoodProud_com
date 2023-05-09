@@ -4,8 +4,9 @@ import { HiArrowSmRight } from "react-icons/hi"
 
 function BlogLogin() {
     return (
+
         <div>
-            <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0  ">
+            <div className="flex flex-col items-center justify-center min-h-screen ">
 
                 <div className='w-[80px] h-[80px] relative mx-auto'>
                     <Image src={"/Images/logo.png"} alt="logo" fill className='object-contain' />

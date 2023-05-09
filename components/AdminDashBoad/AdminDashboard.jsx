@@ -4,8 +4,9 @@ import ClientInfoTable from './ClientInfoTable';
 import ApplicantInfoTable from './ApplicantInfoTable';
 import Navbar from '../common/Navbar';
 import Image from 'next/image';
-import { RiAdminFill } from "react-icons/ri"
+import {MdAdminPanelSettings } from "react-icons/md"
 import { FaUser } from "react-icons/fa"
+import {BsFillPersonLinesFill} from "react-icons/bs"
 import { HiOutlineLogout } from "react-icons/hi"
 // import DashBoardSidebar from './DashBoardSidebar';
 
@@ -40,7 +41,7 @@ if (!token) {
         <div className='font-inter'>
             <div className='text-black bg-[white] grid grid-cols-12 min-h-screen '>
                 <div className='w-full flex flex-col justify-between items-center bg-[#001e2b]  text-white col-span-2 '>
-                    <div className='w-full p-3 text-base font-bold   space-y-8'>
+                    <div className='w-full p-3 text-base font-bold  space-y-8'>
                         <div className='w-[90px] h-[90px] relative mx-auto'>
                             <Image src={"/Images/logo.png"} alt="logo" fill className='rounded-full object-contain' />
                         </div>
@@ -51,19 +52,19 @@ if (!token) {
 
                         <ul className='mt-12 space-y-4'>
                             <li className='flex justify-start items-center gap-2 text-lg'>
-                                <RiAdminFill size={20} />
+                                <MdAdminPanelSettings size={20} />
                                 <button onClick={() => handleTabChange('admin')} >
                                     Admin
                                 </button>
                             </li>
                             <li className='flex justify-start items-center gap-2 text-lg'>
-                                <FaUser size={20} className="text-[pink]" />
+                                <FaUser size={20} className="text-[white]" />
                                 <button onClick={() => handleTabChange('client')}>
                                     Client Info
                                 </button>
                             </li>
                             <li className='flex justify-start items-center gap-2 text-lg'>
-                                <FaUser size={20} className="text-[pink]" />
+                                <BsFillPersonLinesFill size={20} className="text-[white]" />
                                 <button onClick={() => handleTabChange('applicant')}>
                                     Applicant Info
                                 </button>
