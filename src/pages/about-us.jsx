@@ -44,12 +44,11 @@ function careers() {
                     </div>
                 </div>
             </div>
-            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10 mb-8 mx-auto'>
+            <div className='w-full flex flex-col justify-center items-start max-w-[1172px] space-y-10  mx-auto mb-24'>
                 <div className='ml-[4%] md:ml-[10%] lg:ml-[11%] '>
                     <Tab tabs={tabs} />
                 </div>
 
-           
                 <div className='flex flex-col justify-center items-center text-[#333333] font-Inter gap-4 w-full mx-auto  p-6  '>
                     <div className='flex flex-col gap-2 ml-[0%] md:ml-[10%] lg:ml-[12%]'>
                         <h1 className='font-semibold  text-[24px] md:text-[28px]'>About our Agency</h1>

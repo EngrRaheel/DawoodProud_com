@@ -52,15 +52,15 @@ function ApplicationForm() {
         }
     }
 
-    const handleFileChange = (event) => {
-        const file = event.target.files[0];
-        const reader = new FileReader();
-        reader.onload = (event) => {
-            setCv(event.target.result);
-            setCvType(file.type);
-        };
-        reader.readAsDataURL(file);
-    };
+    // const handleFileChange = (event) => {
+    //     const file = event.target.files[0];
+    //     const reader = new FileReader();
+    //     reader.onload = (event) => {
+    //         setCv(event.target.result);
+    //         setCvType(file.type);
+    //     };
+    //     reader.readAsDataURL(file);
+    // };
 
     const handleDrop = (e) => {
         e.preventDefault();
@@ -98,45 +98,7 @@ function ApplicationForm() {
         setAnswers({ ...answers, [name]: value });
     };
 
-    // const handleSubmit = (event) => {
-
-
-    //     event.preventDefault();
-
-
-
-    //     debugger;
-    //     const ApplicantObject = {
-    //         fullName: fullName,
-    //         email: email,
-    //         phone: phone,
-    //         coverLetter: coverLetter,
-    //         cv: "htts:/sdfeweg",
-    //         answer1: answers.answer1,
-    //         answer2: answers.answer2,
-    //         answer3: answers.answer3,
-    //         answer4: answers.answer4,
-    //         answer5: answers.answer5,
-    //         answer6: answers.answer6,
-    //         answer7: answers.answer7,
-    //         answer8: answers.answer8,
-    //         answer9: answers.answer9,
-    //         answer10: answers.answer10,
-    //         answer11: answers.answer11,
-    //         answer12: answers.answer12,
-    //         answer13: answers.answer13,
-    //         answer14: answers.answer14,
-    //         answer15: answers.answer15,
-    //         answer16: answers.answer16,
-    //         answer17: answers.answer17,
-    //         answer18: answers.answer18,
-    //         answer19: answers.answer19,
-    //         answer20: answers.answer20,
-    //         answer21: answers.answer21,
-    //     }
-    //     axios.post("http://localhost:5000/api/candidate/apply", ApplicantObject).then(res => console.log(res))
-    //     console.log(formData);
-    // };
+  
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -204,7 +166,7 @@ function ApplicationForm() {
                     </div>
 
                     <div className="max-w-[768px] h-[150px] border-[1.5px] border-[gray] hover:border-[black] text-center py-3 px-8 rounded-md "
-                        onClick={handleClick}
+                        // onClick={handleClick}
                         onDragOver={(e) => e.preventDefault()}
                         onDragEnter={(e) => e.preventDefault()}
                         onDrop={handleDrop}>

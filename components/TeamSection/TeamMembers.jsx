@@ -3,8 +3,7 @@ import TeamsMemberCard from './TeamsMemberCard'
 import CEOCard from './CeoCard'
 function TeamMembers() {
     return (
-        <div className='flex flex-col justify-center items-center mx-auto space-y-14 gap-8 px-4 min-h-screen'>
-
+        <div className='flex flex-col justify-center items-center mx-auto space-y-14 gap-8 px-4 min-h-screen mb-24'>
             <div className='bg-white  mx-auto'>
                 {/* <h1 className='text-[black] text-xl font-bold '>Our Team Members</h1> */}
                 <h2 className='text-[black] text-4xl font-semibold '>Meet Our Team!</h2>

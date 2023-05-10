@@ -57,7 +57,7 @@ function ServiceCards() {
             <ServiceCard heading={"Overall YouTube Channel Management"}
                 heading2={"Level Up Your YouTube Game with Expert Growth Management"}
                 para={`Our expert strategies and optimization techniques are the secret sauce to skyrocketing your subscribers and engagement. Let${"'"}s unleash your channel${"'"}s full potential and dominate the online space!`}
-                btntext={"Let us Help us Grow"} bgColor={""} link={"/consultation"} images={"/Images/Services/Overall YouTube Channel Management.png"} />
+                btntext={"Let us Help you Grow"} bgColor={""} link={"/consultation"} images={"/Images/Services/Overall YouTube Channel Management.png"} />
 
             <TrustPilotReview />
 

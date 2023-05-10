@@ -68,7 +68,7 @@ function SiderBar() {
 
     return (
 
-        <div className="max-w-xl mx-auto text-blue">
+        <div className="max-w-xl mx-auto text-blue ">
             <aside className="w-full" aria-label="Sidebar">
                 <div className="px-3 py-4 overflow-y-auto rounded-2xl shadow-sm mt-8 text-left">
                     <h2 className='p-2 text-base font-bold ml-4'>Content</h2>

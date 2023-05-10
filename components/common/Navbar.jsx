@@ -73,7 +73,7 @@ const navItems = [
   {
     id: 4,
     Name: "Our Channels",
-    Route: "/ourchannels",
+    Route: "/our-channels",
   },
   {
     id: 5,
@@ -91,7 +91,7 @@ const navItems = [
   {
     id: 7,
     Name: "Contact Us",
-    Route: "/contactus",
+    Route: "/contact-us",
 
   },
 ];
@@ -129,7 +129,7 @@ function Navbar({ bg_color, position }) {
               </div>
             </Link>
           ))}
-          <Link href={"/cutomerpage"} className="text-xs">
+          <Link href={"/consultation"} className="text-xs">
             <button className='flex flex-col justify-center items-center px-4 py-2 ml-2 rounded-xl text-sm font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] '>
               <div className="flex justify-center items-center">
                 <p>Get Free Consultation</p>
@@ -164,11 +164,10 @@ function Navbar({ bg_color, position }) {
               {/* button for the order now in mobile view */}
 
               <div className="mx-auto">
-                <Link href={"/cutomerpage"}  >
-                  <button className='text-base font-medium flex gap-3 justify-center items-center px-8 py-4   mt-4 rounded-3xl text-white bg-[rgb(19,157,255)]'>
+                <Link href={"/consultation"}  >
+                  <button className='text-base font-medium  px-3 py-3  mt-4 rounded-xl text-white bg-[rgb(19,157,255)]'>
                     <div className="flex justify-center items-center gap-4">
-                      Get Free Consultation
-                      {/* <BsArrowRightShort className=" text-white" size={30} /> */}
+                      Get Free Consultation                    
                     </div>
                   </button>
                 </Link>

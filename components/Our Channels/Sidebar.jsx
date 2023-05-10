@@ -47,7 +47,7 @@ function SiderBar() {
 
     function handleScroll() {
         const scrollPosition = window.scrollY + 20;
-        const sectionIds = ["Space_Matters", "9_Figure_Life", "Joyous_Travel", "Wild_Iron", "Body_Hub", " Future Lab"];
+        const sectionIds = ["Space_Matters", "9_Figure_Life", "Joyous_Travel", "Wild_Iron", "Body_Hub", " Future_Lab"];
         const currentSectionIds = sectionIds.filter((id) => {
             const element = document.getElementById(id);
             return element && element.offsetTop <= scrollPosition;
@@ -68,7 +68,7 @@ function SiderBar() {
             <aside className="w-full" aria-label="Sidebar">
                 <div className="px-3 py-4 overflow-y-auto rounded-2xl shadow-sm mt-8 text-left">
                     <h2 className='p-2 text-base font-bold ml-4'>Channels</h2>
-                    <ul className="space-y-6 bg-[gray]/10 py-4 rounded-md">
+                    <ul className="space-y-4 py-4 rounded-md">
                         {liItem.map((item, index) =>
                             <li key={index} className="w-full ">
                                 <a href={item.id}

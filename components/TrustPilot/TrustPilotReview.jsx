@@ -11,7 +11,10 @@ function TrustPilotReview() {
                     <div className='w-[200px] h-[100px] relative'>
                         <Image src={"/Images/trustpilot.webp"} alt={'image for the truts pilot'} fill></Image>
                     </div>
-                    <p className='flex flex-col justify-center items-center text-white hover:text-[#00b67a] text-base font-medium' >5.0 reviews on Trustpilot</p>
+                    <div className="flex flex-col justify-center items-center">
+                        <p className=' text-white hover:text-[#00b67a] font-semibold text-base' >5.0 reviews on Trustpilot</p>
+                        <p className=' text-white hover:text-[#00b67a] font-semibold text-base' >Based on 684 Reviews</p>
+                    </div>
 
                 </div>
                 <div className=' w-[90vw] md:w-[80vw] lg:w-[50vw] flex flex-col justify-center items-center text-white gap-12'>
@@ -55,7 +58,7 @@ function TrustPilotReview() {
                                  His Keywords Research is the most accurate. My content making team has tried numerous YouTube Experts,
                                   But No One matches the competence of Dawood. Thank you so much for helping me in videos rankings and overall YouTube SEO. 
                                   Also, Thank you for your Channel Optimizations, I${"'"}m seeing a tangible growth difference after optimizing my channels."`}
-                                  </p>
+                                </p>
                             </div>
 
                             <div className=' bg-[#f7f7f7] flex flex-col justify-center items-start text-[black] p-5 space-y-1 rounded-xl shadow-md'>

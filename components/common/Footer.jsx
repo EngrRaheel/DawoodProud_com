@@ -45,13 +45,13 @@ function Footer() {
                                Services
                             </div>
                             <div class="flex flex-col items-start space-y-3 text-white text-opacity-60">
-                                <Link href={"/youtube-consultation"} >YouTube Consultation</Link>
-                                <Link href={"/youtube-seo"} >YouTube SEO</Link>
-                                <Link href={"/youtube-keyword-research"} >YouTube Keyword Research</Link>
-                                <Link href={"/youtube-automation"} >YouTube Automation</Link>
-                                <Link href={"/youtube-monetization"} >YouTube Monetization</Link>
-                                <Link href={"/youtube-promotion-ads"} >YouTube Promotion</Link>
-                                <Link href={"/youtube-channel-managment"} >YouTube Channel Managment</Link>
+                                <Link href={"/consultation"} >YouTube Consultation</Link>
+                                <Link href={"/consultation"} >YouTube SEO</Link>
+                                <Link href={"/consultation"} >YouTube Keyword Research</Link>
+                                <Link href={"/consultation"} >YouTube Automation</Link>
+                                <Link href={"/consultation"} >YouTube Monetization</Link>
+                                <Link href={"/consultation"}>YouTube Promotion</Link>
+                                <Link href={"/consultation"} >YouTube Channel Managment</Link>
                             </div>
                         </div>
                         <div>
@@ -59,7 +59,7 @@ function Footer() {
                                 Other
                             </div>
                             <div class="flex flex-col items-start space-y-3 text-white text-opacity-60">
-                                <Link href="/">Contact
+                                <Link href="/contactus">Contact
                                 </Link>
                                 <Link href="/jobs">Jobs
                                 </Link>
@@ -68,8 +68,10 @@ function Footer() {
                                 </Link>
                                 <Link href="/legal-info">Privacy
                                 </Link>
-                                <p>Support
-                                </p>
+                                <Link href="/contactus">
+                                Support
+                                </Link>
+                               
                             </div>
                         </div>
 

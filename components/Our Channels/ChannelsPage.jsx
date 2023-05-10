@@ -8,7 +8,7 @@ function ChannelPage() {
     const portfolioData = [
 
         {
-            "SectionId": "Space_Matters ",
+            "SectionId": "Space_Matters",
             "ChannelName": (
                 <div>
                     <a href="https://www.youtube.com/@spacemattersdoc/" target="_blank">
@@ -34,7 +34,7 @@ function ChannelPage() {
             ),
 
             "list": (
-                <ul className='list-disc text-left'>
+                <ul className='list-disc text-left mb-[2.5rem] space-y-2 '>
                     <li>Niche: Space</li>
                     <li>Type: Faceless YouTube Channel</li>
                     <li>Target Audience: Worldwide, BS-USA</li>
@@ -69,7 +69,7 @@ function ChannelPage() {
 
 
             "list": (
-                <ul className='list-disc text-left'>
+                <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Luxury & Lifestyle</li>
                     <li>Type: Faceless YouTube Channel</li>
                     <li>Target Audience: Worldwide, BS-USA</li>
@@ -104,7 +104,7 @@ function ChannelPage() {
 
 
             "list": (
-                <ul className='list-disc text-left'>
+                <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Travel</li>
                     <li>Type: Faceless YouTube Channel</li>
                     <li>Target Audience: Worldwide, BS-Sweden</li>
@@ -136,7 +136,7 @@ function ChannelPage() {
                 </p>
             ),
             "list": (
-                <ul className='list-disc text-left'>
+                <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Military (Sub-Niche: Modern Military Technology)</li>
                     <li>Type: Faceless YouTube Channel</li>
                     <li>Target Audience: Worldwide, BS-USA</li>
@@ -167,7 +167,7 @@ function ChannelPage() {
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/z6KKo85V9Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             ),
             "list": (
-                <ul className='list-disc text-left'>
+                <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Health & Fitness</li>
                     <li>Type: Faceless YouTube Channel</li>
                     <li>Target Audience: Worldwide, BS-AUSTRALIA</li>
@@ -177,8 +177,6 @@ function ChannelPage() {
 
         {
             "SectionId": "Future_Lab",
-
-
             "ChannelName": (
                 <div>
                     <a href="https://www.youtube.com/@FromFutureLab" target="_blank">
@@ -201,7 +199,7 @@ function ChannelPage() {
             ),
 
             "list": (
-                <ul className='list-disc text-left'>
+                <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Automotive Industry (Sub-Niche: Modern Electric Solutions)</li>
                     <li>Type: Faceless YouTube Channel</li>
                     <li>Target Audience: Worldwide, BS-USA</li>
@@ -213,7 +211,7 @@ function ChannelPage() {
     return (
         <div>
             {portfolioData.map((item, index) => (
-                <div key={index}>
+                <div key={index} className="mb-20">
                     <ChannelsPageCard channleURL={item.channleURL} ChannelName={item.ChannelName} para={item.para} SectionId={item.SectionId} list={item.list} />
                 </div>
             ))}

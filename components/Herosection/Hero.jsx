@@ -6,7 +6,7 @@ import { AiFillStar } from "react-icons/ai";
 import { BsFillStarFill } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc"
 import Link from "next/link";
-
+import { BsArrowRightShort } from "react-icons/bs";
 
 function Hero() {
     return (
@@ -26,12 +26,13 @@ function Hero() {
                             <h1 className=" font-extrabold text-[28px] sm:text-[36px] md:text-[40px] xl:text-[40px] abdal_color1 px-8 xs:px-0 "> Stand Out from Crowd</h1>
                         </div>
                         <div className="flex flex-col gap-1 max-w-[1172px] font-medium md:font-semibold px-4 sm:px-0 lg:font-medium  text-white sm:text-[16px] md:text-[18px] lg:text-[20px] text-center">
-                            <p> Ultimate Destination for all  <span className="abdal_color2"> <strong> YouTube Growth Services</strong></span> to take your channel to new heights.</p>
+                            <p> Ultimate Destination for all  <span className="abdal_color1"> <strong> YouTube Growth Services</strong></span> to take your channel to new heights.</p>
                             <p>All the successful YouTubers have one thing in common <span className="abdal_color2 "> <strong> {"\"They have Winnig Content Strategy.\""}</strong> </span> </p>
                         </div>
                     </div>
-                    <button className='flex flex-col justify-center items-center px-3 py-3 ml-2 rounded-xl  font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 '>
-                        <Link href={"/cutomerpage"} className="text-base">Get Free Consultation</Link>
+                    <button className='flex justify-center items-center px-3 py-3  rounded-xl  font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 '>
+                        <Link href={"/consultation"} className="text-base">Let&#39;s Start a New Project</Link>
+                        <BsArrowRightShort size={25}/>
                     </button>
                     {/* hero image here */}
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-1 justify-between items-center max-w-[768px] w-full px-4 mx-auto">
@@ -39,7 +40,12 @@ function Hero() {
                             <div className='w-[200px] md:w-[250px] h-[100px] md:h-[130px] relative '>
                                 <Image src={"/Images/trustpilot.webp"} alt={'image for the truts pilot'} fill></Image>
                             </div>
-                            <p className='flex flex-col justify-center items-center text-white hover:text-[#00b67a] font-semibold text-base' >5.0 reviews on Trustpilot</p>
+                            <div className="flex flex-col justify-center items-center">
+                                <p className='flex flex-col justify-center items-center text-white hover:text-[#00b67a] font-semibold text-base' >5.0 reviews on Trustpilot</p>
+                                <p className='flex flex-col justify-center items-center text-white hover:text-[#00b67a] font-semibold text-base' >Based on 684 Reviews</p>
+                            </div>
+
+
                         </div>
                         <div className='gap-2 border-1 border-solid border-[black] flex flex-col justify-center items-center p-3 shadow-sm  rounded-sm'>
                             <div className="flex justify-center items-center gap-3">
@@ -54,7 +60,7 @@ function Hero() {
                                 <AiFillStar className="text-[35px] sm:text-[30px] md:text-[40px]" />
                             </div>
                             <div className=" text-[18px] sm:text-[16px]  md:text-[20px]">
-                                <p> <strong>4.9</strong> Stars | Based on <strong>367</strong> Reviews</p>
+                                <p> <strong>4.9</strong> Stars | Based on <strong>521</strong> Reviews</p>
                             </div>
                         </div>
                     </div>

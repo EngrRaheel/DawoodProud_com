@@ -15,7 +15,7 @@ function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }
                     <h2 className=' max-w-auto md:max-w-[580px] font-extrabold text-[28px] md:text-[38px] lg:text-[38px] text-center  '>{heading}</h2>
                     <div className='flex flex-col md:flex-row justify-center md:justify-center md:items-center '>
                         <div className='flex-1 mb-6 md:mb-0 p-2 sm:p-6 md:p-2'>
-                            <Fade delay={100} direction="left"  >
+                            <Fade delay={100} direction="left" ssrFadeout >
                                 <div className='w-full h-[300px] md:h-[400px] relative drop-shadow-2xl '>
                                     <Image src={images} alt="" fill className='object-contain '></Image>
                                 </div>
@@ -26,7 +26,7 @@ function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }
                             <div className='px-[5%] md:pl-[15%] md:pr-[7%] space-y-4 md:space-y-4  flex flex-col justify-center !items-center md:items-start'>
                                 <h3 class="font-extrabold text-[24px] md:text-[30px] lg:text-[32px] text-center md:text-left leading-[43px]">{heading2}</h3>
                                 <p className='text-[#BCBCBC] font-normal text-[16px] md:text-[17px] lg:text-[18px] text-center md:text-left leading-[25px]'>{para}</p>
-                                <div className=' self-center md:self-start  '>
+                                <div className=' self-center md:self-start '>
                                     <Link rel="stylesheet" href={`${link}`}>
                                         <button className='flex justify-center items-center font-bold px-2 sm:px-4  py-2 sm:py-3 gap-1  sm:gap-2 rounded-full text-xs sm:text-base bg-[#139DFF] hover:bg-[#3b82f6]'>
                                             {btntext}

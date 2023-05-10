@@ -118,7 +118,7 @@ const ReviewSlider = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col justify-center items-start gap-2'>
-                                <p className='text-[gray]'>Based on 367 reviews</p>
+                                <p className='text-[gray]'>Based on 521 reviews</p>
 
                                 <div className='relative  h-[20px] w-[130px]'>
                                     <Image src={'/Images/poweredByGoogle.webp'} alt='googleimg' className='object-contain' fill />

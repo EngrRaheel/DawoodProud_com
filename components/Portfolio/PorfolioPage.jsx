@@ -286,7 +286,7 @@ function PorfolioPage() {
     return (
         <div>
             {portfolioData.map((item, index) => (
-                <div key={index}>
+                <div key={index} className="mb-20">
                     <PorftfoliCard image={item.Imageurl} ChannelName={item.ChannelName} para={item.para} tweet={item.TweetComponent} SectionId={item.SectionId} />
                 </div>
             ))}

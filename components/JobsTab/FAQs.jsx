@@ -163,16 +163,36 @@ function FAQs() {
                     <div class="py-5">
                         <details class="group">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                                <span> Is this job a SCAM?</span>
+                                <span>Why do we primarily hire Fresh Graduates Only?</span>
                                 <span class="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
                                     </svg>
                                 </span>
                             </summary>
                             <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                                We understand that fresh graduates may have concerns about job offers that seem too good to be true. We are a well-established organization that values competent and talented individuals, particularly from the Gen-Z population who are known to <strong>bring fresh perspectives</strong> and <strong>innovative ideas to the table</strong>. Our employees have been instrumental in helping us achieve success beyond our expectations.
-
-                                <br />Moreover, we strongly believe in contributing to the <strong>growth of the Pakistani economy</strong>, particularly during these financially challenging times, by creating employment opportunities and increasing <strong>IT exports</strong>. We are not selling any third-class courses, nor are we asking applicants for any application fees. We simply encourage you to apply if you possess the necessary skills and are interested in working with us. If you have any further doubts, we invite you to visit our offices in G-11 by contacting us through our official number. We are more than happy to address any concerns or questions you may have.
+                                At our company, we believe in providing opportunities for young talents to kick-start their careers and nurture their potential.
+                                Hiring fresh graduates allows us to bring in new perspectives, energy, and enthusiasm into our organization.
+                                We value the fresh ideas and innovative thinking that recent graduates often bring to the table.
+                                Moreover, we strongly believe in contributing to the growth of the Pakistani economy, particularly during these
+                                financially challenging times, by creating employment opportunities and increasing IT exports.
+                            </p>
+                        </details>
+                    </div>
+                    <div class="py-5">
+                        <details class="group">
+                            <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
+                                <span>Who should NOT apply for this job?</span>
+                                <span class="transition group-open:rotate-180">
+                                    <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                                    </svg>
+                                </span>
+                            </summary>
+                            <p class="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                                This job is not suitable for individuals who lack stress tolerance, are not hardworking or disciplined,
+                                and do not possess excellent English reading, understanding, and writing skills.
+                                Additionally, a high level of exposure to the internet is important for this role.
+                                If you do not meet these criteria, we recommend considering other opportunities that
+                                align better with your skills and qualifications.
                             </p>
                         </details>
                     </div>

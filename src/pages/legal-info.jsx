@@ -43,11 +43,14 @@ function LegalInfo() {
                             <span className="text-white">and move fast</span>
                         </h1>
                     </div> */}
-                    <div className='flex flex-col justify-center items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-3 lg:mt-6'>
-                        <h1 className=' text-[30px] md:text-[65px] lg:text-[65px] font-bold font-inter text-[#1ecce4] abdal_color'>
-                            Legal Information
-                        </h1>
-                        <h2 className='text-[12px] sm:text-[16px] md:text-[20px] abdal_color1 font-bold'>Our terms and policies.</h2>
+                    <div className='flex flex-col justify-center items-start space-y-1 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-3 lg:mt-6'>
+                        <h2 className=' text-[30px] md:text-[65px] lg:text-[65px] font-bold font-inter text-[#1ecce4] abdal_color'>
+                            Legal Information &
+                        </h2>     
+                        <h2 className=' text-[30px] md:text-[65px] lg:text-[65px] font-bold font-inter text-[#1ecce4] abdal_color'>
+                            Data Protection Policy
+                        </h2>
+                        {/* <h2 className='text-[12px] sm:text-[16px] md:text-[20px] abdal_color1 font-bold'>Our terms and policies.</h2> */}
                     </div>
                 </div>
             </div>
