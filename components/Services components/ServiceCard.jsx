@@ -8,6 +8,7 @@ import { Fade } from 'react-awesome-reveal';
 
 
 function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }) {
+
     return (
         <div className={`w-full min-h-[100vh] font-Inter text-white relative ${bgColor}`}>
             <div className="w-full p-2 mt-6 md:mt-0">
@@ -42,7 +43,6 @@ function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }
                 </div>
             </div>
         </div >
-
     )
 }
 

@@ -59,7 +59,7 @@ function Footer() {
                                 Other
                             </div>
                             <div class="flex flex-col items-start space-y-3 text-white text-opacity-60">
-                                <Link href="/contactus">Contact
+                                <Link href="/contact-us">Contact
                                 </Link>
                                 <Link href="/jobs">Jobs
                                 </Link>
@@ -68,7 +68,7 @@ function Footer() {
                                 </Link>
                                 <Link href="/legal-info">Privacy
                                 </Link>
-                                <Link href="/contactus">
+                                <Link href="/contact-us">
                                 Support
                                 </Link>
                                
