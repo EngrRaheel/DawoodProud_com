@@ -36,21 +36,16 @@ function LegalInfo() {
             <div className="w-full   bg-[#121521]  h-[40vh] md:h-[55vh]">
                 <Navbar bg_color={"white"} />
                 <div className=' max-w-[1172px] mx-auto'>
-                    {/* <div className='flex justify-start items-start space-y-2 py-4 ml-[8%] md:ml-[10%] lg:ml-[15%]'>
-                        <h1 className=' text-4xl md:text-5xl lg:text-6xl font-bold '>
-                            <span className='text-[#1ecce4]'>We Think big,</span> <br />
-                            <span className="text-[#ead941]">start small,</span> <br />
-                            <span className="text-white">and move fast</span>
-                        </h1>
-                    </div> */}
-                    <div className='flex flex-col justify-center items-start space-y-1 py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] mt-3 lg:mt-6'>
-                        <h2 className=' text-[30px] md:text-[65px] lg:text-[65px] font-bold font-inter text-[#1ecce4] abdal_color'>
-                            Legal Information &
-                        </h2>     
+                    <div className='flex flex-col justify-center items-start  md:-space-y-8  py-4 ml-[8%] md:ml-[10%] lg:ml-[12%] max-w-3xl '>
+                        <h2 className=' text-[30px] md:text-[65px] lg:text-[65px] font-bold font-inter text-[#1ecce4] abdal_color text-center'>
+                            Legal Information 
+                        </h2>
+                        <h2 className=' text-[30px] md:text-[65px] lg:text-[60px] font-bold font-inter text-[#1ecce4] abdal_color '>
+                        &
+                        </h2>
                         <h2 className=' text-[30px] md:text-[65px] lg:text-[65px] font-bold font-inter text-[#1ecce4] abdal_color'>
                             Data Protection Policy
                         </h2>
-                        {/* <h2 className='text-[12px] sm:text-[16px] md:text-[20px] abdal_color1 font-bold'>Our terms and policies.</h2> */}
                     </div>
                 </div>
             </div>

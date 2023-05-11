@@ -21,7 +21,7 @@ function ChannelPage() {
             "para": (
                 <p>
                     Looking for out-of-this-world content? Look no further than <span className='text-[#139dff] font-semibold'><a href="https://www.youtube.com/@spacemattersdoc/" target="_blank" >Space Matters</a></span>,
-                    the expertly curated YouTube channel that&#39;s skyrocketed to over 50K subscribers and 7 million views with just 27 videos.
+                    the expertly curated YouTube channel that&#39;s skyrocketed to over 50K subscribers and 7 million views with <strong>just 27 videos</strong>.
                     As masters of faceless videos and automated channels, we know what it takes to make your YouTube presence take off.
                     Explore the mysteries of the universe with Space Matters – because when it comes to YouTube growth, we&#39;re light years ahead of the competition.
                 </p>
@@ -37,7 +37,7 @@ function ChannelPage() {
                 <ul className='list-disc text-left mb-[2.5rem] space-y-2 '>
                     <li>Niche: Space</li>
                     <li>Type: Faceless YouTube Channel</li>
-                    <li>Target Audience: Worldwide, BS-USA</li>
+                    <li>Target Audience: Worldwide, BS-<strong>USA</strong></li>
                 </ul>
             )
         },
@@ -58,7 +58,7 @@ function ChannelPage() {
                 <p>
                     Looking to live the <span className='text-[#139dff] font-semibold'><a href="https://www.youtube.com/@9figurelifechannel" target="_blank" >9 Figure Life</a></span> ?
                     Look no further! Our luxury lifestyle YouTube channel is the ultimate destination for luxury enthusiasts.
-                    Our faceless videos have garnered over 24 million views and 132K loyal subscribers,
+                    Our <strong>faceless videos</strong> have garnered over 24 million views and 132K loyal subscribers,
                     all thanks to our expert team&#39;s proven strategies for YouTube growth.
                 </p>
             ),
@@ -72,7 +72,7 @@ function ChannelPage() {
                 <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Luxury & Lifestyle</li>
                     <li>Type: Faceless YouTube Channel</li>
-                    <li>Target Audience: Worldwide, BS-USA</li>
+                    <li>Target Audience: Worldwide, BS-<strong>USA</strong></li>
                 </ul>
             )
         },
@@ -93,7 +93,7 @@ function ChannelPage() {
                 <p>
                     Looking to explore the world without leaving your seat?  <span className='text-[#139dff] font-semibold'><a href="https://www.youtube.com/@JoyousTravelYT" target="_blank" >Joyous Travel</a></span>  is the ultimate destination for armchair adventurers!
                     With over 14 million views and 100K subscribers, our travel channel is proof of our expertise in Understanding YouTube Algorithm,
-                    creating captivating, faceless YouTube videos for Automated YouTube Channels.
+                    creating captivating, <strong>faceless YouTube videos</strong> for Automated YouTube Channels.
                 </p>
             ),
 
@@ -107,7 +107,7 @@ function ChannelPage() {
                 <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Travel</li>
                     <li>Type: Faceless YouTube Channel</li>
-                    <li>Target Audience: Worldwide, BS-Sweden</li>
+                    <li>Target Audience: Worldwide, BS-<strong>Sweden</strong></li>
                 </ul>
             )
 
@@ -139,7 +139,7 @@ function ChannelPage() {
                 <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Military (Sub-Niche: Modern Military Technology)</li>
                     <li>Type: Faceless YouTube Channel</li>
-                    <li>Target Audience: Worldwide, BS-USA</li>
+                    <li>Target Audience: Worldwide, BS-<strong>USA</strong></li>
                 </ul>
             )
 
@@ -170,7 +170,7 @@ function ChannelPage() {
                 <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Health & Fitness</li>
                     <li>Type: Faceless YouTube Channel</li>
-                    <li>Target Audience: Worldwide, BS-AUSTRALIA</li>
+                    <li>Target Audience: Worldwide, BS-<strong>AUSTRALIA</strong></li>
                 </ul>
             )
         },
@@ -202,7 +202,7 @@ function ChannelPage() {
                 <ul className='list-disc text-left mb-[2.5rem] space-y-2'>
                     <li>Niche: Automotive Industry (Sub-Niche: Modern Electric Solutions)</li>
                     <li>Type: Faceless YouTube Channel</li>
-                    <li>Target Audience: Worldwide, BS-USA</li>
+                    <li>Target Audience: Worldwide, BS-<strong>USA</strong></li>
                 </ul>
             )
         },

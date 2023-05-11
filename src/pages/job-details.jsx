@@ -68,7 +68,7 @@ function JobDetails() {
 
                         <div>
                             <h2 className='font-medium text-[32px] mb-4'>Why Join Us?</h2>
-                            <p>At our organization, we believe that taking care of our employees is crucial for building a strong and positive work culture. That&#39;s why we offer a range of perks and benefits that make our workplace an enjoyable and fulfilling environment for everyone. Like:</p>
+                            <p className="font-normal text-[20px]  leading-9 p-1">At our organization, we believe that taking care of our employees is crucial for building a strong and positive work culture. That&#39;s why we offer a range of perks and benefits that make our workplace an enjoyable and fulfilling environment for everyone. Like:</p>
                             <ul className='font-normal text-[20px] list-disc  leading-9 p-4'>
                                 <li><strong>Competitive Salary:</strong> We offer a way higher salary than the industry standard, so you can be sure that your hard work is appreciated.</li>
                                 <li><strong>Home-Like Environment:</strong> We want our team members to feel comfortable and relaxed at work, so we&#39;ve created a home-like environment that is conducive to productivity and creativity.</li>
@@ -78,7 +78,7 @@ function JobDetails() {
                                 <li><strong>Growth Environment:</strong> We are committed to helping our team members grow and develop their skills, so we offer regular training and development opportunities.</li>
                                 <li><strong>Positive Vibes:</strong> We believe that a positive work environment is essential for our team members&#39; happiness and success, so we cultivate a non-toxic, apolitical and supportive culture at our organization.</li>
                             </ul>
-                            <p className="font-normal text-[20px] list-disc  leading-9 p-1">We understand that a happy and satisfied employee is the key to Happy Clients. That&#39;s why we go the extra mile to create a supportive environment where you can thrive. Joining our team means not just a job, but an experience of a lifetime. We Really Appreciate Sir Dawood, for his Kind services and for creating an atmosphere where every team member is valued and respected. So, apply now without any worries, and let us take care of your career growth!</p>
+                            <p className="font-normal text-[20px]  leading-9 p-1">We understand that a happy and satisfied employee is the key to Happy Clients. That&#39;s why we go the extra mile to create a supportive environment where you can thrive. Joining our team means not just a job, but an experience of a lifetime. We Really Appreciate Sir Dawood, for his Kind services and for creating an atmosphere where every team member is valued and respected. So, apply now without any worries, and let us take care of your career growth!</p>
                         </div>
 
 

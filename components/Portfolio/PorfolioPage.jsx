@@ -106,11 +106,10 @@ function PorfolioPage() {
                     <a href='https://www.instagram.com/accounts/login/' target="_blank">
                         <InstagramPost
                             name="zhccrafts"
-                            para="Thanks to my incredible Content Ideas Guru, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! 
-                        Their expertise in understanding my niche and target audience has helped me grow my channel and engage with my viewers in new and exciting ways.
-                         I highly recommend their services to any content creator looking to take their channel to the next level. Thank you, Content Ideas Guru!"
+                            para={`Thanks to my incredible Content Ideas Guru Dawood, because of him, my art channel is now bursting with fresh and exciting video ideas that my subscribers love! With ${'@Dawoodproud'} and his team${"'"}s help, I${"'"}ve been able to take my content to the next level and provide my viewers with high-quality, engaging videos that keep them coming back for more. Their ability to understand my niche and provide me with unique and creative ideas has been invaluable. I${"'"}m so grateful for their expertise and support!`}
                             likes="2,337"
                             img="/Images/Portfolio/InstaDP/zhc.jpg"
+                            post="/Images/Portfolio/Instapost/post1.jpg"
                         />
                     </a>
                 </div>
@@ -142,12 +141,10 @@ function PorfolioPage() {
                     <a href='https://www.instagram.com/accounts/login/' target="_blank">
                         <InstagramPost
                             name="linustech"
-                            para="Thanks to my beloved YouTube SEO, most of my videos are now dominating Google & YouTube search results!
-                         It&#39;s amazing to see my content rise to the top and reach a wider audience, all thanks to the power of search engine optimization.
-                          If you&#39;re looking to improve your YouTube presence, I highly recommend investing in your YouTube SEO strategy. 
-                          It can make all the difference in getting your content noticed and growing your channel."
+                            para="As a YouTube content creator, I knew that optimizing my videos for search engines was crucial for success. Most of my videos are now dominating Google & YouTube Search Results only because of Dawood. Thanks to my beloved YouTube SEO specialists! "
                             img="/Images/Portfolio/InstaDP/linustech.jpg"
                             likes="21.3k"
+                            post="/Images/Portfolio/Instapost/post2.jpg"
                         />
                     </a>
                 </div>

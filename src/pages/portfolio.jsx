@@ -30,14 +30,14 @@ function Portfolio() {
 
 
             </div>
-            <div className='grid  grid-cols-1 sm:grid-cols-12  mt-6 '>
+            <div className='grid  grid-cols-1 sm:grid-cols-12  mt-6 mx-auto '>
                 <div className=' mx-[4%] col-span-2 '>
                     <div className='sticky top-12'>
                         <SiderBar />
                     </div>
 
                 </div>
-                <div className='col-span-8 overflow-auto'>
+                <div className='col-span-9 mx-auto '>
                     <PortfoliPage />
                 </div>
            

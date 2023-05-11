@@ -10,14 +10,15 @@ function OurChannels() {
         <div className="w-full min-h-screen grid grid-cols-1 font-Inter">
             <Navbar bg_color={"bg-blue"} position={'fixed'} />
             <div className='grid  grid-cols-1 md:grid-cols-12  mt-6 bg-white'>
-                <div className=' mx-[4%] col-span-3 '>
+                <div className=' mx-[4%] col-span-3 mt-6'>
                     <div className='sticky top-12'>
                         <SiderBar />
                     </div>
                 </div>
                 <div className='col-span-7  my-20 '>
-                    <h1 className='px-3 text-4xl md:text-4xl lg:text-[41.2px] font-black text-[#222] mb-[2.5rem]'>
-                        From Zero to Hero: Check Out Our Top-performing Faceless YouTube Channels
+                    <h1 className='px-3 text-4xl md:text-4xl lg:text-[38.2px] font-black text-[#222] mb-[2.5rem]'>
+                        From Zero to Hero: <br />
+                        Check Out Our Top-performing Faceless YouTube Channels
                     </h1>
                     <p className='px-2 text-[18px] leading-8 font-normal mb-[1rem] '>
                         Welcome to &quot;Our Channels&quot; page, where we showcase our expertise in YouTube growth strategies. We don&#39;t just talk the talk, we walk the walk. Our channels are the living proof of our ability to apply winning YouTube content strategies that help channels grow. As a wise person once said, &quot;Don&#39;t tell me, show me.&quot; And that&#39;s exactly what we&#39;re doing here.
