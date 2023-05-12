@@ -1,74 +1,99 @@
-import React from 'react'
+import React, {useEffect} from "react";
+import Link from "next/link";
+import axios from "axios";
 
 function ClientInfoTable() {
+  useEffect(() => {
+    axios.get("http://localhost:5000/api/client/info").then(res => console.log("Res Clinet Data : ", res))
+  }, [])
+  return (
+    <>
+      <div className="container my-5 mx-auto">
+        <div className="row">
+          <h1 style={{ fontSize: "25px" }} className="ml-4 mb-4">
+            Your Clients
+          </h1>
+          <div className="grid grid-cols-12 mx-5">
+            <div class="relative col-span-12 overflow-x-auto shadow-md sm:rounded-lg py-4 px-3">
+              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                  <tr>
+                    <th scope="col" class="px-6 py-3">
+                      Name
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Channel Name
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Phone
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Contact Via
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Date
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Actions
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                    <th class="px-6 py-4">Hamza</th>
+                    <td class="px-6 py-4">Developer</td>
+                    <td class="px-6 py-4">0304 9068858</td>
+                    <td class="px-6 py-4">Text</td>
+                    <td class="px-6 py-4">5 mints ago</td>
+                    <td>
+                      <Link href="#" className="text-[blue]">
+                        {" "}
+                        <span>View</span>{" "}
+                      </Link>
+                      /
+                      <Link href="#" className="text-[blue]">
+                        {" "}
+                        <span>Edit</span>{" "}
+                      </Link>
+                      /
+                      <Link href="#" className="text-[red]">
+                        {" "}
+                        <span>Delete</span>{" "}
+                      </Link>
+                    </td>
+                  </tr>
 
-    const data = {
-        name: "Muhammad Raheel Tariq",
-        YoutubeName: "tearghsegg",
-        URL: "fasgafs",
-        subs: "10,001 - 25,000",
-        revenue: "$1 - $100",
-        email: "ranaraheeltarique@gmail.com",
-        phone: "+1 546 436 3336",
-        services: ["YouTube Niche Selection", "YouTube Content Creation"],
-        contactvia: ["Text"],
-        hearaboutus: "Ali Abdaal YouTube Channel",
-        createdAt: "2023-05-07T07:31:54.076+00:00",
-        updatedAt: "2023-05-07T07:31:54.076+00:00"
-    };
-    
-    return (
-
-        <div class="py-8 w-full ">
-            <div class="shadow-sm  border-y-2 border-[gray] h-[full] max-w-full overflow-x-auto">
-                <table class="min-w-full bg-white h-full ">
-                    <thead class="bg-gray-800 text-[black] overflow-scroll ">
-                        <tr className='bg-[#2d3748] text-white text-xs font-medium text-center'>
-                            <th class=" py-3 px-4 uppercase ">Name</th>
-                            <th class=" py-3 px-4 uppercase ">Channel Name</th>
-                            <th class=" py-3 px-4 uppercase ">Phone</th>
-                            <th class=" py-3 px-4 uppercase ">Email</th>
-
-                            <th class=" py-3 px-4 uppercase ">Subscribers</th>
-                            <th class=" py-3 px-4 uppercase ">Channels URL</th>
-                            <th class=" py-3 px-4 uppercase ">contactvia</th>
-
-                            <th class=" py-3 px-4 uppercase ">Services</th>
-                            <th class=" py-3 px-4 uppercase ">Revenue</th>
-                            <th class=" py-3 px-4 uppercase ">Hear About Us</th>
-                            <th class=" py-3 px-4 uppercase ">Date</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {/* {data.map((data, index) => ( */}
-                        <tr >
-                            <td className="px-4 py-2 truncate">{data.name}</td>
-                            <td className="px-4 py-2 truncate">{data.YoutubeName}</td>
-                            <td className="px-4 py-2 truncate">{data.phone}</td>
-                            <td className="px-4 py-2 truncate">{data.email}</td>
-
-                            <td className="px-4 py-2 truncate">{data.subs}</td>
-                            <td className="px-4 py-2 truncate">{data.URL}</td>
-                            <td className="px-4 py-2 truncate">{data.contactvia.join(", ")}</td>
-                           
-
-
-
-                            <td className="px-4 py-2 truncate">{data.services.join(", ")}</td>
-                            <td className="px-4 py-2 truncate">{data.revenue}</td>
-                            <td className="px-4 py-2 truncate">{data.hearaboutus}</td>
-                            
-                            <td className="px-4 py-2 truncate">{data.createdAt}</td>
-
-                        </tr>
-                        {/* ))} */}
-                    </tbody>
-                   
-                </table>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                    <th class="px-6 py-4">Hamza</th>
+                    <td class="px-6 py-4">Developer</td>
+                    <td class="px-6 py-4">0304 9068858</td>
+                    <td class="px-6 py-4">Text</td>
+                    <td class="px-6 py-4">5 mints ago</td>
+                    <td>
+                      <Link href="#" className="text-[blue]">
+                        {" "}
+                        <span>View</span>{" "}
+                      </Link>
+                      /
+                      <Link href="#" className="text-[blue]">
+                        {" "}
+                        <span>Edit</span>{" "}
+                      </Link>
+                      /
+                      <Link href="#" className="text-[red]">
+                        {" "}
+                        <span>Delete</span>{" "}
+                      </Link>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
+          </div>
         </div>
-
-    )
+      </div>
+    </>
+  );
 }
 
-export default ClientInfoTable
+export default ClientInfoTable;
