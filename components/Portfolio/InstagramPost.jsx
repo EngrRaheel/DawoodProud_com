@@ -6,7 +6,7 @@ import { MdVerified } from "react-icons/md"
 import { RxUpload } from "react-icons/rx"
 
 import { AiOutlineHeart } from "react-icons/ai"
-function InstagramPost({ name, para, likes, img, post }) {
+function InstagramPost({ name, para, likes, img, post, followers, comments }) {
     return (
 
         <div className='flex flex-col justify-center  mx-auto border-[1px] border-[gray]/40 drop-shadow-xl w-full  rounded-md max-w-md md:-space-y-4' >
@@ -21,7 +21,7 @@ function InstagramPost({ name, para, likes, img, post }) {
                             <MdVerified color='#1d9bf0' size={12} />
                         </div>
 
-                        <p> <span className='text-[gray] text-xs hover:underline '><a href="">3.4M followers</a> </span></p>
+                        <p> <span className='text-[gray] text-xs hover:underline '><a href="">{followers} followers</a> </span></p>
                     </div>
 
                 </div>
@@ -82,7 +82,7 @@ function InstagramPost({ name, para, likes, img, post }) {
 
                 </div>
                 <div className='text-[gray] font-medium text-[12px] mt-2 font-Syne px-2 hover:underline'>
-                    <p>View all 276 comments </p>
+                    <p>View all {comments} comments </p>
                 </div>
                 <hr className='w-full bg-[gray]/40 border-none h-[0.5px] mt-3' />
                 <div className='flex justify-between items-center mt-3 p-1'>

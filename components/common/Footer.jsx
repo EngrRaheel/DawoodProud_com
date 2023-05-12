@@ -86,10 +86,10 @@ function Footer() {
                     </div>
                     <div className="mt-4 flex items-center space-x-4">
                         <Link href="/our-channels" className="hover:opacity-70" title="YouTube" ><RiYoutubeLine size={30} /></Link>
-                        {/* <a href="https://www.facebook.com" target="_blank" className="hover:opacity-70" title="Facebook"><AiOutlineFacebook size={30} /></a>
-                        <a href="https://www.instagram.com/dawoodproud/" target="_blank" className="hover:opacity-70" title="Instagram"><AiOutlineInstagram size={30} /></a> */}
-                        <a href="https://twitter.com/dawoodproud" target="_blank" className="hover:opacity-70" title="Twitter"><BsTwitter size={30} /></a>
-                        <a href="www.linkedin.com/company/dawoodproud" target="_blank" className="hover:opacity-70" title="LinkedIn"><AiOutlineLinkedin size={30} /></a>
+                        {/* <a href="https://www.facebook.com" target="_blank" className="hover:opacity-70" title="Facebook"><AiOutlineFacebook size={30} /></a> */}
+                        <a href="https://www.instagram.com/dawoodproud/" target="_blank" className="hover:opacity-70" title="Instagram"><AiOutlineInstagram size={30} /></a>
+                        {/* <a href="https://twitter.com/dawoodproud" target="_blank" className="hover:opacity-70" title="Twitter"><BsTwitter size={30} /></a> */}
+                        <a href="https://www.linkedin.com/company/dawoodproud" target="_blank" className="hover:opacity-70" title="LinkedIn"><AiOutlineLinkedin size={30} /></a>
                     </div>
 
                 </div>

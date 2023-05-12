@@ -29,10 +29,10 @@ function SiderBar() {
             "name": "6. AutoTrader",
             "id": "#Ian_Plummer"
         },
-        {
-            "name": "7. TechAltar",
-            "id": "#Marton_Barcza"
-        }
+        // {
+        //     "name": "7. TechAltar",
+        //     "id": "#Marton_Barcza"
+        // }
 
 
     ]
