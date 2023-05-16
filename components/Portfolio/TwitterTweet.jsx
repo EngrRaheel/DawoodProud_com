@@ -11,7 +11,7 @@ function TwitterTweet({ name, username, img, text, date, likes, read }) {
 
     return (
         <div>
-            <div className='flex flex-col max-w-[400px] mx-auto border-[1px] border-[gray]/40 shadow-xl p-4  rounded-xl'>
+            <div className='flex flex-col max-w-[400px] mx-auto border-[1px] border-[gray]/40 shadow-sm p-4  rounded-xl'>
                 <div className='flex justify-between items-start'  >
                     <div className='flex items-center justify-center gap-1'>
                         <div className='relative h-10 w-10  rounded-full'>

@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-   apiKey: "AIzaSyD3NTtvwAtidP11Tbpc_Oiku12TD1O21nw",
-   authDomain: "developersblog-7a2f6.firebaseapp.com",
-   projectId: "developersblog-7a2f6",
-   storageBucket: "developersblog-7a2f6.appspot.com",
-   messagingSenderId: "715396986428",
-   appId: "1:715396986428:web:bd4c0505e679b2e820b539",
+  apiKey: "AIzaSyCCSy7oqmroUU_FF47NBLwwRMSGakAJDso",
+  authDomain: "dpconsultation-83237.firebaseapp.com",
+  projectId: "dpconsultation-83237",
+  storageBucket: "dpconsultation-83237.appspot.com",
+  messagingSenderId: "502428764843",
+  appId: "1:502428764843:web:5cd55678c9e6fa02ed85ee",
 };
 
 const app = initializeApp(firebaseConfig);

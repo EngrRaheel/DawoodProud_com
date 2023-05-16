@@ -47,7 +47,7 @@ function PorfolioPage() {
                     We&#39;re happy to report that Alux.com Channel has seen significant growth in their viewership and subscribers thanks to our expert team of professionals.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics1.png",
+            "Imageurl": "/Images/Portfolio/Analytics/alux.com.jpg",
         },
 
         {
@@ -90,7 +90,7 @@ function PorfolioPage() {
                     to help any YouTube channel looking to grow.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics2.png",
+            "Imageurl": "/Images/Portfolio/Analytics/watchmojo.jpg",
         },
 
         {
@@ -127,7 +127,7 @@ function PorfolioPage() {
                     I&#39;m thrilled to share the review he kindly posted on Instagram.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics3.png",
+            "Imageurl": "/Images/Portfolio/Analytics/zhscraft.jpg",
         },
 
         {
@@ -168,7 +168,7 @@ function PorfolioPage() {
                     We are honored to have worked with Linus and to have contributed to his success on YouTube.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics4.png",
+            "Imageurl": "/Images/Portfolio/Analytics/linustechtips.jpg",
         },
 
         {
@@ -209,7 +209,7 @@ function PorfolioPage() {
                     Thank you, Emmy, for your support and trust in our services.
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics6.png",
+            "Imageurl": "/Images/Portfolio/Analytics/emmymade.jpg",
         },
 
         {
@@ -228,12 +228,12 @@ function PorfolioPage() {
                 <div>
                     <a href='https://www.instagram.com/accounts/login/' target="_blank">
                         <InstagramPost
-                            name="autotrader_com"
+                            name="autotraderuk"
                             para={`We chose @dawoodproud to help us increase sales and reach more customers. Their strategic video marketing engaged car buyers and sellers across the UK, leading to increased brand recognition and sales. Dawood${"'"}s team is professional, creative, and responsive, taking the time to understand our business and target audience. We highly recommend Dawood for their innovative and strategic approach that drives results.`}
                             img="/Images/Portfolio/InstaDP/autotrader.jpg"
                             likes="147"
                             post="/Images/Portfolio/Instapost/post2.jpg"
-                            followers="55.5K"
+                            followers="124K"
                             comments="151"
 
                         />
@@ -249,7 +249,7 @@ function PorfolioPage() {
                     We&#39;re thrilled with the success of our partnership and can&#39;t wait to help more businesses achieve their goals!
                 </p>
             ),
-            "Imageurl": "/Images/Portfolio/Analytics/channelanalytics7.png",
+            "Imageurl": "/Images/Portfolio/Analytics/autotrader.jpg",
         },
 
         // {
@@ -292,7 +292,7 @@ function PorfolioPage() {
     return (
         <div>
             {portfolioData.map((item, index) => (
-                <div key={index} className="mb-20">
+                <div key={index} className="mb-36">
                     <PorftfoliCard image={item.Imageurl} ChannelName={item.ChannelName} para={item.para} tweet={item.TweetComponent} SectionId={item.SectionId} />
                 </div>
             ))}
