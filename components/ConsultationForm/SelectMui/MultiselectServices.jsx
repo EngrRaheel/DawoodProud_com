@@ -27,7 +27,7 @@ const MenuProps = {
 };
 
 const names = [
-    "Certified YouTube Consulting",
+    "YouTube Consultation",
     "YouTube Niche Selection",
     "YouTube Content Creation",
     "YouTube Keywords Research",
@@ -37,7 +37,6 @@ const names = [
     "YouTube Promotion",
     "YouTube ADs",
     "YouTube Channel Management",
-    "Others",
     "Select All"
 ];
 
@@ -58,7 +57,7 @@ export default function MultipleSelect({ setFormData, value, formData }) {
 
     return (
         <>
-            <FormControl sx={{  minWidth: "280px", maxWidth: "90%", marginX: "auto", flexWrap: 'wrap', }} shrink={true}  >
+            <FormControl sx={{ minWidth: "280px", marginX: "auto" }} shrink={true}  >
                 <InputLabel id="demo-multiple-name-label" className='text-sm'>Services</InputLabel>
                 <Select
                     labelId="demo-multiple-name-label"
@@ -71,22 +70,18 @@ export default function MultipleSelect({ setFormData, value, formData }) {
                     input={<OutlinedInput label="Service" />}
                     renderValue={(selected) => (
                         <Typography sx={{
-                            display: 'flex', overflowY: "auto", fontSize: "4px",
-                            '@media (min-width: 320px)': {
-                                flexDirection: 'column',
-                                maxWidth: '70%',
-                                marginX: "auto",
-                                gap: '0.5rem',
-                                flexWrap: 'wrap',
-                            },
+                            display: 'flex',
+                            overflowY: 'auto',
+                            fontSize: '4px',
+                            flexDirection: 'column',
+                            maxWidth: '70%',
+                            marginX: 'auto',
+                            gap: '0.2rem',
+                            flexWrap: 'wrap',
                             '@media (min-width: 768px)': {
                                 flexDirection: 'row',
-                                maxWidth: '95%',
-                                flexWrap: 'wrap',
-                                
+                                maxWidth: '100%',
                             },
-
-
                         }}>
                             {selected.map((value) => (
                                 <Chip
@@ -96,7 +91,7 @@ export default function MultipleSelect({ setFormData, value, formData }) {
                                     // onDelete={handleDelete}
                                     deleteIcon={<CancelIcon className=' rounded-full' color='white' />}
                                     sx={{
-                                        color: 'white', backgroundColor: '#247ddd', 
+                                        color: 'white', backgroundColor: '#247ddd',
                                     }}
                                 />
                             ))}

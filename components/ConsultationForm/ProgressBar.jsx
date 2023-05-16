@@ -6,8 +6,8 @@ function ProgressBar({ progress }) {
     };
 
     return (
-        <div className="h-5 bg-[gray]/50 rounded-sm w-full ">
-            <div className="h-full bg-[#247ddd] rounded-sm "
+        <div className="h-4 bg-[gray]/50 rounded-md w-full ">
+            <div className="h-full bg-[#247ddd] rounded-md "
                 style={progressBarStyles}>
             </div>
         </div>

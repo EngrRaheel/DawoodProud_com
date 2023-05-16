@@ -98,10 +98,9 @@ function MultiStepForm() {
 
     return (
         <>
-
             <Loader open={open} message={message} />
-            <div className="max-w-[1200px] flex flex-col justify-center items-center  mx-auto border-1 border-[gray] shadow-2xl drop-shadow-lg p-12 gap-8">
-                <div className="w-full max-w-[800px]">
+            <div className="max-w-[900px] grid grid-cols-1 mx-auto border-1 p-6 border-[gray] shadow-xl drop-shadow-sm  gap-8 ">
+                <div className="w-full max-w-[900px] px-4 ">
                     <ProgressBar progress={calculateProgress(step)} />
                 </div>
                 <form >

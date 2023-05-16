@@ -4,7 +4,7 @@ import { FiArrowLeft } from "react-icons/fi"
 import MultipleSelect1 from '../SelectMui/MultiselectServices'
 function FormStep2({ formData, onChange, nextStep, prevStep, handleFormSubmit, setFormData }) {
     return (
-        <div className='flex flex-col justify-center items-center mx-w-[768px] mx-auto space-y-3 w-full'>
+        <div className='flex flex-col justify-center items-center mx-w-[768px] mx-auto space-y-3 w-full px-4'>
             <div className='flex flex-col justify-between items-center gap-6 '>
                 <h2 className='text-[18px] sm:text-[20px] md:text-[24px] font-semibold text-center '>Thank you for Showing Interest in Dawood Proud Services<br /> to take your YouTube Channel to New Heights</h2>
                 <h2 className='text-[16] md:text-[20px] font-semibold text-center text-[#139dff]'>Nice to meet you😊</h2>
