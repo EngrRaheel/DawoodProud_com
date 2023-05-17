@@ -19,7 +19,7 @@ const OPTIONS = [
 
 const Antselect = ({ setFormData, value, formData }) => {
     const [selectedItems, setSelectedItems] = useState([]);
-   
+
 
 
 
@@ -42,12 +42,12 @@ const Antselect = ({ setFormData, value, formData }) => {
 
             }}
             // inputHeight={300}
-            options={filteredOptions.map((item) => ({
+            options={filteredOptions.map((item, index) => ({
                 value: item.value,
                 label: item.label,
-                key: item.key // add a unique key for each option
+                key: index // add a unique key for each option
             }))}
-         
+
         />
     );
 };
