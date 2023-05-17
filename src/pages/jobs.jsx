@@ -194,7 +194,7 @@ function careers() {
                     <div className='text-[black] max-w-[600px]'>
                         <div className='border-2 border-solid border-[black]/20 grid grid-cols-[2fr_1fr] justify-between items-start sm:items-center px-3 md:px-3 py-3 md:py-6 shadow-md'>
                             <div className='flex flex-col '>
-                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Strategis</p>
+                                <p className='text-[16px] md:text-[20px] font-semibold'>YouTube Growth Strategists</p>
                                 <p className='text-[14px] md:text-[16px] font-normal'>May 2023 • In-Office • G-11, Islamabad</p>
                             </div>
                             <div className='mx-auto '>

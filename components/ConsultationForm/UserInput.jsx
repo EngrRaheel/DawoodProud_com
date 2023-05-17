@@ -63,7 +63,7 @@ function MultiStepForm() {
             setOpen(false);
             router.push('/')
             toast.success("Succesfully Submited")
-            
+
         }).catch(err => {
             setTimeout(() => {
                 setOpen(false)
@@ -73,7 +73,7 @@ function MultiStepForm() {
                 ;
         })
 
-
+        console.log(formData)
     };
 
     const handleFormChange = (event) => {

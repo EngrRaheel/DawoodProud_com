@@ -9,21 +9,22 @@ import { color } from '@mui/system';
 import Chip from '@mui/material/Chip';
 import CancelIcon from '@mui/icons-material/Cancel';
 import { Typography } from '@mui/material';
+import { relative } from 'path';
 // import { makeStyles } from '@mui/styles';
 
+import Box from '@mui/material/Box';
 
-
-const ITEM_HEIGHT = 32;
-const ITEM_PADDING_TOP = 10;
+const ITEM_HEIGHT = 48;
+const ITEM_PADDING_TOP = 8;
 const MenuProps = {
     PaperProps: {
         style: {
-            maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-            width: "30%",
-            overflowY: 'auto',
-            maxHeight: '200px',
-        },
-    },
+            maxHeight: ITEM_HEIGHT * 6 + ITEM_PADDING_TOP,
+            width: 200,
+
+
+        }
+    }
 };
 
 const names = [
@@ -56,13 +57,14 @@ export default function MultipleSelect({ setFormData, value, formData }) {
 
 
     return (
-        <>
-            <FormControl sx={{ minWidth: "280px", marginX: "auto" }} shrink={true}  >
+        <div>
+            {/* <FormControl sx={{ m: 1, width: 300 }} shrink={true}  >
                 <InputLabel id="demo-multiple-name-label" className='text-sm'>Services</InputLabel>
                 <Select
                     labelId="demo-multiple-name-label"
                     id="demo-multiple-name"
                     name='services'
+                    variant="filled"
                     multiple
                     value={value}
                     onChange={handleChange}
@@ -98,15 +100,19 @@ export default function MultipleSelect({ setFormData, value, formData }) {
                         </Typography>
                     )}
                     MenuProps={MenuProps}
-                    sx={{ color: 'red', fontWeight: '300', maxWidth: "900px", }}
-                >
+                    sx={{
+                        color: 'red',
+                        fontWeight: '300',
+
+                    }} >
 
                     {names.map((name) => (
                         <MenuItem
                             key={name}
                             value={name}
                             sx={{
-                                backgroundColor: "#fffff", color: "black", font: "18px", '&:hover': {
+                                backgroundColor: "#fffff", color: "black", font: "18px",
+                                '&:hover': {
                                     backgroundColor: 'black', color: "white",
                                 },
                             }}
@@ -116,7 +122,38 @@ export default function MultipleSelect({ setFormData, value, formData }) {
                         </MenuItem>
                     ))}
                 </Select>
+            </FormControl> */}
+            <FormControl sx={{ m: 1, maxWidth: 768, minWidth: 300 }}>
+                <InputLabel id="demo-multiple-chip-label">Services</InputLabel>
+                <Select
+                    labelId="demo-multiple-chip-label"
+                    id="demo-multiple-chip"
+                    multiple
+                    value={value}
+                   
+                    onChange={handleChange}
+                    input={<OutlinedInput id="select-multiple-chip" label="Services" />}
+                    renderValue={(selected) => (
+                        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, }}>
+                            {selected.map((value) => (
+                                <Chip value={value} label={value} 
+                                />
+                            ))}
+                        </Box>
+                    )}
+                    MenuProps={MenuProps}
+                >
+                    {names.map((name) => (
+                        <MenuItem
+                            key={name}
+                            value={name}
+                        // style={getStyles(name, personName, theme)}
+                        >
+                            {name}
+                        </MenuItem>
+                    ))}
+                </Select>
             </FormControl>
-        </>
+        </div>
     );
 }

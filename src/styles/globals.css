@@ -657,6 +657,92 @@ button[type="remove"]:hover {
   background-color: #999;
 } */
 
+/* mui slect */
+
+/* .css-1kqsah9 {
+  background-color: #0066b3 !important;
+} */
+
+.ant-select-selection-item {
+  background-color: #0077cc !important;
+  color: #fff;
+  font-weight: 400;
+}
+
+.ant-select-selector {
+  min-height: 60px !important;
+  padding: 12px !important;
+  min-width: 300px !important;
+}
+
+.my-selectHearabout .ant-select-selector {
+  min-height: 50px !important;
+  padding: 12px !important;
+  min-width: 250px !important;
+}
+
+.my-selectHearabout .ant-select-selection-item {
+  background-color: #0070f3 !important;
+  color: white !important;
+  text-align: center;
+  padding: 2px !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  max-width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-selectContactVia .ant-select-selector {
+  min-height: 45px !important;
+  padding: 4px !important;
+  min-width: 300px !important;
+}
+
+.my-selectContactVia .ant-select-selection-item {
+  background-color: #0070f3 !important;
+  color: white !important;
+  text-align: center;
+  padding: 1px !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  max-width: 60% !important;
+}
+
+.my-selectSubscribers .ant-select-selection-item {
+  background-color: #0077cc !important;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 10px !important;
+  padding: 2px !important;
+  max-width: 90% !important;
+}
+
+.my-selectSubscribers .ant-select-selector {
+  min-height: 50px !important;
+  padding: 8px !important;
+  min-width: 300px !important;
+  text-align: center;
+  margin: auto;
+}
+
+.my-selectRevenue .ant-select-selection-item {
+  background-color: #0077cc !important;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 12px !important;
+  padding: 2px !important;
+  max-width: 90% !important;
+}
+
+.my-selectRevenue .ant-select-selector {
+  min-height: 50px !important;
+  padding: 8px !important;
+  min-width: 300px !important;
+  text-align: center;
+  margin: auto;
+}
+
 .abdal_color {
   background-image: linear-gradient(
     135deg,

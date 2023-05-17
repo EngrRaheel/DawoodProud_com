@@ -1,2 +1,2 @@
-let url = "http://dawoodproud.com:5000";
+let url = "mongodb://localhost:27017:5000";
 export default url;
