@@ -39,10 +39,10 @@ const Antselect = ({ setFormData, value, formData }) => {
 
             }}
             // inputHeight={300}
-            options={filteredOptions.map((item, index) => ({
+            options={filteredOptions.map((item) => ({
                 value: item,
                 label: item,
-                key: index
+                key: item
             }))}
         />
     );
