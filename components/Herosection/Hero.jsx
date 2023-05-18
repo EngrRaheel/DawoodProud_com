@@ -30,10 +30,12 @@ function Hero() {
                             <p>All the successful YouTubers have one thing in common <span className="abdal_color2 "> <strong> {"\"They have Winnig Content Strategy.\""}</strong> </span> </p>
                         </div>
                         <div>
-                            <button className='flex justify-center items-center px-2 py-3  rounded-xl  font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 '>
-                                <Link href={"/consultation"} className="text-base">Let&#39;s Start a New Project</Link>
-                                <BsArrowRightShort size={25} />
-                            </button>
+                            <Link href={"/consultation"} className="text-base">
+                                <button className='flex justify-center items-center px-2 py-3  rounded-xl  font-bold text-white bg-[#139dff] hover:bg-[#3b82f6] mt-0 '>
+                                    Let&#39;s Start a New Project
+                                    <BsArrowRightShort size={25} />
+                                </button>
+                            </Link>
                         </div>
                     </div>
 

@@ -10,7 +10,7 @@ function CEOCard({ name, position, bio, imageUrl }) {
 
         <div className='grid grid-cols-1 md:grid-cols-12 justify-center items-center mx-auto max-w-[900px] mb-12 md:ml-[15%]'>
             <div className="w-[190px] sm:w-[180px] h-[200px] sm:h-[180px] relative md:col-span-3 mx-auto">
-                <Image src='/Images/TeamMembers/CEO/ceodawoodproud3.jpg' fill className='object-contain rounded-full' alt='CEO_Img'></Image>
+                <Image src='/Images/TeamMembers/CEO/ceodawoodproud.png' fill className='object-contain rounded-full' alt='CEO_Img'></Image>
             </div>
 
             <div className='flex flex-col items-center md:items-start px-6 py-2 md:col-span-8'>

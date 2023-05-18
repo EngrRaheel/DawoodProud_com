@@ -31,7 +31,7 @@ function ContactCard() {
                 <div className='md:h-full md:w-[2px] bg-[gray] col-span-1 '>
 
                 </div>
-                <div className='col-span-6 px-6 space-y-6 font-medium'>
+                <div className='col-span-6 px-6 space-y-6 font-medium mt-6 sm:mt-0'>
 
                     <h2 className='text-2xl'>Chat Now</h2>
                     <p className='text-base font-normal'>Chat our sales and support team for quick answerson services, pricing and more</p>

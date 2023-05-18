@@ -7,7 +7,7 @@ function ChannelCard({ channleURL, ChannelName, para, SectionId, list }) {
     return (
         <div className='flex flex-col justify-center items-center mb-12 font-Inter ' id={SectionId}>
             <div className='flex flex-col justify-start items-center md:items-start text-blue w-full mx-auto space-y-4 font-Inter mt-12 h-full'>
-                <h2 className='text-[1.5rem] font-extrabold ml-5 text-[#252626] self-start'>{ChannelName}</h2>
+                <h2 className='text-[1.5rem] font-extrabold ml-2 sm:ml-4 text-[#252626] self-start'>{ChannelName}</h2>
                 <div className=' flex flex-col items-start  w-full max-w-[1072px] '>
                     <div className='flex flex-col gap-4 px-2 sm:px-8 md:mb-0 md:p-2 text-[.90rem] sm:text-[1.125rem] leading-[2rem] text-[#252626] font-normal border-1 border-[gray] ml-0 sm:ml-4 text-left space-y-2'>
                         <div className='mb-[2rem]'>

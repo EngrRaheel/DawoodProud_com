@@ -18,7 +18,7 @@ function ServiceCard({ heading, heading2, para, btntext, bgColor, link, images }
                     <h2 className=' max-w-auto md:max-w-[580px] font-extrabold text-[28px] md:text-[38px] lg:text-[38px] text-center  '>{heading}</h2>
                     <div className='flex flex-col md:flex-row justify-center md:justify-center md:items-center '>
                         <div className='flex-1 mb-6 md:mb-0 p-2 sm:p-6 md:p-2'>
-                            <Fade delay={100} duration={1000} triggerOnce={true} cascade={true} direction="left" damping={0.2} spy={null} >
+                            <Fade delay={100} duration={1000} triggerOnce={true} cascade={true} direction="left"  >
                                 <div className='w-full h-[300px] md:h-[400px] relative drop-shadow-2xl '>
                                     <Image src={images} alt="" fill className='object-contain '></Image>
                                 </div>
