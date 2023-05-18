@@ -22,17 +22,17 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" target="_blank">
+                    <a href="https://twitter.com/i/flow/signup" >
                         <div class="whitespace-pre-line">
                             <TwitterTweet
                                 name="Alux.com"
                                 username="@aluxcom"
                                 text={`Hey Twitter fam! So many of you have been asking about our YouTube content strategy and services,
 
-                                        and we're happy to reveal that we've been using Dawood Proud Services for a while now!
+                                        we're happy to reveal that we've been using  @DawoodProud Services for a while now!
                                         They're doing an amazing job, and we're grateful for their expertise.`}
                                 img="/Images/Portfolio/TwitterDP/alux.jpg"
-                                date="9:18 PM · December 15, 2022"
+                                date="9:18 PM · Dec 15, 2022"
                                 likes="373"
                                 read="23" />
                         </div>
@@ -63,7 +63,7 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" target="_blank">
+                    <a href="https://twitter.com/i/flow/signup" >
                         <div className='whitespace-pre-line'>
                             <TwitterTweet
                                 name="Ashkan Karbasfrooshan"
@@ -143,7 +143,7 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" target="_blank">
+                    <a href="https://twitter.com/i/flow/signup" >
                         <div className='whitespace-pre-line'>
                             <TwitterTweet
                                 name="Linus Tech Tips"
@@ -184,7 +184,7 @@ function PorfolioPage() {
             ,
             "TweetComponent": (
                 <div>
-                    <a href="https://twitter.com/i/flow/signup" target="_blank">
+                    <a href="https://twitter.com/i/flow/signup" >
                         <div className='whitespace-pre-line'>
                             <TwitterTweet
                                 name="emmymade"
@@ -252,41 +252,7 @@ function PorfolioPage() {
             "Imageurl": "/Images/Portfolio/Analytics/autotrader.jpg",
         },
 
-        // {
-        //     "SectionId": "Marton_Barcza",
 
-        //     "ChannelName": (
-        //         <div>
-        //             <a href="https://www.youtube.com/channel/UCtZO3K2p8mqFwiKWb9k7fXA" target="_blank">
-        //                 TechAltar
-        //             </a>
-        //         </div>
-        //     )
-        //     ,
-        //     "TweetComponent": (
-        //         <div>
-        //             <a href='https://www.instagram.com/accounts/login/' target="_blank">
-        //                 <InstagramPost
-        //                     name="techaltar"
-        //                     para="Thank you for your amazing services, which have truly been a Godsend for TechAltar! 
-        //                 With your expert guidance, my channel now has a clear direction and purpose. As a result,
-        //                 I have seen a significant increase in engagement and growth.
-        //                 Your dedication and expertise have been invaluable, and I cannot recommend your services enough. Thank you again!"
-        //                     img="/Images/Portfolio/InstaDP/techaltar.jpg"
-        //                     likes="347"
-        //                 />
-        //             </a>
-        //         </div>
-        //     ),
-        //     "para": (
-        //         <p>
-        //             Our YouTube services agency has been working with  <span className='text-[#139dff] font-semibold'><a href="https://www.youtube.com/channel/UCtZO3K2p8mqFwiKWb9k7fXA" target="_blank" >TechAltar</a></span>  Channel to help them achieve their growth objectives,
-        //             and we&#39;re happy to report that we&#39;ve helped them achieve remarkable success. Our team of experts has provided personalized solutions to TechAltar Channel,
-        //             resulting in substantial growth in their subscribers and viewership. We&#39;re proud to have played a role in TechAltar Channel&#39;s success on the platform.
-        //         </p>
-        //     ),
-        //     "Imageurl": "/Images/Portfolio/Analytics/channelanalytics5.png",
-        // },
     ]
 
     return (

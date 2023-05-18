@@ -677,8 +677,9 @@ button[type="remove"]:hover {
 
 .my-selectHearabout .ant-select-selector {
   min-height: 50px !important;
-  padding: 12px !important;
-  min-width: 250px !important;
+  padding: 8px !important;
+  min-width: 300px !important;
+  
 }
 
 .my-selectHearabout .ant-select-selection-item {
@@ -688,7 +689,7 @@ button[type="remove"]:hover {
   padding: 2px !important;
   border-radius: 8px !important;
   font-weight: 600 !important;
-  max-width: 100% !important;
+  max-width: 90% !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -707,6 +708,8 @@ button[type="remove"]:hover {
   border-radius: 12px !important;
   font-weight: 600 !important;
   max-width: 60% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-selectSubscribers .ant-select-selection-item {

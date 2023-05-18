@@ -38,7 +38,7 @@ function FormStep7({ formData, onChange, nextStep, prevStep, submit }) {
                 <button type="button" onClick={prevStep} className="bg-[#139dff] px-6 py-1 rounded-2xl text-white">
                     <FiArrowLeft size={30} />
                 </button>
-                <button type="button" onClick={submit} className="bg-[#139dff] px-6 py-1 rounded-2xl text-white text-[20px]">
+                <button type="button" onClick={submit} className="bg-[#139dff] px-4 py-1 rounded-2xl text-white text-[20px]">
                     Submit
                 </button>
             </div>

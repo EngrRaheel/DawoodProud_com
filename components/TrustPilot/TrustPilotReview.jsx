@@ -35,7 +35,7 @@ function TrustPilotReview() {
                         </div>
                         <div className=' w-full flex flex-col xs:flex-row justify-center items-center gap-2 xs:gap-1 md:gap-4 text-blue '>
                             <p className='text-center font-medium text-[12.8px]'>Would you like to rate us on Trustpilot?</p>
-                            <a rel="stylesheet" href="https://www.trustpilot.com/" >
+                            <a rel="stylesheet" href="https://business.trustpilot.com/signup" target="_blank">
                                 <button className=' rounded-md text-base  border border-[#d8d7d7] px-[27px] py-[1px]'>Yes</button>
                             </a>
                         </div>

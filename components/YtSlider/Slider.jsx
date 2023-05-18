@@ -13,7 +13,7 @@ const YtSlider = () => {
 
 
     {
-      "name": "Ashkan Karbasfrooshan",
+      "name": "WatchMojo",
       "subs": " 25M",
       "views": "16.201B",
       "para": (
@@ -24,11 +24,11 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/WatchMojo.jpg",
-      "link": "Watch Mojo",
+      "link": "Ashkan Karbasfrooshan",
       "navtoportfolio": "/portfolio#Emil_Anton"
     },
     {
-      "name": "Marton Barcza",
+      "name": "TechAlta",
       "subs": "657K",
       "views": "69M",
       "para": (
@@ -39,12 +39,12 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/techAltar.jpg",
-      "link": "TechAltar",
+      "link": "Marton Barcza",
       "navtoportfolio": "/portfolio#Ashkan_Karbasfrooshan"
     },
 
     {
-      "name": "Emil C. Anton",
+      "name": "Alux.com",
       "subs": "4.32M",
       "views": "549M",
       "para": (
@@ -54,13 +54,13 @@ const YtSlider = () => {
           {"  that helped me grow my brand. I highly recommend your services to anyone looking to improve their YouTube presence.\""}
         </p>
       ),
-      "url": "/Images/YouTubers/alux1.jpg",
-      "link": "Alux.com",
+      "url": "/Images/YouTubers/alux.svg",
+      "link": "Emil C. Anton",
       "navtoportfolio": "/portfolio#Zach_Hsieh"
     },
 
     {
-      "name": "Ian Plummer",
+      "name": "Auto Trader",
       "subs": "877K",
       "views": "243M",
       "para": (
@@ -71,11 +71,11 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/autotrader.jpg",
-      "link": "AutoTrader",
+      "link": "Ian Plummer",
       "navtoportfolio": "/portfolio#Linus_Sebastian"
     },
     {
-      "name": "Emmeline Mayline",
+      "name": "EmmyMade",
       "subs": "2.91M",
       "views": "567M",
       "para": (
@@ -86,11 +86,11 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/Emmymade.jpg",
-      "link": "EmmyMade",
+      "link": "Emmeline Mayline",
       "navtoportfolio": "/portfolio#Emmeline_Mayline"
     },
     {
-      "name": "Zach Hsieh",
+      "name": "ZHC Crafts",
       "subs": "5.49M ",
       "views": "933M",
       "para": (
@@ -101,11 +101,11 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/zhcnight.jpg",
-      "link": "ZHC Crafts",
+      "link": "Zach Hsieh",
       "navtoportfolio": "/portfolio#Ian_Plummer"
     },
     {
-      "name": "Linus Sebastian",
+      "name": "Linus Tech Tips",
       "subs": "15.4M",
       "views": "6.877B",
       "para": (
@@ -116,7 +116,7 @@ const YtSlider = () => {
         </p>
       ),
       "url": "/Images/YouTubers/LinusTechTipsFace.webp",
-      "link": "Linus Tech Tips",
+      "link": "Linus Sebastian",
       "navtoportfolio": "/portfolio#Marton_Barcza"
     }
   ]
@@ -174,7 +174,7 @@ const YtSlider = () => {
             className="mySwiper"
           >
             {channels.map((item, index) => (
-              <SwiperSlide key={index}><SliderItem url={item.url} name={item.name} para={item.para} subs={item.subs} views={item.views} link={item.link} navtoportfolio={item.navtoportfolio}/></SwiperSlide>
+              <SwiperSlide key={index}><SliderItem url={item.url} name={item.name} para={item.para} subs={item.subs} views={item.views} link={item.link} navtoportfolio={item.navtoportfolio} /></SwiperSlide>
             ))}
           </Swiper>
         </div>

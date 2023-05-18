@@ -35,7 +35,7 @@ function Footer() {
                                 Company
                             </div>
                             <div class="flex flex-col items-start space-y-3  text-white text-opacity-60">
-                                <Link href={"/Our-Channels"}>Our Channels </Link>
+                                <Link href={"/our-channels"}>Our Channels </Link>
                                 <Link href={"/portfolio"}>Portfolio</Link>
                                 <Link href={"/blog"}>Blog</Link>
                             </div>

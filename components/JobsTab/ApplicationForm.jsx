@@ -57,15 +57,7 @@ function ApplicationForm() {
         }
     }
 
-    // const handleFileChange = (event) => {
-    //     const file = event.target.files[0];
-    //     const reader = new FileReader();
-    //     reader.onload = (event) => {
-    //         setCv(event.target.result);
-    //         setCvType(file.type);
-    //     };
-    //     reader.readAsDataURL(file);
-    // };
+
 
     const handleDrop = (e) => {
         e.preventDefault();
@@ -107,7 +99,7 @@ function ApplicationForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-     
+
         setOpen(true);
         const apiUrl = `${url}/api/candidate/apply`;
 
@@ -197,9 +189,8 @@ function ApplicationForm() {
     return (
         <>
             <Loader open={open} message={message} />
-
             <form onSubmit={handleSubmit}>
-                <div className="w-full flex flex-col justify-center sm:justify-start items-center sm:items-start space-y-8 text-blue ">
+                <div className="w-full flex flex-col justify-center sm:justify-start items-center sm:items-start space-y-8 text-blue mb-[3rem]">
 
                     <div className="text-blue space-y-3">
                         <div className="flex flex-col gap-1">
@@ -340,7 +331,7 @@ function ApplicationForm() {
                         </div>
                         <label className="flex flex-col gap-[4px] text-sm w-full">
                             <div>
-                                What is your level of proficiency in English? (Mandatory)<span className="text-[black]/80">(Beginner, Elementary, Intermediate, Upper Intermediate, Advanced)</span> <span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
+                                What is your level of proficiency in English? (Mandatory)<span aria-hidden="true" className="text-[#fe6363]" title="This field is required">*</span>
                             </div>
 
                             <input
@@ -348,18 +339,19 @@ function ApplicationForm() {
                                 name="answer3"
                                 value={answers.answer3}
                                 onChange={handleAnswerChange}
-
+                                placeholder="(Beginner, Elementary, Intermediate, Upper Intermediate, Advanced)"
                                 // className="w-[700px]"
                                 required
                             />
                         </label>
                         <label className="flex flex-col gap-[1px] text-sm w-full">
-                            Have you taken any English language proficiency tests? (Optional)<span className="text-[black]/70">(such as TOEFL, IELTS, or Cambridge exams)</span> If so, what were your scores?
+                            Have you taken any English language proficiency tests? If so, what were your scores? (Optional)
                             <input
                                 type="text"
                                 name="answer4"
                                 value={answers.answer4}
                                 onChange={handleAnswerChange}
+                                placeholder="(such as TOEFL, IELTS, or Cambridge exams)"
                             />
                         </label>
                         <label className="flex flex-col gap-[4px] text-sm w-full">
@@ -408,12 +400,13 @@ function ApplicationForm() {
                             />
                         </label>
                         <label className="flex flex-col gap-[4px] text-sm w-full">
-                            Do you have any digital skills? <span className="text-[black]/80">(e.g. Digital Marketing, Social Media Management, Online Coaching, Email Marketing, etc.)</span> If yes, please list them. Have you freelanced or worked independently in any capacity utilizing your digital skills? If yes, please provide details about your experience, the type of work you did and the Outcomes you achieved. (Optional)
+                            Do you have any digital skills?  If yes, please list them. Have you freelanced or worked independently in any capacity utilizing your digital skills? If yes, please provide details about your experience, the type of work you did and the Outcomes you achieved. (Optional)
                             <textarea
                                 type="text"
                                 name="answer8"
                                 value={answers.answer8}
                                 onChange={handleAnswerChange}
+                                placeholder="(e.g. Digital Marketing, Social Media Management, Online Coaching, Email Marketing, etc.)"
                             />
                         </label>
 
@@ -481,7 +474,7 @@ function ApplicationForm() {
                             />
                         </label>
                         <label className="flex flex-col gap-[4px] text-sm w-full">
-                            Have you ever had to make a difficult decision? If so, how did you approach it and what was the outcome? (Optional)
+                            Have you ever had to make a difficult decision in life?? If so, how did you approach it and what was the outcome? (Optional)
                             <textarea
                                 type="text"
                                 name="answer12"
@@ -512,7 +505,7 @@ function ApplicationForm() {
                             />
                         </label>
                         <label className="flex flex-col gap-[4px] text-sm w-full">
-                            Have you created any social media content for yourself or for a brand? If yes, please provide links or examples.(Optional)
+                            Have you created any social media content for yourself or for a brand? If yes, please provide links or examples. (Optional)
                             <textarea
                                 type="text"
                                 name="answer14"
@@ -521,7 +514,7 @@ function ApplicationForm() {
                             />
                         </label>
                         <label className="flex flex-col gap-[4px] text-sm w-full">
-                            Can you describe a time when you used social media to achieve a specific business or personal goal?(Optional)
+                            Can you describe a time when you used social media to achieve a specific business or personal goal? (Optional)
                             <textarea
                                 type="text"
                                 name="answer15"
@@ -587,7 +580,7 @@ function ApplicationForm() {
                             />
                         </label>
                         <label className="flex flex-col gap-[4px] text-sm w-full">
-                            What are some of your favorite books, movies, or TV shows? (Optional)
+                            What are some of your favorite movies, web series, or TV shows?  (Optional)
                             <textarea
                                 type="text"
                                 name="answer20"
@@ -597,16 +590,28 @@ function ApplicationForm() {
                             />
                         </label>
                         <label className="flex flex-col gap-[4px] text-sm w-full" >
-                            How did you hear about us? (Mandatory) <br /> <span className="text-[black]/70">(Google Search, Facebook, Instagram, LinkedIn,  WhatsApp Group, Referral, or You can Write Other Sources Here.) </span>
+                            How did you hear about us? (Mandatory)
                             <input
                                 type="text"
                                 name="answer21"
                                 value={answers.answer21}
                                 onChange={handleAnswerChange}
-                                placeholder="  "
+                                placeholder="(Google Search, Facebook, Instagram, LinkedIn,  WhatsApp Group, Referral, or You can Write Other Sources Here.)"
                                 required
                             />
                         </label>
+                    </div>
+                    <div>
+                        <p className="text-xs font-light pr-4">
+                            Please refrain from using ChatGPT or similar AI tools while completing the job application form.
+                            We deploy cross APIs to detect AI-generated content, and any applications found to be influenced
+                            by Ai will be automatically rejected. It is vital to provide accurate and honest information
+                            throughout the application process. Misleading or incorrect details may adversely affect your candidacy,
+                            as it becomes challenging to justify inconsistencies during interviews. While we understand that fresh
+                            graduates may have limited competence, meeting the above average criteria is acceptable.
+                            We value your honesty and integrity and appreciate your commitment to providing truthful
+                            information in the application form.
+                        </p>
                     </div>
                     <button type="submit">Submit</button>
                 </div>

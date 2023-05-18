@@ -6,7 +6,7 @@ function FormURL({ formData, onChange, nextStep, prevStep }) {
         <div className='flex flex-col justify-center items-center mx-w-[600px] mx-auto space-y-1'>
             <div className='flex flex-col justify-between items-center gap-8 '>
                 <h1 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '>Thank you for Showing Interest in Dawood Proud Services <br /> to take your YouTube Channel to New Heights</h1>
-                <h2 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center text-[#139dff]'>Fantastic! Let&#39;s Uncover Your Brand...</h2>
+                <h2 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center text-[#139dff]'>Fantastic! Let&#39;s Uncover Your YouTube Channel...</h2>
                 <h2 className='text-[14px] sm:text-[16px] md:text-[18px] font-medium text-center '>Please Write your YouTube Channel Handle or Paste Channel URL here. <br /> <span className='font-normal'>(Optional for New YouTubers)</span></h2>
 
             </div>

@@ -32,7 +32,7 @@ function ServiceCards() {
             <ServiceCard heading={"YouTube Keywords Research"}
                 heading2={"Crush the Competition with Winning YouTube Keywords"}
                 para={`Boost your YouTube channel${"'"}s organic growth and visibility by using winning keywords having high search volume, low competition, and rising trends.`}
-                btntext={"Elevate your YouTube Game"} bgColor={""} link={"/consultation"} images={"/Images/Services/Keywords Research.jpg"} />
+                btntext={"Elevate your YouTube Game"} bgColor={""} link={"/consultation"} images={"/Images/Services/Keyword Research.png"} />
 
             {/* Automated  */}
 

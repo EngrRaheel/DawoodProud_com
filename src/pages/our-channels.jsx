@@ -36,7 +36,7 @@ function OurChannels() {
                         <ChannelPage />
                     </div>
                     <div className='mt-20'>
-                        <p className='px-3 text-[18px] font-normal mb-[3rem]'>
+                        <p className='px-4 text-[16px] font-light mb-[3rem]'>
                             If you&#39;re interested in exploring our complete list of YouTube channels across various niches for promotional purposes, please don&#39;t hesitate to contact us at our official number.
                             We&#39;ll work with you to identify the most relevant channel for your needs and help you achieve your YouTube Growth goals.
                         </p>

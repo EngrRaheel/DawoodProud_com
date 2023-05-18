@@ -8,9 +8,9 @@ function PorftfoliCard({ image, ChannelName, para, tweet, SectionId }) {
     return (
         <div className='flex flex-col justify-center items-center mt-12 ' id={SectionId}>
             <div className='flex flex-col justify-center items-center text-blue w-full mx-auto space-y-4 md:space-y-10 font-Inter mt-5 h-full'>
-                <h2 className='text-xl md:text-2xl lg:text-4xl font-bold abdal_color self-start ml-6'>{ChannelName}</h2>
+                <h2 className='text-xl md:text-2xl lg:text-4xl font-bold abdal_color self-start sm:ml-8 md:ml-6'>{ChannelName}</h2>
                 <div className=' flex flex-col items-start lg:grid  lg:grid-cols-[1fr_1fr] w-full max-w-[1072px] '>
-                    <div className='px-8  mb-6 md:mb-0 md:p-2 text-sm md:text-base lg:text-lg  border-1 border-[gray] ml-0 sm:ml-4 text-center md:text-left'>
+                    <div className='px-8  mb-6 md:mb-0 md:p-2 text-sm md:text-base lg:text-lg  border-1 border-[gray] ml-0 sm:ml-3 text-left'>
                         {para}
                     </div>
                     <div className='p-4'>
