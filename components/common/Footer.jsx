@@ -19,32 +19,32 @@ function Footer() {
                 </div>
                 {/* <div className="col-span-full mb-7 md:mb-8"></div> */}
                 <div className="col-span-full md:col-span-3 flex flex-col">
-                    <div class="font-medium  mb-8 md:mb-12 text-left ">
+                    <div className="font-medium  mb-8 md:mb-12 text-left ">
                         Our mission at Dawood Proud is to help YouTube creators and businesses stand out from the Crowd.
                         We provide customized services to help our clients gain views, engaged subscribers,
                         and loyal audiences. With our support, our clients do achieve success and become leaders in their niches.
                     </div>
-                    <div class="font-normal mt-8 w-full">
+                    <div className="font-normal mt-8 w-full">
                         © 2023 Dawood Proud <br /> All Rights Reserved
                     </div>
                 </div>
                 <div className="col-span-full md:col-span-6 mt-8 md:mt-0 text-md">
-                    <div class="flex flex-col md:flex-row w-full space-y-7 md:space-y-0 space-x-0 md:space-x-2 lg:space-x-10 md:pl-10">
+                    <div className="flex flex-col md:flex-row w-full space-y-7 md:space-y-0 space-x-0 md:space-x-2 lg:space-x-10 md:pl-10">
                         <div>
-                            <div class="mb-4 sm:mb-3 font-bold">
+                            <div className="mb-4 sm:mb-3 font-bold">
                                 Company
                             </div>
-                            <div class="flex flex-col items-start space-y-3  text-white text-opacity-60">
+                            <div className="flex flex-col items-start space-y-3  text-white text-opacity-60">
                                 <Link href={"/our-channels"}>Our Channels </Link>
                                 <Link href={"/portfolio"}>Portfolio</Link>
                                 <Link href={"/blog"}>Blog</Link>
                             </div>
                         </div>
                         <div>
-                            <div class="mb-4 sm:mb-3 font-bold">
+                            <div className="mb-4 sm:mb-3 font-bold">
                                Services
                             </div>
-                            <div class="flex flex-col items-start space-y-3 text-white text-opacity-60">
+                            <div className="flex flex-col items-start space-y-3 text-white text-opacity-60">
                                 <Link href={"/consultation"} >YouTube Consultation</Link>
                                 <Link href={"/consultation"} >YouTube SEO</Link>
                                 <Link href={"/consultation"} >YouTube Keyword Research</Link>
@@ -55,10 +55,10 @@ function Footer() {
                             </div>
                         </div>
                         <div>
-                            <div class="mb-4 sm:mb-3 font-bold">
+                            <div className="mb-4 sm:mb-3 font-bold">
                                 Other
                             </div>
-                            <div class="flex flex-col items-start space-y-3 text-white text-opacity-60">
+                            <div className="flex flex-col items-start space-y-3 text-white text-opacity-60">
                                 <Link href="/contact-us">Contact
                                 </Link>
                                 <Link href="/jobs">Jobs
@@ -78,10 +78,10 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col-span-full md:col-span-3 text-md mt-8 md:mt-0">
-                    <div class="font-bold mb-2 md:mb-3">
+                    <div className="font-bold mb-2 md:mb-3">
                         Connect with us
                     </div>
-                    <div class="leading-5 text-white text-opacity-60">
+                    <div className="leading-5 text-white text-opacity-60">
                         Call Sales +92 327 007 5555
                     </div>
                     <div className="mt-4 flex items-center space-x-4">
@@ -94,7 +94,7 @@ function Footer() {
 
                 </div>
 
-                {/* <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-9 mt-9 col-span-full">
+                {/* <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-9 mt-9 col-span-full">
 
                 </div> */}
 

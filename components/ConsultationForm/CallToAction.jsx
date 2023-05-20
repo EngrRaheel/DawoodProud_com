@@ -15,8 +15,8 @@ function SuperchargeYT() {
 
                 <button className='flex justify-center items-center px-5 py-3 rounded-full bg-[#139DFF] hover:bg-[#3b82f6] text-white font-bold gap-2'>
                     <Link href={"/cutomerpage"}>Start a New Project</Link>
-                    <svg fill="none" viewBox="0 0 20 21" width="20" class="css-orecyf">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path>
+                    <svg fill="none" viewBox="0 0 20 21" width="20" className="css-orecyf">
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.166 10.5h11.667M10 4.667l5.833 5.833L10 16.334"></path>
                     </svg>
                 </button>
             </div>

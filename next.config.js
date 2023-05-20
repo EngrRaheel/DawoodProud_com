@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  reactStrictMode: true,
+ 
+  traceHydration: true,
+  reactStrictMode: false,
   experiments: {
     reactRefresh: true,
   },

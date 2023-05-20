@@ -11,10 +11,6 @@ import { AiFillStar } from "react-icons/ai"
 import "swiper/css";
 import "swiper/css/navigation";
 
-
-// &quot;
-// &#39;
-
 const ReviewSlider = () => {
     const ReviewData = [
         {
@@ -182,9 +178,6 @@ const ReviewSlider = () => {
                             return <SwiperSlide key={index}> <RatingSliderItem ImgUrl={data.ImgUrl} name={data.name} months={data.months} para={data.para} /></SwiperSlide>
 
                         })}
-
-
-
                     </Swiper>
                 </div>
             </div>

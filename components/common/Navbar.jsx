@@ -12,7 +12,7 @@ import "react-modern-drawer/dist/index.css";
 // assets
 import { IoMdArrowDropdown } from "react-icons/io";
 import { BsArrowRightShort } from "react-icons/bs";
-
+import dynamic from 'next/dynamic';
 
 import React, { useState } from "react";
 
@@ -156,9 +156,11 @@ function Navbar({ bg_color, position }) {
             <div className="w-full flex flex-col text-white font-Inter gap-6 justify-center items-start ">
               {/* =========>top bar */}
               <div className="w-full flex justify-between items-center px-2 h-[70px] bg-gradient-to-b from-[#121521] to-[#121521]/0 ">
-                <div className="relative w-10 h-10 ">
-                  <Link href={'/'} alt='home'> <Image src={"/Images/logo.png"} alt="" fill className="object-contain" /></Link>
-                </div>
+                <Link href={'/'} alt='home'>
+                  <div className="relative w-10 h-10 ">
+                    <Image src={"/Images/logo.png"} alt="" fill className="object-contain" />
+                  </div>
+                </Link>
                 <RxCross2 onClick={toggleDrawer} size={30} />
               </div>
               {/* button for the order now in mobile view */}
@@ -166,9 +168,9 @@ function Navbar({ bg_color, position }) {
               <div className="mx-auto">
                 <Link href={"/consultation"}  >
                   <button className='text-base font-medium  px-3 py-3  mt-4 rounded-xl text-white bg-[rgb(19,157,255)]'>
-                    <div className="flex justify-center items-center gap-4">
-                      Get Free Consultation                    
-                    </div>
+                    <p className="flex justify-center items-center gap-4">
+                      Get Free Consultation
+                    </p>
                   </button>
                 </Link>
               </div>
@@ -198,12 +200,15 @@ function Navbar({ bg_color, position }) {
               ))}
             </div>
           </Drawer>
-        </div >
+        </div>
       </div >
+
     </div >
 
 
   );
+
 }
 
-export default Navbar;
+export default dynamic(() => Promise.resolve(Navbar), { ssr: false });
+

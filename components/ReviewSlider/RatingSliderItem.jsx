@@ -20,7 +20,7 @@ const RatingSliderItem = ({ ImgUrl, name, months, para }) => {
                 <Rating readOnly value={5} />
             </div>
             <div className='overflow-auto text-justify pr-1 custom-scroll'>
-                <p className='text-left font-Halvic text-[13px] font-normal text-[#222222]'>{para}</p>
+                <div className='text-left font-Halvic text-[13px] font-normal text-[#222222]'>{para}</div>
             </div>
         </div>
     )
