@@ -35,7 +35,7 @@ function ServiceCards() {
                 btntext={"Elevate your YouTube Game"} bgColor={""} link={"/consultation"} images={"/Images/Services/Keyword Research.png"} />
 
             {/* Automated  */}
-fill-rule
+
             <ServiceCard heading={"YouTube Automation"}
                 heading2={"Earn passive income with Faceless YouTube videos."}
                 para={`Start your Faceless Automated YouTube channel with our YouTube Automation Services! From niche selection to channel setup, faceless video creation, and channel management, we${"'"}ve got you covered.`}
